@@ -1,0 +1,15 @@
+{
+  "source": "rentcast",
+  "queries": [
+    {
+      "latitude": 37.325,
+      "longitude": -120.546,
+      "radius": 8,
+      "status": "Active"
+    }
+  ],
+  "max_pages_per_query": 2,
+  "cities": ["Merced", "Atwater"],
+  "data_file": "data/listings.csv",
+  "summary_file": "docs/data/summary.json"
+}

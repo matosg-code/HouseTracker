@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Merced Housing Tracker</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7;
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --hairline: #e1e0d9;
+    --border: rgba(11,11,11,0.10);
+    --accent: #2a78d6;
+    --good: #006300;
+    --critical: #d03b3b;
+    --row-hover: rgba(42,120,214,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page: #0d0d0d;
+      --surface: #1a1a19;
+      --ink: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --hairline: #2c2c2a;
+      --border: rgba(255,255,255,0.10);
+      --accent: #3987e5;
+      --good: #0ca30c;
+      --critical: #e66767;
+      --row-hover: rgba(57,135,229,0.12);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --hairline: #2c2c2a;
+    --border: rgba(255,255,255,0.10);
+    --accent: #3987e5;
+    --good: #0ca30c;
+    --critical: #e66767;
+    --row-hover: rgba(57,135,229,0.12);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--ink);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 1280px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-bottom: 20px; }
+  h1 { font-size: 20px; font-weight: 600; margin: 0; }
+  .meta { color: var(--muted); font-size: 13px; }
+
+  .filters {
+    display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: end;
+    padding: 12px; margin-bottom: 16px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+  }
+  .filters label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--ink-2); }
+  .filters input, .filters select {
+    font: inherit; color: var(--ink); background: var(--page);
+    border: 1px solid var(--hairline); border-radius: 6px; padding: 6px 8px; min-width: 110px;
+  }
+  .filters label.check { flex-direction: row; align-items: center; padding-bottom: 8px; }
+  .filters label.check input { min-width: 0; }
+  .filters button {
+    font: inherit; color: var(--ink-2); background: transparent;
+    border: 1px solid var(--hairline); border-radius: 6px; padding: 7px 12px; cursor: pointer;
+  }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 20px; }
+  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+  .tile .label { font-size: 12px; color: var(--ink-2); }
+  .tile .value { font-size: 26px; font-weight: 600; line-height: 1.2; margin: 4px 0 2px; }
+  .tile .market { font-size: 12px; color: var(--muted); }
+  .tile .delta-up { color: var(--critical); }
+  .tile .delta-down { color: var(--good); }
+
+  .table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; }
+  table { border-collapse: collapse; width: 100%; min-width: 960px; }
+  th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--hairline); white-space: nowrap; }
+  th { font-size: 12px; font-weight: 600; color: var(--ink-2); cursor: pointer; user-select: none; position: sticky; top: 0; background: var(--surface); }
+  th.sorted::after { content: " " attr(data-arrow); color: var(--muted); }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tbody tr:hover { background: var(--row-hover); }
+  tbody tr.gone td { color: var(--muted); }
+  td a { color: var(--accent); text-decoration: none; }
+  td a:hover { text-decoration: underline; }
+  .cut { color: var(--good); }
+  .badge { font-size: 11px; padding: 1px 6px; border-radius: 10px; border: 1px solid var(--hairline); color: var(--ink-2); }
+  .empty { padding: 40px; text-align: center; color: var(--muted); }
+  .count { color: var(--muted); font-size: 13px; margin: 0 0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Merced &amp; Atwater housing tracker</h1>
+    <span class="meta" id="meta">Loading…</span>
+  </header>
+
+  <form class="filters" id="filters" onsubmit="return false">
+    <label>City
+      <select name="city"><option value="">All</option></select>
+    </label>
+    <label>Status
+      <select name="status">
+        <option value="active">Active</option>
+        <option value="gone">Off market</option>
+        <option value="">All</option>
+      </select>
+    </label>
+    <label>Type
+      <select name="type"><option value="">All</option></select>
+    </label>
+    <label>Min beds <input name="minBeds" type="number" min="0" step="1" placeholder="any"></label>
+    <label>Min sqft <input name="minSqft" type="number" min="0" step="100" placeholder="any"></label>
+    <label>Min lot sqft <input name="minLot" type="number" min="0" step="1000" placeholder="any"></label>
+    <label>Max price <input name="maxPrice" type="number" min="0" step="10000" placeholder="any"></label>
+    <label>Min DOM <input name="minDom" type="number" min="0" step="1" placeholder="any"></label>
+    <label class="check"><input name="cutsOnly" type="checkbox"> Price cuts only</label>
+    <button type="button" id="reset">Reset</button>
+  </form>
+
+  <div class="tiles" id="tiles"></div>
+
+  <p class="count" id="count"></p>
+  <div class="table-wrap">
+    <table id="table">
+      <thead><tr>
+        <th data-key="address">Address</th>
+        <th data-key="city">City</th>
+        <th data-key="price" class="num">Price</th>
+        <th data-key="price_cut_total" class="num">Cut</th>
+        <th data-key="price_per_sqft" class="num">$/sqft</th>
+        <th data-key="beds" class="num">Bd</th>
+        <th data-key="baths" class="num">Ba</th>
+        <th data-key="sqft" class="num">Sqft</th>
+        <th data-key="lot_sqft" class="num">Lot</th>
+        <th data-key="year_built" class="num">Built</th>
+        <th data-key="days_on_market" class="num">DOM</th>
+        <th data-key="list_date">Listed</th>
+        <th data-key="active">Status</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</main>
+
+<script>
+(async function () {
+  const $ = (sel) => document.querySelector(sel);
+  const fmtMoney = (n) => n == null ? "" : "$" + Math.round(n).toLocaleString();
+  const fmtNum = (n) => n == null ? "" : Number(n).toLocaleString();
+  const median = (arr) => {
+    const v = arr.filter((x) => x != null).sort((a, b) => a - b);
+    if (!v.length) return null;
+    const m = v.length >> 1;
+    return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2;
+  };
+
+  let summary;
+  try {
+    const resp = await fetch("data/summary.json", { cache: "no-store" });
+    summary = await resp.json();
+  } catch (e) {
+    $("#meta").textContent = "Could not load data/summary.json";
+    return;
+  }
+  const listings = summary.listings || [];
+  $("#meta").textContent = summary.latest_snapshot
+    ? `Latest snapshot ${summary.latest_snapshot} · ${summary.snapshot_count} day(s) of history since ${summary.first_snapshot}`
+    : "No snapshots yet. Run the collector to populate data/listings.csv.";
+
+  const form = $("#filters");
+  const citySel = form.elements.city;
+  [...new Set(listings.map((l) => l.city).filter(Boolean))].sort().forEach((c) => citySel.add(new Option(c, c)));
+  const typeSel = form.elements.type;
+  [...new Set(listings.map((l) => l.property_type).filter(Boolean))].sort().forEach((t) => typeSel.add(new Option(t, t)));
+
+  let sortKey = "days_on_market", sortDir = -1;
+
+  function readFilters() {
+    const f = form.elements;
+    const num = (el) => el.value === "" ? null : Number(el.value);
+    return {
+      city: f.city.value, status: f.status.value, type: f.type.value,
+      minBeds: num(f.minBeds), minSqft: num(f.minSqft), minLot: num(f.minLot),
+      maxPrice: num(f.maxPrice), minDom: num(f.minDom), cutsOnly: f.cutsOnly.checked,
+    };
+  }
+
+  function applyFilters(rows, f, ignoreStatus) {
+    return rows.filter((l) =>
+      (!f.city || l.city === f.city) &&
+      (ignoreStatus || !f.status || (f.status === "active" ? l.active : !l.active)) &&
+      (!f.type || l.property_type === f.type) &&
+      (f.minBeds == null || (l.beds ?? -1) >= f.minBeds) &&
+      (f.minSqft == null || (l.sqft ?? -1) >= f.minSqft) &&
+      (f.minLot == null || (l.lot_sqft ?? -1) >= f.minLot) &&
+      (f.maxPrice == null || (l.price ?? Infinity) <= f.maxPrice) &&
+      (f.minDom == null || l.days_on_market >= f.minDom) &&
+      (!f.cutsOnly || l.price_cut_count > 0)
+    );
+  }
+
+  function stats(rows) {
+    return {
+      count: rows.length,
+      price: median(rows.map((l) => l.price)),
+      ppsf: median(rows.map((l) => l.price_per_sqft)),
+      dom: median(rows.map((l) => l.days_on_market)),
+      cutShare: rows.length ? rows.filter((l) => l.price_cut_count > 0).length / rows.length : null,
+    };
+  }
+
+  function tile(label, value, marketValue, fmt, higherIsWorse) {
+    let market = "";
+    if (marketValue != null && value != null && marketValue !== value) {
+      const cls = (value > marketValue) === higherIsWorse ? "delta-up" : "delta-down";
+      market = `<div class="market">market ${fmt(marketValue)} <span class="${cls}">${value > marketValue ? "▲" : "▼"}</span></div>`;
+    } else if (marketValue != null) {
+      market = `<div class="market">market ${fmt(marketValue)}</div>`;
+    }
+    return `<div class="tile"><div class="label">${label}</div><div class="value">${value == null ? "–" : fmt(value)}</div>${market}</div>`;
+  }
+
+  function render() {
+    const f = readFilters();
+    const rows = applyFilters(listings, f, false);
+    const marketRows = listings.filter((l) => f.status === "active" ? l.active : f.status === "gone" ? !l.active : true);
+    const seg = stats(rows), mkt = stats(marketRows);
+    const filtered = rows.length !== marketRows.length;
+    const pct = (x) => (x * 100).toFixed(0) + "%";
+    const days = (x) => Math.round(x) + " d";
+
+    $("#tiles").innerHTML = [
+      tile("Listings", seg.count, filtered ? mkt.count : null, fmtNum, false),
+      tile("Median price", seg.price, filtered ? mkt.price : null, fmtMoney, true),
+      tile("Median $/sqft", seg.ppsf, filtered ? mkt.ppsf : null, fmtMoney, true),
+      tile("Median days on market", seg.dom, filtered ? mkt.dom : null, days, true),
+      tile("With a price cut", seg.cutShare, filtered ? mkt.cutShare : null, pct, true),
+    ].join("");
+
+    rows.sort((a, b) => {
+      const av = a[sortKey], bv = b[sortKey];
+      if (av == null && bv == null) return 0;
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      return (av < bv ? -1 : av > bv ? 1 : 0) * sortDir;
+    });
+
+    document.querySelectorAll("th").forEach((th) => {
+      th.classList.toggle("sorted", th.dataset.key === sortKey);
+      th.dataset.arrow = sortDir > 0 ? "↑" : "↓";
+    });
+
+    $("#count").textContent = `${rows.length} listing(s)`;
+    const tbody = $("#table tbody");
+    if (!rows.length) {
+      tbody.innerHTML = `<tr><td colspan="13" class="empty">Nothing matches these filters.</td></tr>`;
+      return;
+    }
+    tbody.innerHTML = rows.map((l) => `
+      <tr class="${l.active ? "" : "gone"}">
+        <td><a href="${l.url}" target="_blank" rel="noopener">${l.address}</a>${l.relisted ? ' <span class="badge">relist</span>' : ""}</td>
+        <td>${l.city}</td>
+        <td class="num" title="${l.original_price != null && l.original_price !== l.price ? "was " + fmtMoney(l.original_price) : ""}">${fmtMoney(l.price)}</td>
+        <td class="num ${l.price_cut_total ? "cut" : ""}">${l.price_cut_total ? "−" + fmtMoney(l.price_cut_total) + (l.price_cut_count > 1 ? ` ×${l.price_cut_count}` : "") : ""}</td>
+        <td class="num">${fmtMoney(l.price_per_sqft)}</td>
+        <td class="num">${fmtNum(l.beds)}</td>
+        <td class="num">${fmtNum(l.baths)}</td>
+        <td class="num">${fmtNum(l.sqft)}</td>
+        <td class="num">${fmtNum(l.lot_sqft)}</td>
+        <td class="num">${l.year_built ?? ""}</td>
+        <td class="num">${l.days_on_market}</td>
+        <td>${l.list_date ?? ""}</td>
+        <td>${l.active ? "Active" : `Gone ${l.last_seen}`}</td>
+      </tr>`).join("");
+  }
+
+  form.addEventListener("input", render);
+  $("#reset").addEventListener("click", () => { form.reset(); render(); });
+  document.querySelectorAll("th").forEach((th) => th.addEventListener("click", () => {
+    const key = th.dataset.key;
+    if (sortKey === key) sortDir = -sortDir; else { sortKey = key; sortDir = key === "address" || key === "city" ? 1 : -1; }
+    render();
+  }));
+  render();
+})();
+</script>
+</body>
+</html>
