@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T15:39:39+00:00",
+ "generated_at": "2026-09-17T16:00:03+00:00",
  "latest_snapshot": "2026-09-17",
  "first_snapshot": "2026-09-16",
  "snapshot_count": 2,
  "listing_count": 439,
  "active_count": 439,
- "enriched_count": 124,
+ "enriched_count": 204,
  "history": [
   {
    "date": "2026-09-16",
@@ -60,7 +60,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/0-Fruitland-Ave-95301/home/183517590",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Exceptional opportunity to acquire 30.7 acres positioned directly in the path of growth, bordering the city limits of Atwater in Merced County. The property is located within the Sphere of Influence in the City of Atwater's current General Plan update (under review), making it a strong candidate for future residential development including R-1 (single-family) and R-3 (multi-family). While future development would require annexation, a General Plan amendment, and all necessary governmental approvals, the location, surrounding expansion, and proximity to city services position this property as a premium long-term investment opportunity.    In the interim, the land offers immediate agricultural usability, having been previously planted in almonds and now cleared and ready for row crops or new permanent plantings. The property benefits from Class 1 water rights through Merced Irrigation District, along with a turbine agricultural well and PG&E power, providing reliable and flexible irrigation sources. This is a rare opportunity to secure a versatile property with both strong current utility and significant future upside in one of the area's expanding growth corridors.",
+    "fetched_at": "2026-09-17T15:39:37.986Z"
+   }
   },
   {
    "listing_id": "mls:MC22098863",
@@ -95,7 +111,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/Green-Sands-Ave-95301/home/179404945",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "1.05 acre lot, vacant land near corner of N Buhach Rd and Green Sands Ave in Atwater. Great location to build a fast food restaurant, gas station, etc. Easy access to North and Southbound Hwy 99 from Atwater/Merced Expressway.",
+    "fetched_at": "2026-09-17T15:39:42.979Z"
+   }
   },
   {
    "listing_id": "mls:MC26107959",
@@ -130,7 +162,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1-Gurr-RD-95301/home/198748593",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "barn"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Close to Atwater, 4.9 acres of RR Zoned ground  (Acre Lots). This could be your opportunity!   Mid available. The property has a barn on it.",
+    "fetched_at": "2026-09-17T15:39:47.986Z"
+   }
   },
   {
    "listing_id": "mls:MC26025984",
@@ -165,7 +215,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1-W-Belcher-Ave-95301/home/200353831",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Undeveloped 1.2-acre parcel zoned M-1. Gas and electricity are available. No well or septic installed. Buyer to verify zoning, utilities, and permitted uses.",
+    "fetched_at": "2026-09-17T15:39:52.973Z"
+   }
   },
   {
    "listing_id": "mls:MC26185791",
@@ -253,7 +319,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/10366-Rose-Ave-95301/home/187905845",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "sqft",
+    "garage_sqft": 582,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Exceptional opportunity to own approximately 24 acres of prime agricultural ground in a highly sought-after and exclusive location. The highlighted area represents the 24-acre parcel being offered for sale. This productive farmland benefits from district water access, providing a valuable and reliable irrigation source. The property offers excellent soils, strong farming potential, and a desirable setting surrounded by quality agricultural operations. Whether you're expanding an existing farming operation, investing in premium farmland, or establishing a new agricultural venture, this rare offering combines location, water availability, and quality ground in one outstanding package.",
+    "fetched_at": "2026-09-17T15:39:57.985Z"
+   }
   },
   {
    "listing_id": "mls:224602563",
@@ -288,7 +370,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/10511-White-Crane-Rd-95301/home/182992353",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Competitive Seller Financing available. This highly productive open ground of approx 40.2ac offers Class 1 Merced Irrigation surface water available off the MID lateral with its own dedicated side gate. There is a small rental home, comprised of two bedrooms and one bath complete with its domestic well and septic system. The ranch has been in row crops since 2017 and has been periodically fallowed. The second water source comes from a shared ag well on the adjoining parcel, it too is available with the same Seller Financing;MLS590070Buyer to independently verify all information.",
+    "fetched_at": "2026-09-17T15:40:02.981Z"
+   }
   },
   {
    "listing_id": "mls:MC26184825",
@@ -323,7 +421,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/111-Pacemaker-Dr-95301/home/19706647",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 500,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this charming corner-lot home offering true pride of ownership and endless potential to make it your own. Lovingly cared for by the original owner since the home was built, this well-maintained property features 3 bedrooms, 2 bathrooms, and a versatile bonus room with plenty of space for family, guests, hobbies, or a home office. The spacious corner lot provides ample parking for an RV, boat, and additional vehicles, making this home ideal for those who need extra space for all their toys and recreational needs. While the home retains its original, dated character, it has been exceptionally well cared for and offers a wonderful opportunity to bring your vision and personal style to life. Create the home you've always wanted, update it to your taste, and enjoy the opportunity to build beautiful memories for years to come. Don't miss the chance to make this well-loved home your own!",
+    "fetched_at": "2026-09-17T15:40:07.983Z"
+   }
   },
   {
    "listing_id": "mls:MC26040384",
@@ -358,7 +472,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1160-Oak-Ave-95301/home/19708945",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": true,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": "Public",
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Opportunity Property in Convenient Atwater Location  This 4-bedroom, 2-bath home is located in an established Atwater neighborhood, close to schools, shopping, and local amenities. The property offers a functional floor plan and ample living space. The home requires repairs and updating, providing an opportunity for buyers seeking to renovate and improve. Ideal for those looking to customize or enhance value over time. Property is being sold in its present condition. Convenient location with easy access to daily necessities makes this a compelling opportunity.",
+    "fetched_at": "2026-09-17T15:40:12.982Z"
+   }
   },
   {
    "listing_id": "mls:ML82057518",
@@ -393,7 +523,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1170-Spruce-Ave-95301/home/19709053",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 440,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this 3-bedroom, 2-bath Atwater home offering approximately 1,481 sq. ft. of living space with a private backyard pool! Situated on a 6,240 sq. ft. lot in an established neighborhood, the home features a comfortable floor plan, fireplace, central heating and air, covered patio, and attached 2-car garage. Offered at $370,000, this property presents an opportunity for a buyer to add their own personal touches and make it their own. The seller is in the process of completing general cleanup and addressing select items prior to full market access. Conveniently located near shopping, schools, local amenities and Highway 99, with easy access to both Atwater and Merced. A great opportunity to own a pool home at an attractive price point bring your vision and discover the possibilities! TENANT OCCUPIED - DO NOT DISTURB TENANTS",
+    "fetched_at": "2026-09-17T15:40:17.973Z"
+   }
   },
   {
    "listing_id": "mls:MC26115028",
@@ -428,7 +574,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1319-3rd-St-95301/home/19708365",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "field",
+    "garage_sqft": 352,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "shed"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this beautiful home located in the heart of Atwater! This 3-bedroom, 1-bathroom home offers 1,356 sq. ft. of comfortable living space filled with warmth and character. Inside, you\u2019ll find charming wood floors, a formal dining room, and large windows that bring in plenty of natural light. The spacious backyard with a shed is perfect for entertaining or relaxing on sunny days. Enjoy the inviting front porch during spring and summer evenings with your favorite snacks and drinks while taking in the neighborhood charm. Conveniently located near downtown, this centrally located gem offers comfort, charm, and endless potential. Enjoy the Chrismas parade with decorated lights, without leaving your premises. Your next chapter begins here \u2014 in a beautiful Atwater home ready to create lasting memories. Waste no time, call your realtor to make an appointment.",
+    "fetched_at": "2026-09-17T15:40:22.981Z"
+   }
   },
   {
    "listing_id": "mls:MC26198555",
@@ -463,7 +627,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/134-E-Fir-Ave-95301/home/19706101",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 439,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": "Public",
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "HUD Home! Amazing opportunity to own this HUD Home located in Atwater. This home features approx 1425sqft and 3 bedrooms / 2 full bathrooms. Ranch style home with covered front patio. Interior features include galley style kitchen with plenty of options to update as well as an eat in area off the kitchen. Large living room with fireplace, wood flooring, ceiling fan and big picture window to let in the natural light. Guest bath features bath tub, master bath features tile shower stall. Loads of potential on this home! Spacious corner lot size of over 10,000sqft. Large covered patio along the back of the home to provide shade. Come take a look today to see if this home is right for you! This home is priced to sell!",
+    "fetched_at": "2026-09-17T15:40:27.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26087176",
@@ -498,7 +678,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/136-Seville-Ct-95301/home/19655417",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [
+     "shed"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Affordable! Singlewide 2 bedroom, 1 bath. Eat-in kitchen with plenty of cabinet space, new sink, counter top and gas stove. Indoor laundry nook. Enjoy your morning coffee on the covered deck. Weekend barbecues on the patio. Handy shed. Mobile home park has swimming pool, common areas, club house, parks and more. Make it yours today!",
+    "fetched_at": "2026-09-17T15:40:32.972Z"
+   }
   },
   {
    "listing_id": "mls:MC26186737",
@@ -533,7 +731,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1371-Shady-Cove-Ave-95301/home/168647928",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Are you ready to build your exquisite home on the best lot available in McSwain? This one acre lot is tucked away from any main roads in an upper scale subdivision in highly desirable McSwain School District. 205' Well is already installed on lot, making it easier for you to begin building! Electric and Natural Gas on site too. Home built must be a minimum of 2600 sq.ft.",
+    "fetched_at": "2026-09-17T15:40:37.975Z"
+   }
   },
   {
    "listing_id": "mls:ML82058659",
@@ -568,7 +782,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1405-Tamarack-Ave-95301/home/19708185",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 440,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": "Public",
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Opportunity awaits at 1405 Tamarack Avenue! This single-story Atwater home offers 3 bedrooms, 2 bathrooms, approximately 1,386 square feet of living space, an attached two-car garage, and a spacious 8,058-square-foot lot. The home features a functional floor plan, fireplace, central cooling, and plenty of potential for buyers looking to personalize and add value. Conveniently located near schools, shopping, dining, and everyday amenities. Bring your vision and make this property your own!",
+    "fetched_at": "2026-09-17T15:40:42.975Z"
+   }
   },
   {
    "listing_id": "mls:MC26164246",
@@ -654,7 +884,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1428-Vine-Cir-95301/home/19659569",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "sqft",
+    "garage_sqft": 264,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "2",
+    "hoa": null,
+    "remarks": "Discover the residential property at 1428 Vine Cir, Atwater, CA, a home ready for your finishing touches, it is being sold as is. This residence offers a lifestyle of comfort and ease, designed for those who appreciate a well-designed living space. The kitchen is thoughtfully appointed with stainless steel appliances, creating an environment perfect for culinary exploration and daily convenience. Relax and refresh in the bathroom, featuring a walk-in shower. Beyond the interior, a private yard offers blank canvas for you to create a personal sanctuary for outdoor enjoyment and relaxation. All of this is complemented by the practical convenience of a built-in garage with a vehicle gate to fence off the parking and a second gate on the side to the back, for extra storage/parking.",
+    "fetched_at": "2026-09-17T15:40:47.980Z"
+   }
   },
   {
    "listing_id": "mls:MC26196306",
@@ -740,7 +986,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1463-Juniper-Ave-95301/home/19709001",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "field",
+    "garage_sqft": 240,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Calling all investors and flippers, an oldie but a goodie. This charming 3-bedroom 1bath home just needs your imagination with some updating. Home features a large lot with a great back yard. Home will not qualify for traditional financing, Cash, hard money or Rehab loan. Go check it out and make an offer.",
+    "fetched_at": "2026-09-17T15:40:52.977Z"
+   }
   },
   {
    "listing_id": "mls:MC26136421",
@@ -775,7 +1037,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1501-Drakeley-Ave-95301/home/21887227",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "workshop"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this adorable 2-bedroom, 1-bathroom bungalow nestled in the heart of Atwater. Brimming with charm and character, this inviting home offers a warm and comfortable living space filled with natural light, original details, and timeless appeal. The thoughtfully designed floor plan features cozy living areas, a functional kitchen, and two well-sized bedrooms, and a brand new roof, creating the perfect blend of comfort and convenience. Situated on a large lot with a private backyard ideal for relaxing, gardening, or entertaining family and friends. Located just moments from local shops, restaurants, parks, and all that vibrant Atwater has to offer, this delightful bungalow provides an exceptional opportunity for first-time buyers, downsizers, or anyone seeking a charming place to call home. Don't miss your chance to own this picture-perfect gem in one of Atwater's most desirable neighborhoods.",
+    "fetched_at": "2026-09-17T15:40:57.978Z"
+   }
   },
   {
    "listing_id": "mls:226107316",
@@ -810,7 +1090,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1505-Jorgensen-St-95301/home/19707009",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 360,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "RV parking"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 1505 Jorgensen St in Atwater! This charming 3-bedroom, 2-bath CORNER LOT with RV PARKING Possible home offers an excellent combination of affordability, recent updates, and future potential making it a great opportunity for both first-time homebuyers and investors. Step inside and you'll find beautiful hardwood floors that add warmth and character throughout the home. There is a large main living room as you enter the front door and another bonus room or family room off of the kitchen that would make for a great game room. Master bathroom has been newly renovated with fresh, modern finishes, giving the home an updated feel. Another major highlight is the durable metal roof, providing long-term value and low-maintenance peace of mind. Situated on a desirable corner lot, the property offers additional outdoor space along with the potential to create RV parking to park your work truck, trailer, boat or toys. Whether you're looking for a great starter home for a young family or an investment property with rental potential, this home offers plenty of possibilities. Best of all, it's offered at a very affordable price, providing an excellent opportunity to own a 3-bedroom, 2-bath home in Atwater without breaking the budget. Conveniently located near local shopping, schools, parks, and everyday amenities, this home puts many of life's necessities within easy reach. With its newly renovated bathroom, hardwood floors, metal roof, corner lot, potential RV parking, and affordable price, 1505 Jorgensen St is a property you won't want to miss. Schedule your showing today and come see everything this Atwater home has to offer!",
+    "fetched_at": "2026-09-17T15:41:02.974Z"
+   }
   },
   {
    "listing_id": "mls:226084471",
@@ -845,7 +1143,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1522-Vine-Cir-95301/home/19650770",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "sqft",
+    "garage_sqft": 264,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "mentioned",
+    "pool": null,
+    "outbuildings": [
+     "RV parking"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "2",
+    "hoa": null,
+    "remarks": "Welcome home to this beautifully maintained 3 bedroom, 1 1/2 bathrooms home located in one of Atwater's desirable neighborhoods. This home offers the perfect combination of comfort, style, and energy efficiency.  Step inside to discover a bright, inviting floor plan and the updated kitchen showcases granite countertops & stainless steel appliances making it ideal for both everyday living and entertaining.  The recently remodeled full bathroom upstairs features stylish finishes, custom tile work, an updated vanity. Enjoy low-maintenance outdoor living with artificial turf in the backyard, a covered patio and RV access through double gates. An energy-efficient Goodleap solar purchase agreement helps provide lower utility costs and is to be assumed by the buyer.  This move-in ready home offers exceptional value with modern updates, functional amenities, and pride of ownership throughout. Don't miss your opportunity to make this wonderful property your next home!",
+    "fetched_at": "2026-09-17T15:41:07.977Z"
+   }
   },
   {
    "listing_id": "mls:MC26178733",
@@ -880,7 +1196,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1527-Underwood-Ave-95301/home/19708162",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 483,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "ADU"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "This charming 3-bedroom, 2-bathroom home is ideally located less than a mile from popular local spots like Save Mart, Sonic, Burger King, Starbucks, CVS, Jack in the Box, Taco Bell, Pizza Hut, and McDonald's, making errands and dining out effortless. Families will love the close proximity to top-rated schools, including Atwater High School and Elmer Wood Elementary, ensuring quality education is just a short drive away. The spacious backyard provides endless possibilities for entertaining or designing your dream outdoor oasis. There's also potential for an Accessory Dwelling Unit (ADU)buyers should verify city permits for this option.   Don't miss the opportunity to make this delightful home your own, where comfort meets convenience!",
+    "fetched_at": "2026-09-17T15:41:12.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26176577",
@@ -915,7 +1249,26 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1536-Fir-Ave-95301/home/19707972",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": true,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "workshop",
+     "shed"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Ready to shoot your shot on this home? Whether you are an investor or first time homebuyer this is the one! Welcome to 1536 Fir Ave in Atwater \u2014 a move-in-ready 2 bedroom, 2 bath home sitting on a large lot with some seriously fun extras: room to play basketball, primary bedroom with a nursery/sitting area/work out room, recently updated kitchen + newer flooring, large covered patio made for entertaining, and shed for storage or your own workshop. Close to downtown, restaurants, parks  &  shopping. Large lot potential here beyond what meets the eye. The question is\u2026 Ready to shoot your shot?",
+    "fetched_at": "2026-09-17T15:41:17.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26172461",
@@ -1001,7 +1354,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1625-Osborn-Ter-95301/home/19707368",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 504,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome home to this inviting 3-bedroom, 2-bath property featuring a comfortable and functional floor plan. The interior has been freshly painted, giving the home a clean, updated feel. Enjoy a combination of wood flooring and carpet throughout, along with ceiling fans for added comfort. The kitchen features an electric cooktop and plenty of space for everyday living and entertaining. A cozy wood-burning stove adds warmth and charm to the living area. Step outside and enjoy your own backyard retreat featuring a swimming pool, perfect for relaxing and entertaining during the warmer months. Don\u2019t miss the opportunity to make this charming home your own!",
+    "fetched_at": "2026-09-17T15:41:22.978Z"
+   }
   },
   {
    "listing_id": "mls:226109198",
@@ -1036,7 +1405,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1694-Elm-Ave-95301/home/19708326",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Fully remodeled, with 2025 central heating and air already in. Step inside and the work speaks for itself, light pours through the front of the house into an open living and dining space, and the finish carries through every room. Nothing halfway, nothing left for you to redo.  The bath is the one people will talk about: floor-to-ceiling marble-look tile, a walk-in shower with hex-tile floor, and a floating vanity beneath a lit mirror. The kitchen stays clean and workable, with a window over the sink looking out to the back yard.  Out back, the lot is a blank canvas, wide open and ready for whatever you have been picturing.",
+    "fetched_at": "2026-09-17T15:41:27.973Z"
+   }
   },
   {
    "listing_id": "mls:CV26135510",
@@ -1071,7 +1456,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/171-Atwater-Blvd-95301/unit-29/home/19654911",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "prose",
+    "garage_sqft": null,
+    "has_garage": true,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "REDUCE PRICE REDUCE PRICE, don't miss this opportunity, this beautifully double-wide home, situated in one of Atwater\u2019s most desirable communities. 3 bedrooms, 2 bathrooms, There 2 car garage, a lot of fruit trees, big yard. There are plenty of shopping and restaurants options nearby, making it easy to find whatever you need. Also, a different local attractions and activities you can enjoy around golfing, fishing, hiking, camping.",
+    "fetched_at": "2026-09-17T15:41:32.985Z"
+   }
   },
   {
    "listing_id": "mls:MC26104500",
@@ -1106,7 +1507,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1719-Liberty-St-95301/home/19709270",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "field",
+    "garage_sqft": 200,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "detached garage"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this charming Atwater home full of warmth, character, and opportunity. From the classic white picket fence and inviting curb appeal to the natural light that fills the interior, this home feels welcoming from the moment you arrive. Inside, you\u2019ll find a functional layout with spacious bedrooms, cozy living spaces, and tasteful updates that create the perfect blend of comfort and practicality. The backyard offers plenty of room to relax, entertain, garden, or design your own outdoor retreat \u2014 ideal for both everyday living and hosting family and friends. The detached garage adds even more versatility with potential for an ADU conversion, workshop, home gym, additional storage, or flexible bonus space. Conveniently located near schools, parks, shopping, and everyday amenities, this property is a great opportunity for first-time buyers, investors, or anyone looking for charm, functionality, and long-term potential in the heart of Atwater. Homes with this kind of character and flexibility don\u2019t come around often.",
+    "fetched_at": "2026-09-17T15:41:37.982Z"
+   }
   },
   {
    "listing_id": "mls:MC26093531",
@@ -1192,7 +1611,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1831-Olive-Ave-95301/home/19709352",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "ADU"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Check it out! Income producing already! Don't miss out on the opportunity to own this 2 unit which feature 1 bedroom, 1 bath house and complete studio. Live in one and rent the other or rent both and let the property pay for itself! Seller financing available with an acceptable offer. Check with city for ADU permits, and for details.",
+    "fetched_at": "2026-09-17T15:41:42.971Z"
+   }
   },
   {
    "listing_id": "mls:MC26184766",
@@ -1278,7 +1715,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1873-Grove-Ave-95301/home/19708355",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "horse facilities"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "7-unit multifamily investment property located at 1873 Grove Ave, Atwater, CA. Built in 1979,  4,642 SF on a 14,496 SF R-16 lot. Unit mix of three 2BR/1BA and four 1BR/1BA units. APN  002-151-017-000. Great opportunity for a stable, income-producing asset in the Central Valley.",
+    "fetched_at": "2026-09-17T15:41:47.983Z"
+   }
   },
   {
    "listing_id": "mls:MC24152023",
@@ -1313,7 +1768,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1883-Sycamore-Ave-95301/home/21156099",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Hwy 99 frontage property in Atwater CA! PRIME LOCATION with easy on/off access to Hwy 99. Open ground zoned for (B-P) industrial/commercial/business. Water, electricity and sewer all at property.",
+    "fetched_at": "2026-09-17T15:41:52.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26184580",
@@ -1348,7 +1819,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/190-Kadota-Ave-95301/home/19706882",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 507,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": "Public",
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this charming Atwater home offering spacious living areas, inviting curb appeal, and a convenient location in the heart of town. This well-maintained 3 bedroom, 2 bathroom home features generously sized rooms and a comfortable layout with two separate living areas, providing plenty of space for relaxing, entertaining, or creating a dedicated home office or flex space. The home has been thoughtfully refreshed with newer interior and exterior paint, newer dual-pane windows, custom plantation shutters, and a newer garage door. The beautifully landscaped front and back yards create an inviting setting from the moment you arrive, while the covered patio and welcoming front porch provide wonderful spaces to enjoy the outdoors. Situated in an established and friendly neighborhood close to shopping, dining, schools, parks, and everyday conveniences, this home combines comfort, charm, and an ideal central location. With its spacious rooms, attractive updates, and well-cared-for landscaping, this is an Atwater home you won't want to miss!",
+    "fetched_at": "2026-09-17T15:41:57.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26147011",
@@ -1434,7 +1921,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/1971-Mitchell-St-95301/home/19709243",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": true,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Well-maintained and full of charm, this 1-bedroom, 1-bathroom bungalow offers comfortable living in a cozy setting. The interior features a bright and functional layout with a welcoming living space and a practical kitchen area. The bedroom provides a comfortable retreat, while the bathroom offers convenience and style. Outside, enjoy a private outdoor area ideal for relaxing or spending time outdoors. Perfect for a first-time buyer, downsizer, or investor, this bungalow offers a great combination of comfort, character, and easy living.",
+    "fetched_at": "2026-09-17T15:42:02.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26089924",
@@ -1469,7 +1972,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2-Rancho-Grande-Cir-95301/home/185794860",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [
+     "shed"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "This is a rare opportunity to own a newer, beautiful, move-in-ready home- offers the perfect blend of comfort, style, and functionality. Step inside to discover a thoughtfully designed split floor plan that provides privacy between bedrooms, along with a bright, open living space that feels both inviting and efficient. The kitchen is a true highlight, featuring sleek quartz countertops, a breakfast bar for casual dining, and plenty of storage to keep everything organized. The spacious primary suite offers a peaceful retreat with its own private bathroom and added cabinetry, while the second bedroom could be used for guests, a home office, or hobbies. You'll also appreciate the convenience of an indoor laundry room, central heating and air, and energy-efficient dual-pane windows. Stylish finishes like modern lighting, laminate flooring, and smooth bullnose corners give the home a clean, contemporary feel throughout. Outside, enjoy your own backyardrelaxing evenings, weekend barbecues, or a bit of gardening. A covered carport and storage shed add even more practicality. Located in Rancho Grande Mobile Home Park where residents enjoy access to a sparkling pool, clubhouse, and dog parkmaking it easy to unwind, connect, and enjoy the community. Ideal for first-time buyers, downsizers, or anyone seeking a low-maintenance lifestyle without sacrificing quality. Come see it for yourselfhomes like this don't stay available for long!",
+    "fetched_at": "2026-09-17T15:42:07.977Z"
+   }
   },
   {
    "listing_id": "mls:MC26025317",
@@ -1504,7 +2025,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2-W-Belcher-Ave-95301/home/200350163",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "1.2 acres of land zoned M-1, offering excellent potential for a variety of uses. Gas and electricity are available at the property. Well and septic to be installed by the buyer. Buyer to perform all due diligence.",
+    "fetched_at": "2026-09-17T15:42:12.974Z"
+   }
   },
   {
    "listing_id": "mls:cmrzhhmi800u1s601lhzf835k",
@@ -1539,7 +2076,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2001-Eucalyptus-St-95301/home/19707873",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 504,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Opportunity Property in Convenient Atwater Location This 4-bedroom, 2-bath home is located in an established Atwater neighborhood, close to schools, shopping, and local amenities. The property offers a functional floor plan and ample living space. The home requires repairs and updating, providing an opportunity for buyers seeking to renovate and improve. Ideal for those looking to customize or enhance value over time. Property is being sold in its present condition. Convenient location with easy access to daily necessities makes this a compelling opportunity.",
+    "fetched_at": "2026-09-17T15:42:17.986Z"
+   }
   },
   {
    "listing_id": "mls:MC26141326",
@@ -1574,7 +2127,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2024-De-la-Vina-Ct-95301/home/28947790",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "prose",
+    "garage_sqft": null,
+    "has_garage": true,
+    "parking": null,
+    "solar": "mentioned",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "NEW PRICE \u2014 NOW $489,000! Better Than New  &  Move-In Ready! Here's your opportunity to own a beautifully finished 2024-built home without the wait for new construction. Offering approximately 1,728 sq. ft. , this 3-bedroom, 2-bath home features an open-concept floor plan, luxury vinyl plank flooring, granite countertops, two-tone paint, 5-inch baseboards, spacious bedrooms and indoor laundry. The modern kitchen offers plenty of counter space and opens seamlessly to the dining and living areas, making the home perfect for everyday living and entertaining. Additional features include an installed solar system, tile roof and attached two-car garage. Located in one of Atwater's newer communities with convenient access to shopping, schools, parks and Highway 99. At the new price of $489,000, this nearly-new home is ready for its next owner. Don't wait \u2014 schedule your private showing today!",
+    "fetched_at": "2026-09-17T15:42:22.972Z"
+   }
   },
   {
    "listing_id": "mls:226092977",
@@ -1714,7 +2283,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2294-Olive-Ave-95301/home/19709111",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Very nice sized lot to build a Duplex or triplex. Lot is over 13,000 SF with plenty of space. Buyer to investigate all aspect of property, including all uses and zoning.",
+    "fetched_at": "2026-09-17T15:42:27.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26114023",
@@ -1749,7 +2334,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2350-Angelus-Ct-95301/home/19708819",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 480,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [
+     "RV parking"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "HOME IS BUILT ON CUL DE SAC, GREAT FOR KIDS. THIS HOME HAS A LARGE BACKYARD, SCREENED IN PATIO, ABOVE GROUND POOL, RV ACCESS, AND VERY CLOSE TO SCHOOL, CHURCH AND SHOPPING.",
+    "fetched_at": "2026-09-17T15:42:32.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26051388",
@@ -1784,7 +2387,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2355-Atwater-Blvd-95301/unit-22/home/172361410",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Well maintained three bedroom, two bathroom mobile home built in 2016, offering a comfortable and functional layout! The open kitchen and living room combination creates a welcoming space for everyday living and entertaining. The home features neutral color tones throughout, providing a clean and modern feel ready for your personal touch. Conveniently located within Atwater, you'll enjoy close proximity to shopping, dining, schools, and other local amenities. A great opportunity for affordable living in a convenient location. This is an all age park!",
+    "fetched_at": "2026-09-17T15:42:37.978Z"
+   }
   },
   {
    "listing_id": "mls:cmtj7o0m6031rs6013ev0ioz8",
@@ -1819,7 +2438,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2412-Brodalski-St-95301/home/19669346",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 420,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "mentioned",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": "Public",
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 2412 Brodalski St in Atwater\u00e2\u20ac\u201da spacious and inviting 3-bedroom, 2-bath home offering approximately 1,840 square feet of comfortable living space in an established neighborhood. From the moment you step inside, you\u00e2\u20ac\u2122ll appreciate the home\u00e2\u20ac\u2122s functional layout and generous living areas. The property features a formal living room, formal dining area, and a comfortable family room with a fireplace and French doors, providing plenty of space for both everyday living and entertaining. The kitchen opens to the living space and features beautiful granite/stone countertops, a convenient eating bar/peninsula, and ample room for preparing meals and gathering with family and friends. Updated laminate flooring, modern baseboards, shutters, and select updated windows add to the home\u00e2\u20ac\u2122s clean and welcoming feel. The bathrooms are thoughtfully designed, including a double vanity and walk-in shower. The home also features an updated HVAC system and ductwork, helping provide year-round comfort. Step outside and enjoy your own private backyard retreat. A covered patio and outdoor dining area create the perfect setting for weekend barbecues, entertaining guests, or simply relaxing outdoors. Solar panels offer an added energy-efficient feature, while the attached two-car garage provides convenient parking and additional storage. Situated near the edge of Atwater\u00e2\u20ac\u2122s orchards, this home offers a comfortable residential setting while remaining conveniently located near schools, shopping, dining, and other everyday amenities. Spacious, comfortable, and move-in ready, 2412 Brodalski St offers the perfect combination of indoor living space and outdoor enjoyment. Come see everything this beautiful Atwater home has to offer and imagine making it your own!",
+    "fetched_at": "2026-09-17T15:42:42.973Z"
+   }
   },
   {
    "listing_id": "mls:MC26183608",
@@ -1956,7 +2591,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2731-Yosemite-Ct-95301/home/19668838",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 465,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 2731 Yosemite Ct\u2014a beautifully updated, move-in-ready home offering four bedrooms, two bathrooms, and nearly 1,600 sq. ft. of comfortable living space in a desirable cul-de-sac setting. Step inside to a bright, open floor plan featuring luxury vinyl plank flooring and a seamless connection between the living, dining, and kitchen areas. The spacious kitchen offers abundant cabinet storage, a gas stove, and a practical layout that makes everyday living and entertaining easy. Outside, refreshed curb appeal creates a welcoming first impression, while the extended driveway provides valuable additional parking. A concrete patio expands the outdoor living space and offers the perfect setting for relaxing, dining, or gathering with friends and family. Conveniently located near parks, shopping, schools, and commuter routes, this thoughtfully updated home combines space, functionality, and location. Don\u2019t miss your opportunity to make 2731 Yosemite Ct your new home\u2014schedule your private showing today.",
+    "fetched_at": "2026-09-17T15:42:47.983Z"
+   }
   },
   {
    "listing_id": "mls:226095283",
@@ -1991,7 +2642,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2755-Atwater-Blvd-95301/unit-G/home/191959108",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Single-wide manufactured home just off of Highway 99!    Inside the Adult Manor senior community, this home offers easy in and out freeway access and is just minutes from shopping. Space rent is only $450/month.",
+    "fetched_at": "2026-09-17T15:42:52.975Z"
+   }
   },
   {
    "listing_id": "mls:MC26187407",
@@ -2130,7 +2797,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/2869-Hillcrest-St-95301/home/19669067",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 446,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Located in a well-established Atwater neighborhood, this 3-bedroom, 2-bath home offers 1,623 sq ft of comfortable living space designed for both everyday living. The functional floor plan features a spacious living room and a separate family room with a cozy fireplace and sliding glass doors that lead to the backyard. The kitchen provides ample cabinet storage and is conveniently situated adjacent to the dining area. All bedrooms are comfortably sized and include closet space, while the primary suite features a private ensuite bathroom with dual sinks. Outside, the backyard offers plenty of room to relax, garden, or entertain. A covered patio provides the perfect spot for outdoor seating, while the dedicated gardening area adds to the property's charm and versatility. Additional highlights include a two-car garage and a location close to schools, parks, shopping, and major commuter routes. Combining comfort, functionality, and a desirable location, this property presents an excellent opportunity to enjoy all that Atwater has to offer.",
+    "fetched_at": "2026-09-17T15:42:57.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26200202",
@@ -2267,7 +2950,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/3379-Lighthouse-Ct-95301/home/200957298",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "No sign on property. Lot over 7000 square feet. One of only 2 vacant lots on Shaffer Lake in Atwater. Last lot on left at end of cul de sac on Lighthouse Court. Have a nearly approved house plan for a 3 bedroom, 2 bath home 2178 square feet with Master Bedroom, and Great Room facing water.",
+    "fetched_at": "2026-09-17T15:43:02.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26102154",
@@ -2302,7 +3001,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/3650-N-Santa-Fe-Ave-95301/home/19655352",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": true,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Nestled on 2.8 picturesque acres in the peaceful countryside, this property offer the perfect blend of privacy, space, and rural charm. It provides an ideal setting for anyone seeking a quiet retreat from the pace of city life. The acreage is well-suited for gardening, hobby farming, outdoor recreation, or simply enjoying the natural beauty. With ample room to build your dream home and possibly a granny house, a workshop, or additional outdoor living spaces. There is a pump house with a newer roof, two gat entries for easy access and exit. There is a garage and carport, and chicken coop ready for your flock. There is a fresh water well, a recently serviced septic system, and PG&E electricity all in place. A 50-amp RV breaker was added a few years. Also has a propane tank on the property.. There is MID transferable water rights for future crops or pasture. This property has endless possibilities.",
+    "fetched_at": "2026-09-17T15:43:07.981Z"
+   }
   },
   {
    "listing_id": "mls:226111837",
@@ -2337,7 +3052,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/456-Elm-Ave-95301/home/19707284",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "sqft",
+    "garage_sqft": 150,
+    "has_garage": true,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": "Public",
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Charming 3-bedroom, 1-bath home situated on a spacious lot with plenty of possibilities! The large lot may offer potential for an ADU, additional outdoor living space, or future improvements. With a little TLC and your personal touch, this property could become a wonderful place to call home. Great opportunity for a buyer looking to add value and make it their own.",
+    "fetched_at": "2026-09-17T15:43:12.983Z"
+   }
   },
   {
    "listing_id": "mls:MC25260738",
@@ -2476,7 +3207,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/4910-Clover-Ave-95301/home/21627334",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Prime 2.88-Acre Highway Commercial Property \u20134910 Clover Ave, Atwater, CA 95301    Exceptional opportunity to acquire \u00b12.88 acres of highway commercial land featuring unparalleled visibility and direct access to Highway 99 via the Atwater-Merced Expressway. This strategic location offers tremendous potential for high-traffic commercial development. Zoned and approved for a variety of commercial uses\u2014including gas station, retail center, or motel\u2014the property provides outstanding flexibility for developers and investors. Its prime frontage ensures strong exposure, while proximity to major destinations such as Ferrari Ranch enhances long-term value. Highlights:    \u00b12.88 acres of highway commercial land    Direct access to Highway 99 / Atwater-Merced Expressway    High-traffic visibility and strong regional connectivity    Flexible zoning with multiple approved commercial uses    Strategic location near Ferrari Ranch and other regional hubs    This is a rare investment opportunity in a growing corridor of California\u2019s Central Valley.",
+    "fetched_at": "2026-09-17T15:43:17.979Z"
+   }
   },
   {
    "listing_id": "mls:226108306",
@@ -2511,7 +3258,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/5200-Crest-Rd-95301/unit-49/home/19655596",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Welcome home to Atwater Hacienda Mobile Home and RV Park! This community has been revitalized over the last year and is now preparing for the arrival of brand-new homes!    Space #49 is the first new home coming into the community! Featuring 3 bedrooms and 2 bathrooms, this beautiful home offers the space and comfort your family needs.    Inside, you'll find Natural Oak laminate flooring throughout, complemented by Agreeable Gray walls for a modern, neutral look. The kitchen features beautifully designed soft gray cabinetry, perfectly paired with countertops featuring subtle white and gray flecks.    Best of all, this brand-new home comes with the convenience and peace of mind of a one-year manufacturer's warranty.    BRAND NEW has never looked so good! Call today to learn more and start the process of making this beautiful new home yours!",
+    "fetched_at": "2026-09-17T15:43:22.983Z"
+   }
   },
   {
    "listing_id": "mls:MC26154508",
@@ -2546,7 +3309,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/5200-Crest-Rd-95301/unit-91/home/168650464",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Modern, Move-In Ready 3-Bedroom Home \u2013 Priced to Sell! Move right into this beautifully remodeled 3-bedroom, 1-bath mobile home located in Jennings Mobile Manor Park. Measuring 56' x 12', this home has been completely updated with a brand-new kitchen, new flooring, new carpet, fresh interior paint, and a new wall A/C unit, offering a clean, modern, and comfortable living space. The covered front patio provides a welcoming entrance, while the spacious lot offers plenty of room for parking and potential outdoor expansion. This move-in-ready home is an excellent opportunity for first-time buyers, downsizers, or anyone looking for an affordable, updated home in a great community. Schedule your showing today before it's gone!",
+    "fetched_at": "2026-09-17T15:43:27.979Z"
+   }
   },
   {
    "listing_id": "mls:MC26194960",
@@ -2632,7 +3411,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/701-Palmer-Pl-95301/home/19705383",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 405,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Beautiful home 3 Br, 2 baths nestled at the end of a serene cul-de-sac with the prestigious Rancho Del Rey Golf Course at the end of the street. This beautiful residence offers a perfect blend of comfort, space, and convenience! As you step inside, you'll be greeted by a sense of grandeur with a separate formal dining area and living room, perfect for hosting gatherings or  enjoying quiet evenings with loved ones. Adjacent to the main living area, discover an office space adorned with elegant columns, providing an ideal setting for work. The heart of the home awaits in the comfortable kitchen. Featuring a stainless steel farm-style sink, a spacious kitchen island, epoxy countertops with stylish tile backsplash, and state-of-the-art stainless-steel appliances, this kitchen is a chef's delight. Each bathroom boasts a shower over tub, ensuring both style and functionality meet seamlessly. For added convenience, an indoor laundry room with cabinets offers a dedicated space for chores.",
+    "fetched_at": "2026-09-17T15:43:32.978Z"
+   }
   },
   {
    "listing_id": "mls:MC26096434",
@@ -2667,7 +3462,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/729-Mulberry-Ave-95301/home/19707210",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 504,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "This beautiful 3-bedroom, 2-bath home has been well maintained and offers a comfortable, move in ready layout. Enjoy a sparkling pool perfect for summer gatherings, plus an additional bonus room ideal for a home office, playroom, or extra living space. Conveniently located near schools, shopping, and everyday amenities, this home combines comfort and convenience. Don't miss the opportunity to make it yours!",
+    "fetched_at": "2026-09-17T15:43:37.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26187985",
@@ -2702,7 +3513,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/75-Rancho-Grande-Cir-95301/home/19655409",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [
+     "shed"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Don\u2019t let this one pass you by! This beautiful and inviting 3-bedroom, 2-bath manufactured home offers approximately 1,080 sq. ft. of well-planned living space in a convenient Atwater location. The split floor plan provides privacy, while the spacious living room and eat-in kitchen create a comfortable setting for everyday living and entertaining. The home includes an updated hall bathroom, dual pane windows throughout, sunscreens, recessed lighting, newer baseboards and trim, drywall, vaulted ceilings, updated lighting, a dedicated laundry room, and a primary suite with a walk-in closet. Additional features include built-in storage, ceiling fans, blinds, and laminate flooring. Central heating and cooling help keep the interior comfortable year-round. Step outside to enjoy a covered deck, paver patio, mature trees, and a storage shed. The large carport offers tandem parking, providing plenty of room for vehicles and additional outdoor needs. Located in the Rancho Grande Mobile Home Park, an established all-ages community, where\u00a0residents have access to a clubhouse, parks, and a swimming pool, all within a private-road setting. With its functional layout, desirable features, outdoor space, and convenient location, this home presents an opportunity. See it before it\u2019s gone!",
+    "fetched_at": "2026-09-17T15:43:42.977Z"
+   }
   },
   {
    "listing_id": "mls:MC26180099",
@@ -2790,7 +3619,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Atwater/8753-Rose-Ave-95301/home/172361425",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Spacious 4-bedroom, 2-bathroom manufactured home offering over 1,400 sq ft of comfortable living space, built in 1990. This double-wide home (24'x 60') features an open-concept layout combining the family room and dining area ideal for both everyday living and entertaining. The kitchen includes laminate flooring, a cozy breakfast nook, gas range, hood, and dishwasher. A convenient indoor laundry room adds to the home\u2019s functionality. The hall bathroom offers a shower-over-tub and vanity, while the primary bathroom features a separate shower, soaking tub, and vanity. The generously sized primary bedroom includes an additional sitting area, providing extra flexibility and comfort. Important: Home must be removed from the property and relocated to the buyer's own site at the close of escrow. MANUFACTURED HOME ONLY. .NO LAND.",
+    "fetched_at": "2026-09-17T15:43:47.975Z"
+   }
   },
   {
    "listing_id": "mls:226116132",
@@ -2927,7 +3772,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1-E-Mission-Ave-95341/home/196148474",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Location, Location! This 22.5-acre parcel is part of a 161+/- acre family ranch in the path of development which could be purchased together. Strategically located near Hwy 99 and the new Campus Expressway overpass, a direct route to UC Merced. The property is also within the Merced Vision 2030 SUDP Boundary, making it well positioned for future growth demand. Future possibilities include commercial, industrial or residential development for this underserved market. Also nearby is Gateway Marketplace, the newest regional commercial development project underway. Gateway Marketplace includes major retailers such as Tractor Supply, Starbucks, McDonald's, Arco, Chevron and a Hilton Hotel/Convention Center. The City of Merced recently broke ground on a 40-acre sports complex down Mission Ave, dubbed Community Park 42, a regional complex allowing large tournaments, concerts, and events. Land along Mission Ave is gaining attention as residential communities and infrastructure expand south to meet Merced's growth and underserved needs. This parcel also borders Yosemite Wholesale, a 220,000 SF distribution warehouse. As Merced defines its need for land to support growth and UC Merced expansion, this could be the ideal time to acquire development property.",
+    "fetched_at": "2026-09-17T15:43:52.975Z"
+   }
   },
   {
    "listing_id": "mls:MC26188109",
@@ -2962,7 +3823,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/Cabot-Ave-95348/home/205219350",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Build in a Desirable Merced Location! Discover an excellent opportunity to own a 0.1708 acres residential lot. This well-located parcel offers the potential to create a home in an established neighborhood, with a water connection already available, adding convenience for future development. Enjoy easy access to nearby schools, shopping, dining, parks, and everyday amenities, while Cabot Avenue provides convenient connectivity to surrounding areas. Whether you're planning to build your future home or looking for a well-positioned investment, this parcel offers an exciting opportunity to bring your vision to life in a convenient and established Merced location.",
+    "fetched_at": "2026-09-17T15:43:57.981Z"
+   }
   },
   {
    "listing_id": "mls:MC26156234",
@@ -2997,7 +3874,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/Dunn-Rd-95340/home/104256713",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "An amazing opportunity to build your custom home on a fully subdivided 1 acre lot. This is country living at it's finest. Less that 1/2 mile from UC Merced. The possibilities are endless. Also available is an additional 1 acre parcel fully subdivided and a 7/3 home on 1.3 acres. Total is 3.3 acres.",
+    "fetched_at": "2026-09-17T15:44:02.975Z"
+   }
   },
   {
    "listing_id": "mls:MC25255724",
@@ -3032,7 +3925,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/0-E-North-Bear-Creek-Dr-95340/home/198946738",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Bare land - lots available for sale in the heart of Merced. Approximately 3.8 acres. Located in the County of Merced but within the city limits. Close to shopping, schools  &  UC Merced. This 3.72 acres is adjacent to another 6.5 acre parcel (MC25259914).",
+    "fetched_at": "2026-09-17T15:44:07.971Z"
+   }
   },
   {
    "listing_id": "mls:MC26187045",
@@ -3067,7 +3976,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/Franklin-Rd-95348/home/104246777",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Vacant lots available for Sale in Merced CA! 4 parcels located right besides each other erfect place to build your dream home with easy access to the city and highways.",
+    "fetched_at": "2026-09-17T15:44:12.974Z"
+   }
   },
   {
    "listing_id": "mls:MC25135004",
@@ -3102,7 +4027,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/Henry-St-95341/home/196428748",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Location, Location! This 14.96-acre parcel is part of a 161+/- acre family ranch in the path of development which could be purchased together. Strategically located near Hwy 99 and the new Campus Expressway overpass, a direct route to UC Merced. The property is also within the Merced Vision 2030 SUDP Boundary, making it well positioned for future growth demand. Future possibilities include commercial, industrial or residential development for this underserved market. Also nearby is Gateway Marketplace, the newest regional commercial development project underway. Gateway Marketplace includes major retailers such as Tractor Supply, Starbucks, McDonald's, Arco, Chevron and a Hilton Hotel/Convention Center. The City of Merced recently broke ground on a 40-acre sports complex down Mission Ave, dubbed Community Park 42, a regional complex allowing large tournaments, concerts, and events. Land along Mission Ave is gaining attention as residential communities and infrastructure expand south to meet Merced's growth and underserved needs. This parcel also borders Yosemite Wholesale, a 220,000 SF distribution warehouse. As Merced defines its need for land to support growth and UC Merced expansion, this could be the ideal time to acquire development property.",
+    "fetched_at": "2026-09-17T15:44:17.975Z"
+   }
   },
   {
    "listing_id": "mls:MC25253995",
@@ -3137,7 +4078,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/Kibby-Rd-95340/home/198874981",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "A rare opportunity to own a generous 1.61+- acre residential parcel in desirable Merced County with your own private mini olive orchard and a couple fig trees! This is the ideal blank slate for anyone looking to escape the confines of a small city lot without sacrificing proximity to essential amenities and the rapidly growing community around Merced. This expansive property has the space you need for a custom estate home, build a large shop to store your RV, boat and all your toys. Potential for a sprawling outdoor entertainment area. Imagine enjoying the tranquility of country life while remaining just 8 minutes from downtown Merced for shopping and entertainment. 5 miles to UC Merced.",
+    "fetched_at": "2026-09-17T15:44:22.983Z"
+   }
   },
   {
    "listing_id": "mls:MC26181963",
@@ -3172,7 +4129,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/Massasso-St-95341/home/40000091",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Great opportunity to build on this nearly 14,000-square-foot infill lot. Located in an established area and surrounded by existing development, this spacious parcel offers plenty of room and flexibility for your next project. Whether you\u2019re looking to build a personal residence or explore its investment potential, this is a rare chance to secure a sizable buildable lot in an established neighborhood. Buyer to verify zoning, utilities, building requirements, and development potential with the appropriate agencies.",
+    "fetched_at": "2026-09-17T15:44:27.975Z"
+   }
   },
   {
    "listing_id": "mls:MC25134922",
@@ -3207,7 +4180,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/0-E-Mission-Ave-95341/home/196428730",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Location, Location! This 22.5-acre parcel is part of a 161+/- acre family ranch in the path of development which could be purchased together. Strategically located near Hwy 99 and the new Campus Expressway overpass, a direct route to UC Merced. The property is also within the Merced Vision 2030 SUDP Boundary, making it well positioned for future growth demand. Future possibilities include commercial, industrial or residential development for this underserved market. Also nearby is Gateway Marketplace, the newest regional commercial development project underway. Gateway Marketplace includes major retailers such as Tractor Supply, Starbucks, McDonald's, Arco, Chevron and a Hilton Hotel/Convention Center. The City of Merced recently broke ground on a 40-acre sports complex down Mission Ave, dubbed Community Park 42, a regional complex allowing large tournaments, concerts, and events. Land along Mission Ave is gaining attention as residential communities and infrastructure expand south to meet Merced's growth and underserved needs. This parcel also borders Yosemite Wholesale, a 220,000 SF distribution warehouse. As Merced defines its need for land to support growth and UC Merced expansion, this could be the ideal time to acquire development property.",
+    "fetched_at": "2026-09-17T15:44:32.983Z"
+   }
   },
   {
    "listing_id": "mls:MC26182133",
@@ -3242,7 +4231,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/0-S-P-St-95341/home/204651464",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "A rare opportunity to create something of your own just outside of Merced city limits. This offering combines two parcels (APNs 059-261-009 a 6,000SF parcel and 059-240-057 a 74,000SF parcel) is zoned R-2 and is priced to sell. Surrounded by existing residential homes, the property offers a neighborhood feel with flexibility of buildable land. Whether you're envisioning a future home, investment opportunity, or exploring the potential of residential development, this property provides a blank canvas. Buyer to verify all zoning, permitted uses, development requirements, utilities, and connection availability.",
+    "fetched_at": "2026-09-17T15:44:37.979Z"
+   }
   },
   {
    "listing_id": "mls:MC21265605",
@@ -3277,7 +4282,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/Stretch-Rd-95340/home/40000310",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "41 Acres, Parcel number: 061-320-015. New Price! Great Value for a Developer on these 41 Acres of Open ground. Within the City of Merced Sphere of Influence!  Residential Planned Development or Mixed Use. Located on the South East corner of Stretch and McKee, runs south on McKee, all the way to corner of Santa Fe and McKee. No structures on property. Currently being farmed, MID- Merced Irrigation District Water rights. Buyers to investigate into the usages and zonings. Close to very Prestigious 1 acre area of \"Robinson Estates\" zoning is AR 1 ac. minimums now, so homes would need their own well and septic system, just like Robinson Estates. Ground being farmed year to year for Oats. Not far from Hwy 99 and Campus Parkway. Close to Town yet in Country. Lots of future potential.",
+    "fetched_at": "2026-09-17T15:44:42.983Z"
+   }
   },
   {
    "listing_id": "mls:648773",
@@ -3312,7 +4333,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/0-Thornton-Rd-95341/home/201832321",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "barn"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "PlantingsProperty is planted to Supareil and Nonpareil Almonds, planted 2016.ImprovementsThere is a fenced equipment yard and barn on the property.WaterProperty is located within the Merced Irrigation District (MID) and has one (1) ag well.Groundwater DisclosureSustainable Groundwater Management Act (SGMA) requires groundwater basins to be sustainable by 2040.  SGMA may limit ground water pumping. For more information, please visit the SGMA website athttps://water.ca.gov/programs/groundwater-management/sgma-groundwater-management.The Buyer is responsible for conducting their own research to verify all information related to groundwater and surface water resources, including availability, usage rights, and potential restrictions.",
+    "fetched_at": "2026-09-17T15:44:47.976Z"
+   }
   },
   {
    "listing_id": "mls:MC25117690",
@@ -3347,7 +4386,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/0-Vassar-Ave-95341/home/179519741",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Build your dream home on this beautiful 1-acre property offered at an amazing price. Located in the countryside of Merced, CA, this A-1 zoned parcel offers space, privacy, and peaceful rural living just a short drive from town. With plenty of room for a shop, pool, garden, animals, or a small farm, the possibilities are endless. Enjoy wide open skies and the freedom of country living while still being conveniently located near UC Merced, shopping, and major roadways. Whether you're looking to build your custom home, invest in land, or create your dream homestead, this property offers incredible potential in a growing Central Valley community.",
+    "fetched_at": "2026-09-17T15:44:52.980Z"
+   }
   },
   {
    "listing_id": "mls:MC25117743",
@@ -3382,7 +4437,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/0-1-2-Henry-St-95341/home/196428747",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Location, Location! This 19.64-acre parcel is part of a 161+/- acre family ranch in the path of development which could be purchased together. Strategically located near Hwy 99 and the new Campus Expressway overpass, a direct route to UC Merced. The property is also within the Merced Vision 2030 SUDP Boundary, making it well positioned for future growth demand. Future possibilities include commercial, industrial or residential development for this underserved market. Also nearby is Gateway Marketplace, the newest regional commercial development project underway. Gateway Marketplace includes major retailers such as Tractor Supply, Starbucks, McDonald's, Arco, Chevron and a Hilton Hotel/Convention Center. The City of Merced recently broke ground on a 40-acre sports complex down Mission Ave, dubbed Community Park 42, a regional complex allowing large tournaments, concerts, and events. Land along Mission Ave is gaining attention as residential communities and infrastructure expand south to meet Merced's growth and underserved needs. This parcel also borders Yosemite Wholesale, a 220,000 SF distribution warehouse. As Merced defines its need for land to support growth and UC Merced expansion, this could be the ideal time to acquire development property.",
+    "fetched_at": "2026-09-17T15:44:57.974Z"
+   }
   },
   {
    "listing_id": "mls:MC25259914",
@@ -3417,7 +4488,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1-E-North-Bear-Creek-Dr-95340/home/199064423",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "A lovely piece of Merced is available in the heart of Merced but located in a County pocket. 6.5 acres of bare land is waiting for you to build! The parcel is close to schools, shopping  &  UC Merced. This 6.5 acres is adjacent to another 4 acre parcel (MC25255724).",
+    "fetched_at": "2026-09-17T15:45:02.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26115943",
@@ -3452,7 +4539,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1004-W-13th-St-95341/home/28952923",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Great commercial investment opportunity with prime freeway visibility! These 2 adjacent lots are 7,500 square feet each, giving you over a third of an acre on a corner lot directly behind McDonalds on 13th St. Current zoning is C-T, leaving the door open to a wide variety of ventures. Please drive by and take a look!",
+    "fetched_at": "2026-09-17T15:45:07.977Z"
+   }
   },
   {
    "listing_id": "mls:226081831",
@@ -3591,7 +4694,26 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1017-W-Santa-Fe-Ave-95340/home/19693027",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "sqft",
+    "garage_sqft": 330,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "ADU",
+     "detached garage"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 1013 & 1017 Santa Fe in Merced- two fully detached single-family homes on one parcel, both 2 bed/1 bath, updated, turnkey, and ideal for seasoned investors, multigenerational living, or house hacking. Each home offers a clean, functional layout plus its own detached garage and private yard, providing true separation and privacy with strong long-term rental appeal. Live in one and rent the other to offset your mortgage, rent both for immediate income, or hold long-term in a growing Merced market near UC Merced and key commuter corridors  plus ADU potential has been verified with the City of Merced, creating a clear path for a possible third unit (buyer to verify). Some photos are virtually staged.",
+    "fetched_at": "2026-09-17T15:45:12.976Z"
+   }
   },
   {
    "listing_id": "mls:MC26180949",
@@ -3626,7 +4748,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1052-Northwood-Dr-95348/home/19701776",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 404,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "workshop"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Location, comfort, and charm come together in this beautifully updated 4-bedroom, 2-bath home in Merced. Ideally situated in the desirable Wainwright\u2019s Bear Creek Village, this inviting property offers convenient access to downtown, Applegate Park, shopping, and everyday amenities. Step inside to a clean, warm, and welcoming interior that is truly move-in ready. Thoughtful updates include tile flooring throughout, a recently updated kitchen with appliances, vanities in both the primary and guest bathrooms, and a security system with four exterior cameras. The home also offers updated dual pane windows, HVAC system, roof and whole house fan. The backyard is a true private retreat, featuring lush landscaping, mature trees, and a spacious covered patio\u2014perfect for relaxing, dining, or entertaining family and friends. Additional outdoor amenities include an approximately 8' x 15' workshop and extra storage, providing plenty of space for hobbies, projects, and organization. Well maintained and thoughtfully updated, this home offers the perfect blend of comfort, functionality, and outdoor living. A wonderful opportunity to make this inviting Merced property your next home!",
+    "fetched_at": "2026-09-17T15:45:17.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26117150",
@@ -3661,7 +4801,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1055-Lees-Ct-95340/home/19704425",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 460,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": "Public",
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 1055 Lees Ct, a beautifully remodeled home nestled on a quiet cul-de-sac in one of Merced's established neighborhoods. This stunning 3-bedroom, 2-bath residence offers approximately 1,656 square feet of thoughtfully updated living space on a generous lot. Property records indicate 3 bedrooms, 2 bathrooms, and approximately 1,656 square feet. Step inside to discover a bright, open-concept floor plan featuring luxury flooring, fresh interior finishes, recessed lighting, and a spacious living area centered around a charming painted brick fireplace. The fully renovated kitchen is a true showpiece, boasting quartz countertops, custom white cabinetry, gold hardware, stainless steel appliances, a farmhouse sink, and an oversized island perfect for entertaining and everyday living. The spacious bedrooms provide comfort and flexibility, while the updated bathrooms offer modern finishes and style. Outside, enjoy a large backyard complete with a covered patio and an inviting in-ground swimming pool, creating the perfect setting for summer gatherings, relaxation, and outdoor enjoyment. Conveniently located near schools, shopping, dining, and commuter routes, this move-in-ready home combines modern upgrades with timeless appeal. Don't miss the opportunity to own this beautifully renovated Merced property with a pool and spacious lot.",
+    "fetched_at": "2026-09-17T15:45:22.986Z"
+   }
   },
   {
    "listing_id": "mls:MC26188514",
@@ -3747,7 +4903,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1068-Kiwi-Ct-95340/home/19661176",
-   "details": null
+   "details": {
+    "garage_spaces": 3,
+    "garage_source": "sqft",
+    "garage_sqft": 649,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 1068 Kiwi Ct, a stunning top-to-bottom remodel featuring an upscale, modern aesthetic throughout. Enjoy smooth-finish walls, all-new flooring, a beautifully remodeled kitchen with new appliances, fully remodeled bathrooms, and stylish contemporary finishes. Refrigerator and surround-sound speakers are included; furniture may be negotiable. The garage is wired and ready for electric vehicle (EV) charging. Outside, enjoy a stucco-covered patio and private, low-maintenance backyard. Ideally located near UC Merced, Merced College, Mercy Medical Center, shopping, dining, gyms, Merced golf country club, and everyday conveniences. Elegant, modern, and truly move-in ready!",
+    "fetched_at": "2026-09-17T15:45:27.975Z"
+   }
   },
   {
    "listing_id": "mls:MC26173032",
@@ -3782,7 +4954,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1075-Martin-Luther-King-Junior-Way-95341/home/196040546",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "\u00b10.86-acre (37,622 SF) vacant corner land parcel in central Merced with dual frontage on Martin Luther King Jr. Way and W. 11th Street. Rare DUAL ZONING \u2014 R-4/C-C \u2014 supports high-density residential, commercial, and mixed-use development, and the site is a Merced County RHNA designated site, ideal for housing developers. Level, rectangular lot (\u00b1137' x 275') located \u00b10.2 miles from the CA-Hwy 99 interchange with \u00b19,200 ADT fronting the site and 46,000+ ADT on nearby Hwy 99. Dense trade area with \u00b163,000 adults within a 10-minute drive, expanding to \u00b1112,000 within 15 minutes. Adjacent to McNamara Park in a high-walkability (74/100) neighborhood, minutes from downtown Merced and UC Merced's growing market. Served by existing city utilities; not in a special flood hazard area. APN 032-072-011-000. Ideal for owner-users, commercial developers, or multifamily builders.",
+    "fetched_at": "2026-09-17T15:45:32.980Z"
+   }
   },
   {
    "listing_id": "mls:MC26199692",
@@ -3817,7 +5005,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1076-E-Estancia-Dr-95340/home/168647417",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Estancia Estates! One of Merced's finest neighborhoods. Here is your chance to build your custom Dream home on this pristine one-acre lot  More prestigious lots available; contact the agent for price map  Pre-opened with Peg at Transcounty Title",
+    "fetched_at": "2026-09-17T15:45:37.972Z"
+   }
   },
   {
    "listing_id": "mls:MC26174826",
@@ -3852,7 +5056,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1111-E-Donna-Dr-95340/home/19703890",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 333,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "owned",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "North Merced Location with Pool & Owned Solar! Ideally situated just minutes from UC Merced and within walking distance of shopping, dining, and other commercial amenities, this 3-bedroom, 2-bath home offers a great combination of comfort, location, and outdoor living. The owned solar system, installed in 2015 when the roof and HVAC system were replaced, produces approximately 12 MWh annually. The home welcomes you with a low-maintenance desert-style front yard. Inside, the living room features high ceilings, crown molding, and an inviting marble and granite fireplace. French doors and windows provide a pleasant view of the backyard from the breakfast bar and dining area. The kitchen features granite countertops, with the electric range, refrigerator, and dishwasher included. The primary bedroom offers decorative tile accents and convenient access to a partially enclosed creative space just outside on the patio. Step into the backyard and discover a private setting designed for entertaining, complete with a pool and an island-style outdoor bar featuring granite countertops and a sink, all situated beneath a pergola. With its desirable North Merced location, owned solar, and inviting poolside setting, this home is a must-see!",
+    "fetched_at": "2026-09-17T15:45:42.986Z"
+   }
   },
   {
    "listing_id": "mls:MC26050732",
@@ -3938,7 +5158,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/115-W-19th-St-95340/home/19691911",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "mentioned",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Adorable and well-maintained 2-bedroom, 1-bathroom home offering comfort, charm, and plenty of potential! Step inside to a spacious and inviting living room filled with natural light that flows seamlessly into the dining area, creating a warm and welcoming space for everyday living and entertaining. The adorable kitchen offers both functionality and charm. A generously sized indoor laundry room provides added convenience and leads directly to the oversized backyard. Enjoy peace of mind knowing the roof is only 5 years old. Situated on a large lot, the property may offer potential for an ADU (buyer to verify with county). The expansive outdoor space provides endless possibilities for gardening, recreation, possible RV access or future expansion.    Additional highlights include solar to help reduce energy costs and a convenient location near Highway 99, making this home an excellent choice for commuters. Don't miss the opportunity to own this charming home with room to grow!",
+    "fetched_at": "2026-09-17T15:45:47.981Z"
+   }
   },
   {
    "listing_id": "mls:MC26171548",
@@ -3973,7 +5209,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1163-W-25th-St-95340/home/19692191",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 472,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 1163 W 25th St, a beautifully remodeled single-story home located in the desirable Spaghetti Acres neighborhood of Merced. Offering 1,772 square feet of thoughtfully designed living space on an oversized 9,409-square-foot lot, this 3-bedroom, 2-bathroom residence delivers the perfect combination of luxury finishes and everyday functionality at an attainable price point. Built in 1956 and extensively updated throughout, the home features a stunning designer kitchen with brand-new cabinetry, quartz countertops, stainless steel appliances, matte-black fixtures, and modern finishes that create a clean, contemporary feel. The spacious living area showcases exposed beam ceilings, a custom wood accent wall surrounding the fireplace, designer iron railing, and a wall of glass that creates a bright sunroom atmosphere filled with natural light. Luxury vinyl plank flooring flows throughout the main living spaces, while new carpet in the bedrooms and fresh interior paint make the home truly move-in ready. Both bathrooms have been completely remodeled with stylish finishes and thoughtful details. Major improvements include a new roof, all new windows, a new garage door, and ceiling fans throughout the home. The attached two-car garage offers 220V power, while the wide driveway provides ample parking. Outside, fresh sod and a new sprinkler system enhance the front yard, while the oversized backyard offers mature shade trees, a spacious concrete patio, and plenty of room to relax, entertain, or create your dream outdoor retreat. Conveniently located just minutes from Merced College, Applegate Park and Zoo, Bear Creek trails, downtown Merced, and approximately 15 minutes from UC Merced, this 3-bed home in Merced under $400K combines designer style, modern upgrades, and an unbeatable location. Don't miss this opportunity to own a turnkey home with luxury finishes without the luxury price tag.",
+    "fetched_at": "2026-09-17T15:45:52.985Z"
+   }
   },
   {
    "listing_id": "mls:MC26116262",
@@ -4110,7 +5362,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/118-McGregor-St-95341/home/19681662",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Charming 3bedroom 1bathroom home featuring new flooring throughout and a beautifully updated bathroom.  This quaint home is situated on a desirable corner lot, offering plenty of outdoor space with endless potential to create your own custom landscaping. Bring your imagination and make this inviting home your own!",
+    "fetched_at": "2026-09-17T15:45:57.979Z"
+   }
   },
   {
    "listing_id": "mls:226076514",
@@ -4145,7 +5413,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/12-E-San-Clemente-Dr-95341/home/19659458",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "sqft",
+    "garage_sqft": 391,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to a place where comfort feels effortless and every day feels a little brighter. Situated on a beautiful corner lot, this charming 1,313 square foot home offers inviting curb appeal with a stately shade tree, a graceful palm, and a classic tile roof that adds both character and lasting value. Step inside and discover a home designed for everyday living where family dinners, holiday celebrations, and quiet evenings all find their perfect place. Natural warmth and a welcoming atmosphere make it easy to imagine creating memories that will last for years to come.    Outside, the approximately 6,325 square foot lot provides space to relax, entertain, garden, or simply enjoy the California sunshine. The corner location offers an open feel and enhances the home's welcoming presence within the neighborhood.    Whether you're purchasing your first home, searching for a place to grow, or simply looking for a fresh start, this inviting Merced residence is ready to welcome you home. Come experience the charm, comfort, and possibilities waiting at 12 E. San Clemente Drive.",
+    "fetched_at": "2026-09-17T15:46:02.972Z"
+   }
   },
   {
    "listing_id": "mls:MC26125121",
@@ -4180,7 +5464,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1210-G-St-95341/home/40001457",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Vacant corner lot in Merced has plenty to offer . Multi-family land usage zoned R-3 and ready to build. Close to the freeway,  schools and shopping center and so much more. This lot vacant so please drive by and see the potential!",
+    "fetched_at": "2026-09-17T15:46:07.985Z"
+   }
   },
   {
    "listing_id": "mls:226107490",
@@ -4266,7 +5566,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/1223-W-Santa-Fe-Ave-95340/home/19691310",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "field",
+    "garage_sqft": 221,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "mentioned",
+    "pool": null,
+    "outbuildings": [
+     "ADU"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Value-add opportunity on a deep lot in central Merced, close to downtown. The layout lives larger than the square footage: the living room takes the front of the house with a wide window, and the kitchen opens through a breakfast bar to the dining area, with a separate hall to the bedrooms. Rooftop solar with battery storage is installed; buyer to verify condition. The yard runs well past the house with open space behind, buyer to verify ADU potential with the City of Merced. Fixer; needs work. Bring your contractor and your imagination.",
+    "fetched_at": "2026-09-17T15:46:12.977Z"
+   }
   },
   {
    "listing_id": "mls:MC26183039",
