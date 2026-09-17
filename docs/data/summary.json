@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T16:20:20+00:00",
+ "generated_at": "2026-09-17T16:40:28+00:00",
  "latest_snapshot": "2026-09-17",
  "first_snapshot": "2026-09-16",
  "snapshot_count": 2,
  "listing_count": 439,
  "active_count": 439,
- "enriched_count": 284,
+ "enriched_count": 364,
  "history": [
   {
    "date": "2026-09-16",
@@ -10459,7 +10459,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2240-Golden-Oak-Ln-95341/unit-47/home/19655135",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Spacious triple-wide home with a large deck in the highly desirable Sierra Portal Mobile Home Estates! Located at 2240 Golden Oak Ln, Space 47, this home sits in a peaceful, gated 55+ community and offers the space and layout you\u2019ve been looking for. Featuring 2 bedrooms and 2 bathrooms, this home boasts an open and airy floor plan with a comfortable living room, dining area, and functional kitchen. Large windows fill the home with natural light, while the expansive layout provides endless potential to update and make it your own. Enjoy the outdoors on the oversized deck, perfect for morning coffee or entertaining guests, plus covered parking and additional storage for convenience. Residents enjoy access to community amenities including a clubhouse, swimming pool, and more. Conveniently located near shopping, dining, and major highways for easy access to everything you need.",
+    "fetched_at": "2026-09-17T16:20:20.977Z"
+   }
   },
   {
    "listing_id": "mls:226056493",
@@ -10494,7 +10510,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2240-Golden-Oak-Ln-95341/unit-73/home/19655777",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [
+     "shed"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Single-wide home located in Sierra Portal Mobile Estates, a senior mobile home community. This 1-bedroom, 1-bathroom home features dual-pane windows throughout and an updated interior with a walk-in shower, newer toilet and vanity, granite countertops in the kitchen and bath, laminate flooring, and LED can lighting. Ceiling fans in both the living room and bedroom provide added comfort. Central heat and air. Additional features include a covered patio, dishwasher, refrigerator, gas range, microwave, stackable washer and dryer, and a storage shed. Community amenities include a large clubhouse, pool and spa, separate dog parks, lush landscaped grounds, and gated entry for added security. Buyer(s) must be approved by park management prior to submitting an offer.",
+    "fetched_at": "2026-09-17T16:20:25.971Z"
+   }
   },
   {
    "listing_id": "mls:226093239",
@@ -10529,7 +10563,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2240-Golden-Oak-Ln-95341/unit-94/home/19654824",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Stylish Move-In Ready 2-bedroom, 2-Bath Home in Gated Merced Community--Step into this beautifully updated, move-in ready 2-bedroom, 2-bath mobile  home, where modern upgrades and comfortable living  come together.  Featuring stylish laminate flooring, dual-pane windows, new countertops, and a beautiful kitchen, this home is ready for you to enjoy from day one. Located in a well maintained gated community with an array of amenities, you'll appreciate the peaceful setting while being close to HWY 99, shopping, dining, and everyday conveniences.  Whether you're looking to downsize or purchase your first home, this charming property offers the perfect blend of comfort, convenience, and value. Don't miss your chance-come see it today before it's gone!",
+    "fetched_at": "2026-09-17T16:20:30.977Z"
+   }
   },
   {
    "listing_id": "mls:226012270",
@@ -10564,7 +10614,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2240-Golden-Oak-Ln-95341/unit-98/home/19655775",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [
+     "shed"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Beautifully upgraded manufactured home offering refined finishes and effortless living in the city of Merced. This move-in-ready residence features elegant granite countertops, a sleek stainless-steel kitchen complete with a modern stainless steel sink, stylish laminate flooring, plush carpet throughout, and new windows, creating a warm and sophisticated living environment.    The interior has been thoughtfully refreshed with pristine paint, modern ceiling fans, and contemporary light fixtures, offering a clean and polished aesthetic. The well-designed floor plan includes one full bath and one half bath for added convenience.    Enjoy a true turnkey experience with a gas stove, refrigerator, and washer and dryer all included, as well as a recently replaced new HVAC. Additional highlights include a 10x10 storage shed and access to resort-style community amenities, featuring a clubhouse, relaxing hot tub, and sparkling pool.",
+    "fetched_at": "2026-09-17T16:20:35.985Z"
+   }
   },
   {
    "listing_id": "mls:MC25134955",
@@ -10599,7 +10667,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2246-E-Mission-Ave-95341/home/148012696",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "sqft",
+    "garage_sqft": 585,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "160 acres of future development land in South East Merced. Strategically located within close proximity to Hwy 99 and the newly developed Campus Express",
+    "fetched_at": "2026-09-17T16:20:40.976Z"
+   }
   },
   {
    "listing_id": "mls:MC25117715",
@@ -10634,7 +10718,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2260-Vassar-Ave-95341/home/196077950",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Location, Location! This 19.79-acre parcel is part of a 161+/- acre family ranch in the path of development which could be purchased together. Strategically located near Hwy 99 and the new Campus Expressway overpass, a direct route to UC Merced. The property is also within the Merced Vision 2030 SUDP Boundary, making it well positioned for future growth demand. Future possibilities include commercial, industrial or residential development for this underserved market. Also nearby is Gateway Marketplace, the newest regional commercial development project underway. Gateway Marketplace includes major retailers such as Tractor Supply, Starbucks, McDonald's, Arco, Chevron and a Hilton Hotel/Convention Center. The City of Merced recently broke ground on a 40-acre sports complex down Mission Ave, dubbed Community Park 42, a regional complex allowing large tournaments, concerts, and events. Land along Mission Ave is gaining attention as residential communities and infrastructure expand south to meet Merced's growth and underserved needs. This parcel also borders Yosemite Wholesale, a 220,000 SF distribution warehouse. As Merced defines its need for land to support growth and UC Merced expansion, this could be the ideal time to acquire development property.",
+    "fetched_at": "2026-09-17T16:20:45.983Z"
+   }
   },
   {
    "listing_id": "mls:226036725",
@@ -10669,7 +10769,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/230-W-25th-St-95340/home/19692754",
-   "details": null
+   "details": {
+    "garage_spaces": 3,
+    "garage_source": "field",
+    "garage_sqft": 600,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "detached garage"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Charming and inviting, this 2-bedroom, 1-bath home is set in a quiet, well-established neighborhood and offers a blend of character and comfort. Inside, you'll find a light-filled layout, warm living spaces, and thoughtful updates throughout.  The spacious lot provides room to relax, garden, or entertain, while the detached garage offers exciting potential for a future ADUadding flexibility and long-term value.  Centrally located, this home offers easy access to nearby shopping, dining, parks, schools, Highway 99, and the Amtrak stationmaking everyday living simple while offering exciting potential for the future.",
+    "fetched_at": "2026-09-17T16:20:50.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26201787",
@@ -10704,7 +10822,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2318-Beachwood-Dr-95348/home/19683786",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "A Fresh Start Awaits on Beachwood Drive! Discover the possibilities at 2318 Beachwood Drive in Merced. This property is being offered as vacant land with no house currently on the property. According to the Seller, the home that previously occupied the property burned down, creating a unique opportunity for a new owner to envision what comes next. Whether you\u2019re looking to build a new home, explore future development possibilities, or invest in a Merced property, this site offers the chance to start with a clean slate. Conveniently located in an established Merced area, this property is ready for someone with vision to bring their plans to life. Buyer and Buyer\u2019s Agent are encouraged to conduct their own independent due diligence regarding zoning, permitted uses, property boundaries, access, utilities, development potential, and all other property characteristics. Utilities and their current status or availability are not verified; Buyer to independently confirm with the appropriate utility providers and governmental agencies.",
+    "fetched_at": "2026-09-17T16:20:56.974Z"
+   }
   },
   {
    "listing_id": "mls:226115232",
@@ -10739,7 +10873,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2324-Q-St-95340/home/19692696",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Rare, fully remodeled duplex in a quiet Merced communitypriced under $379,600. Renovated inside and out, this move-in-ready property needs absolutely nothing. Live in one unit and rent the other, or rent both for a great income-producing opportunity.    Enjoy a great-sized yard and plenty of parking, including two additional spaces for each unitfor a total of six parking spaces. Each unit also has its own separate meter, offering added convenience and flexibility. One of the best-value duplex opportunities in the Valley.",
+    "fetched_at": "2026-09-17T16:21:01.983Z"
+   }
   },
   {
    "listing_id": "mls:MC26058771",
@@ -10774,7 +10924,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2330-Meadowbrook-Ave-95348/home/19683370",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": true,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 2330 Meadowbrook Ave in Merced\u2014a charming 3-bedroom, 1-bath home on a spacious lot of over 10,000 square feet. Over the past nine years, the homeowners have completed thoughtful updates, creating a comfortable blend of character and modern touches throughout. A standout feature is the hidden \u201csecret door\u201d connecting one bedroom to the third\u2014perfect for a home office, creative space, or a fun, unique design element. The home is also partially plumbed for an additional bathroom, offering great potential for future expansion. Outside, enjoy the oversized lot with plenty of room to grow, along with a long driveway and decorative concrete slab providing ample parking. Mature front bushes add privacy and curb appeal. This home offers space, personality, and opportunity\u2014all in one!",
+    "fetched_at": "2026-09-17T16:21:06.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26090199",
@@ -10911,7 +11077,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2400-K-St-95340/home/19692168",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "14 unit apartment complex. 2 one bedroom one bath units renting for $1050 market rent is $1200. 4 two bedroom one bath units renting for $1300 market rent is $1400. 8 three bedroom one bath units renting for $1400 market rent is $1600. All units have their own laundry rooms. Complex is downtown across from Amtrak station and a easy walking distance to shopping, schools, parks and train station. Four units are currently vacant.",
+    "fetched_at": "2026-09-17T16:21:11.978Z"
+   }
   },
   {
    "listing_id": "mls:MC26130264",
@@ -10946,7 +11128,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/242-Torino-Ct-95341/home/19658046",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "sqft",
+    "garage_sqft": 456,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this beautifully maintained four-bedroom, two-bathroom home, offering over 1,600 square feet of spacious living in the highly sought-after Tuscany subdivision. Built in 2006, this home features high ceilings and an abundance of natural light, creating a warm and inviting atmosphere throughout. The thoughtfully designed floor plan includes a cozy fireplace perfect for relaxing, and a well-equipped kitchen with a gas stove, ideal for home chefs. Situated on a generously sized corner lot, the property provides ample outdoor space for entertaining or simply enjoying the serene surroundings. Located centrally, you\u2019ll enjoy easy access to shopping, dining, and major freeways, making daily errands and commuting a breeze. This home offers the perfect blend of comfort and convenience in an unbeatable location and neighborhood.",
+    "fetched_at": "2026-09-17T16:21:16.977Z"
+   }
   },
   {
    "listing_id": "mls:652381",
@@ -11083,7 +11281,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/246-Nadine-St-95341/home/196422447",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "The Brant floor plan brings modern style to life! The home centers around an open-concept layout with a spacious great room, a dining area, and an open kitchen-ideal for entertaining. Two bedrooms bookend a bath at the front of the home, while the owner's suite is secluded toward the back. Boasting a walk-in closet and a private bath with dual vanities and a walk-in shower, it's the perfect place to rest and recharge.",
+    "fetched_at": "2026-09-17T16:21:21.979Z"
+   }
   },
   {
    "listing_id": "mls:MC26168944",
@@ -11271,7 +11485,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2499-E-Gerard-Ave-95341/unit-140/home/19656022",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Welcome to this beautifully updated and move-in-ready 3-bedroom, 1-bath single-wide mobile home located in a clean, well-maintained, and family-friendly ALL AGE park. Residents can enjoy access to the community pool and the convenience of being located near elementary, middle, and high schools, shopping centers, fast-food restaurant, bike trails, and freeway access. Situated in a growing area with exciting new development nearby, this home offers both comfort and convenience. Financing is available for this mobile home . Schedule your private showing today",
+    "fetched_at": "2026-09-17T16:21:26.982Z"
+   }
   },
   {
    "listing_id": "mls:MC26150631",
@@ -11306,7 +11536,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2499-E-Gerard-Ave-95341/unit-153/home/19653440",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Spacious 4-Bedroom Home in an All-Ages Community with Pool Access!  Welcome to this spacious 4-bedroom, 2-bath manufactured home offering approximately 1,584 sq. ft. in Merced Estates Mobile Home Park. Inside, you'll find a large family room, separate dining area, roomy kitchen with gas range, laminate flooring, and convenient indoor laundry.  Enjoy a covered porch, outdoor space, and access to the community swimming poolperfect for warm Central Valley days. The home is also within walking distance of an elementary school, middle school, and high school, making the location especially convenient.  With four bedrooms, two bathrooms, and plenty of living space, this home offers great value and room to make it your own.  Schedule a showing and come see everything this home has to offer!  Park management approval is required prior to submitting an offer.",
+    "fetched_at": "2026-09-17T16:21:31.977Z"
+   }
   },
   {
    "listing_id": "mls:MC26165075",
@@ -11341,7 +11587,27 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2499-E-Gerard-Ave-95341/unit-38/home/40002191",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [
+     "workshop",
+     "shed",
+     "pool house"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Wonderful Opportunity in this Family Park offers a  * DOUBLE WIDE -3-bedroom 2-bathroom- wonderful open floor plan- large master bedroom with a walk-in closet-indoor laundry room-Central heat and air-  *  * Also includes a well-built shed -2x4 walls on a slab and with electricity plumbed to it - 10'2\"x13.5\". Great storage or workshop-  * utilities included in space rent -   This park has a pool and a pool house -  * but currently under renovation will be available around October 2026 for all your parties with a deposit of only $150.    *  Park Approval is required prior to submitting your offer.",
+    "fetched_at": "2026-09-17T16:21:36.972Z"
+   }
   },
   {
    "listing_id": "mls:MC25223780",
@@ -11376,7 +11642,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2500-N-State-Highway-59-95348/unit-270/home/19655158",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "This cozy and well-maintained 2-bedroom, 2-bath home is perfect for a couple looking to retire and enjoy peaceful living. Located in a friendly park with easy access to shopping and freeways, convenience is right at your doorstep. The home is move-in ready, offering comfort and simplicity. Seller is motivated and ready to make a deal\u2014don\u2019t miss this opportunity! SELLER FINANCING AVAILABLE!",
+    "fetched_at": "2026-09-17T16:21:41.977Z"
+   }
   },
   {
    "listing_id": "mls:MC26177592",
@@ -11411,7 +11693,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2500-N-State-Highway-59-95348/home/19653725",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Step into this well maintained manufactured home located in the Riviera Holiday Mobile Estates (a Senior Community 55  &  over). This charming 2 bedroom 2 bath residence features brand new laminate flooring throughout, creating a fresh and modern feel from the moment you walk in. Enjoy peace of mind with major updates already completed including a new heater, new air conditioner, new kitchen gas stove and a new water heater. Kitchen is spacious with corian counters, built ins, and a walk in pantry!  Both bedrooms are good sized. Utility area features laundry hookups, a new furnace and room for an extra refrigerator, freezer or storage! The exterior hardiboard cement siding has been freshly painted enhancing the home's curb appeal, while the dual pane windows provide energy efficiency and comfort year round. This property is exceptionally clean and move in ready!  Situated in a quiet, well maintained park complete with a pool and club house for your enjoyment.",
+    "fetched_at": "2026-09-17T16:21:46.985Z"
+   }
   },
   {
    "listing_id": "mls:226100905",
@@ -11446,7 +11744,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2500-N-State-Highway-59-95348/unit-239/home/19655259",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Charming 3-Bedroom Home in Rivera Holiday Mobile Estates 55+ Park! This well-appointed 3-bedroom, 2-bath home offers comfortable living with thoughtful features throughout. The spacious living room features a beautiful brick fireplace and two ceiling fans, creating a welcoming space for relaxing or entertaining. The kitchen offers plenty of cabinet storage, including convenient pull-out drawers, while the adjacent dining area features a ceiling fan. The spacious primary bedroom includes a private bathroom with a separate soaking tub and shower. The hallway bathroom features a convenient shower-over-tub combination. Both additional bedrooms are equipped with ceiling fans for added comfort. An indoor laundry room with cabinets provides additional storage and convenience. Outside, a large, sturdy wheelchair ramp provides easy access to the covered patio area. The backyard also features a garden area, offering space for gardening or enjoying the outdoors. Two covered parking spaces are available in the carport. Located in Rivera Holiday Mobile Estates, a 55+ community, this home offers comfortable living with convenient features both inside and out.",
+    "fetched_at": "2026-09-17T16:21:51.978Z"
+   }
   },
   {
    "listing_id": "mls:226084553",
@@ -11481,7 +11795,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2511-Franklin-Rd-95348/home/196420034",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Exceptional investment opportunity located on the outskirts of Merced, offering outstanding long-term development potential. This strategically positioned property is a strong candidate for future annexation into the Merced city limits.  Conveniently located near Highway 99, the property provides excellent accessibility and is adjacent to an established residential subdivision. It is also directly across the street from Franklin Elementary School, making it an attractive location for future residential or mixed-use development,   Don't miss this rare opportunity to invest in a property with significant future growth potential in one of Merced's expanding areas.",
+    "fetched_at": "2026-09-17T16:21:56.972Z"
+   }
   },
   {
    "listing_id": "mls:MC26198267",
@@ -11516,7 +11846,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/252-S-Gurr-Rd-95341/home/168650428",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Organic Walnut Orchard, with approx. 24 acres (+/- to be determined upon completion of a small lot split/delineation) with M. I. D. water and a New Ag well nearly 500 ft. deep  &  14\" diameter. Acreage will front on Bailey Rd. after the lot split. Production record available to qualified buyers. Equipment available for sale separately are as follows; Kubota tractor M954K with cab, boom/pruning tower, fork lift, disc, mower, ring roller.",
+    "fetched_at": "2026-09-17T16:22:01.983Z"
+   }
   },
   {
    "listing_id": "mls:MC25009072",
@@ -11551,7 +11897,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2520-McKee-Rd-95340/home/19679429",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "workshop"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "This unique multi-family property sits on just under half an acre and features two homes on one lot, offering incredible potential for investment or multi-generational living. Both homes have been fully gutted, providing a blank canvas for you to design the interiors to your specifications. Each house is currently a two-bedroom, one-bathroom layout with ample space to add additional rooms, making it ideal for expansion. The generous lot size offers plenty of outdoor space for both properties, creating opportunities for additional parking, landscaping, or even future development. Whether you're looking to renovate both homes and rent them out, live in one and lease the other, or design your dream multi-family setup, this property presents endless possibilities. A rare find for even the most discerning buyer, it enjoys a prime location near shops, restaurants, grocery stores, and is just a few short minutes from both UC Merced and Merced JC.",
+    "fetched_at": "2026-09-17T16:22:06.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26197299",
@@ -11586,7 +11950,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2521-K-St-95340/home/19692139",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Opportunity to build on an infill lot offering over 7,400 sq. ft. in an established Merced neighborhood. Ideal for a builder, investor, or buyer looking for their next project. The property next door at 409 W 25th Street is also available and can be purchased together as a package deal. Both properties have separate addresses and APNs, offering flexibility for future development, resale, or investment.",
+    "fetched_at": "2026-09-17T16:22:11.973Z"
+   }
   },
   {
    "listing_id": "mls:MC26143143",
@@ -11674,7 +12054,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/255-Travis-Ct-95341/home/192932898",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "2",
+    "hoa": null,
+    "remarks": "The Jay at Solera III is a balanced two-story layout. The main level showcases a unified dining and great room, seamlessly blending into a contemporary kitchen featuring a walk-in pantry and central island. Also on the main level, a powder room adds convenience for guests. Upstairs, discover a spacious owner's suite featuring an en-suite bathroom with dual-sink vanity and a walk-in closet. Accompanying this are two secondary bedrooms, which share a full bathroom, and a dedicated full laundry room. This thoughtfully designed plan ensures both comfort and elegance in every corner",
+    "fetched_at": "2026-09-17T16:22:16.981Z"
+   }
   },
   {
    "listing_id": "mls:MC25044845",
@@ -11709,7 +12105,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2577-Lobo-Ave-95348/home/21155511",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "OWN YOUR TOMORROW IN MERCED!!! Unlock an exceptional investment opportunity with this 24.5-acre property, offering prime Highway 99 visibility within 15 minutes of UC Merced, one of the fastest-growing universities in California. With 5 acres designated for General Commercial use in the General Plan, and commercial on both sides, this site is perfect for retail centers, office spaces, or mixed-use developments, capitalizing on the high-traffic exposure from Highway 99 and the expanding student and residential population. The remaining 19.5 acres are zoned R1, offering long-term residential development potential in a market that is booming due to university-driven economic growth, and a housing shortage in the area. Whether you\u2019re looking to build now or hold for future appreciation, this property provides a versatile investment with multiple possibilities for revenue streams. As UC Merced continues to expand enrollment and research facilities, the demand for housing, retail, and services will only increase, making this a prime opportunity for forward-thinking investors and developers. The property is currently leased for seasonal agricultural land crops with MID water access.",
+    "fetched_at": "2026-09-17T16:22:21.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26168613",
@@ -11744,7 +12156,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2617-Agnes-Way-95340/home/19689760",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 400,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "An established neighborhood and a wonderful family home ! This home is spacious and well maintained. 3 Large bedrooms and 2 bathrooms. Many fruit trees such as Lemongrass, Plum, Lime, Grapefruit , Persimmon and Orange Trees. Family room with a fireplace adjacent to a formal dining room and a large living room with plenty of light. The kitchen has granite countertops and is open to the family room and an extra large room. Move in ready !!",
+    "fetched_at": "2026-09-17T16:22:26.973Z"
+   }
   },
   {
    "listing_id": "mls:562A9715BEFE",
@@ -11830,7 +12258,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2651-1st-Ave-95340/home/19689677",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Rare opportunity in Merced\u2019s highly desirable RAGSDALE neighborhood. This 12,000+ sqft buildable lot is the only vacant lot available in Ragsdale \u2014 an area where lots almost never come to market. The property includes a $25,000 credit toward impact fees, water and sewer, along with 1,560 sq. ft. of impact and permit credits, plus an existing 1-inch water line and sewer line. Saving the buyer in excess of $25,000 in fees. A rare chance to build a custom home in one of Merced\u2019s most established and sought-after neighborhoods.",
+    "fetched_at": "2026-09-17T16:22:31.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26096382",
@@ -11916,7 +12360,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2672-9th-Ave-95340/home/19689558",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 380,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Great starter home or investment property!  This charming home is situated in an established neighborhood with mature landscaping. 3 bedrooms and 1 bath and in very nice condition:  Interior just painted. Hardwood floors in living room, hall and bedrooms are in the process of being professionally refinished. Entire interior just painted. New vinyl flooring will be installed in kitchen and bath soon. New roof will be installed prior to close of escrow. Dual pane windows throughout. Make this charming home your own!",
+    "fetched_at": "2026-09-17T16:22:36.984Z"
+   }
   },
   {
    "listing_id": "mls:225144310",
@@ -12002,7 +12462,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/268-E-10th-St-95341/home/19687247",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "field",
+    "garage_sqft": 280,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Come see this amazing opportunity, Home is a 4bd/3ba, it is currently split as a 3/2 in the front and 1/1 in the rear with living room space, however home can be converted back into 4/3 combined. 1bd/1ba unit can be accessed through alley for separate access or through front side gate. Home features tile floors, tiled bathrooms, landscaped front yard, iron rolling gates and fence. property has palm trees in the front. Weather your looking for an investment opportunity to completely rent out, or live in one side and rent the other this property is for you. Property offers major potential.",
+    "fetched_at": "2026-09-17T16:22:41.975Z"
+   }
   },
   {
    "listing_id": "mls:MC26126325",
@@ -12088,7 +12564,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/272-Travis-Ct-95341/home/192932887",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Searching for the perfect blend of style and comfort? Give the Grayson a try! Showcasing thoughtful design and modern features, this floor plan centers around an airy great room that leads to a lovely covered patio. Adjacent, you\u2019ll find a dining area and a kitchen with wraparound counters. The owner\u2019s suite is a serene escape from the day, boasting a walk-in closet and a private bath with dual vanities and a walk-in shower. At the front of the home, two bedrooms\u2014each with a walk-in closet\u2014flank a full bath. Storage space and two linen closets are built in!",
+    "fetched_at": "2026-09-17T16:22:46.986Z"
+   }
   },
   {
    "listing_id": "mls:MC26163311",
@@ -12123,7 +12615,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2729-Pioneer-95340/home/103654057",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": true,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "detached garage"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Country living meets income-producing opportunity on approximately 15 acres in Merced! This well-maintained single-story home offers 1,942 square feet of living space with 3 bedrooms and 2 bathrooms. Inside, you'll find light wood-look laminate flooring, interior laundry with convenient exterior access, laminate countertops, updates to bathrooms and cozy wood-burning fireplace. Step outside to enjoy the versatility this property offers. Comes with an attached garage and a large detached garage with a bonus room provides excellent space for a workshop, hobby area, storage, or other flexible uses. The expansive grounds offer plenty of room for equipment, recreational vehicles, and additional parking. The approximately 15-acre property includes a 12-year-old almond orchard and benefits from premium Merced Irrigation District (MID) water rights, making it an attractive opportunity for those seeking both rural living and agricultural potential. Almond orchard includes the varieties 50% Butte, 25% Fritz and 25% Padre approx. The property is serviced by a private domestic well and septic system. Whether you're looking for a country residence, an agricultural investment, or a property with room to grow, this Merced property presents a unique opportunity to enjoy the best of rural California living.",
+    "fetched_at": "2026-09-17T16:22:51.985Z"
+   }
   },
   {
    "listing_id": "mls:D019C2C7B656",
@@ -12158,7 +12668,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/274-Nadine-St-95341/home/196422444",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Searching for the perfect blend of style and comfort? Give the Grayson a try! Showcasing thoughtful design and modern features, this floor plan centers around an airy great room that leads to a lovely covered patio. Adjacent, you'll find a dining area and a kitchen with wraparound counters. The owner's suite is a serene escape from the day, boasting a walk-in closet and a private bath with dual vanities and a walk-in shower. At the front of the home, two bedrooms-each with a walk-in closet-flank a full bath. Storage space and two linen closets are built in!  * Virtually staged. Furniture shown is for illustration only.",
+    "fetched_at": "2026-09-17T16:22:56.977Z"
+   }
   },
   {
    "listing_id": "mls:226116770",
@@ -12193,7 +12719,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2747-Saratoga-Ave-95340/home/19689152",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 470,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "",
+    "fetched_at": "2026-09-17T16:23:01.980Z"
+   }
   },
   {
    "listing_id": "mls:MC26080251",
@@ -12228,7 +12770,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2761-Lexington-Ave-95340/home/19688763",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 456,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "2",
+    "hoa": null,
+    "remarks": "Step into this beautifully maintained two-story home where charm, comfort and modern updates come together perfectly. This lovely home features   3 bedrooms, 2.5 baths, and great floorplan showcasing large bay windows that fill the home with natural light and laminate wood flooring throughout. The updated kitchen is designed for both style and functionality, with granite countertops, stainless steel appliances, and ample cabinetry. A formal dining room offers built-in cabinets that add character and convenience. The family room features a cozy brick fireplace and access to a covered patio and a private spacious backyard. The primary bedroom ensuite offers a large walk-in closet, dual sinks in the bathroom, and a wonderful a skylight for natural light. With its inviting layout and tasteful upgrades, this home is ready for its next owner to create lasting memories. Don't miss the chance to make this home your own!",
+    "fetched_at": "2026-09-17T16:23:06.972Z"
+   }
   },
   {
    "listing_id": "mls:5CF4E55D687A",
@@ -12365,7 +12923,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2782-Story-Ave-95340/home/19688940",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 440,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "leased",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": "Public",
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "REDUCED! Turn Key Home. Bring your furniture and move into this beautifully remodeled 3-bedroom 2-bath home located in a highly desirable Merced neighborhood, conveniently close to UC Merced, shopping, dining, and the Bear Creek bike path. Features include newly installed sod in the front yard, tile and wood-laminate flooring, an updated kitchen, and an attached 2-car garage. The home is also equipped with a solar panels buyers to assume solar  agreement. In 2024 sellers had a Brand New HVAC installed including all brand new Ducting throughout home. Step outside to a huge backyard offering endless possibilities\u2014perfect for entertaining, adding a pool, gardening, or creating your own private backyard oasis. Clean, move-in ready, and in a fantastic location\u2014this is one you don\u2019t want to miss! OPEN HOUSE 9/19/26 11AM-1PM.",
+    "fetched_at": "2026-09-17T16:23:11.979Z"
+   }
   },
   {
    "listing_id": "mls:596EB08EDC46",
@@ -12400,7 +12974,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/283-Nadine-St-95341/home/196422459",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Searching for the perfect blend of style and comfort? Give the Grayson a try! Showcasing thoughtful design and modern features, this floor plan centers around an airy great room that leads to a lovely covered patio. Adjacent, you'll find a dining area and a kitchen with wraparound counters. The owner's suite is a serene escape from the day, boasting a walk-in closet and a private bath with dual vanities and a walk-in shower. At the front of the home, two bedrooms-each with a walk-in closet-flank a full bath. Storage space and two linen closets are built in!  * Virtually staged. Furniture shown is for illustration only.",
+    "fetched_at": "2026-09-17T16:23:16.978Z"
+   }
   },
   {
    "listing_id": "mls:MC26156305",
@@ -12488,7 +13078,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/284-Zion-Canyon-Ct-95341/home/176248635",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome home to Stoneridge South! This beautifully maintained residence welcomes you with 4 spacious bedrooms and 2 bathrooms designed for comfortable everyday living. Step outside to a newly built awning that creates the perfect shaded entertaining space, while the backyard is ready for gatherings of all kinds. A dedicated dog run gives your four-legged companions room to roam, and the nicely updated front yard landscape delivers standout curb appeal from the moment you arrive. Conveniently located in the desirable Stoneridge South community with easy access to shopping, dining, schools, and commuter routes, this move-in-ready gem is waiting for you. Don't miss your opportunity\u2014 Awning is original but the backyard furniture is virtually staged.",
+    "fetched_at": "2026-09-17T16:23:21.978Z"
+   }
   },
   {
    "listing_id": "mls:MC26154089",
@@ -12523,7 +13129,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2868-Beachwood-Dr-95348/home/19683986",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": "Public",
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 2868 Beachwood Dr in Merced!    Move right into this beautifully updated home featuring 3 bedrooms, 1 bathroom, and approximately 970 sq. ft. of comfortable living space. From the moment you arrive, you'll appreciate the thoughtful updates, including new interior and exterior paint.    Step inside to a bright and inviting interior featuring stylish laminate flooring and a functional floor plan. The updated kitchen offers granite countertops and stainless steel appliances, creating a welcoming space for everyday living and entertaining.    Enjoy year-round comfort with central heating and air conditioning. Outside, the expansive backyard and oversized lot offer endless possibilitiescreate your own outdoor retreat, add space for entertaining, or explore the potential for an ADU (Accessory Dwelling Unit) for additional living space or future value.    Move-in ready, updated, and full of potential2868 Beachwood Dr is ready to welcome you home!    Some images in this listing have been digitally altered.",
+    "fetched_at": "2026-09-17T16:23:26.981Z"
+   }
   },
   {
    "listing_id": "mls:MC26168066",
@@ -12609,7 +13231,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/289-Travis-Ct-95341/home/192932901",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Searching for the perfect blend of style and comfort? Give the Grayson a try! Showcasing thoughtful design and modern features, this floor plan centers around an airy great room that leads to a lovely covered patio. Adjacent, you'll find a dining area and a kitchen with wraparound counters. The owner's suite is a serene escape from the day, boasting a walk-in closet and a private bath with dual vanities and a walk-in shower. At the front of the home, two bedrooms-each with a walk-in closet-flank a full bath. Storage space and two linen closets are built in!  * Virtually staged. Furniture shown is for illustration only.",
+    "fetched_at": "2026-09-17T16:23:31.986Z"
+   }
   },
   {
    "listing_id": "mls:MC26148713",
@@ -12644,7 +13282,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2894-Elm-Ave-95348/home/19684020",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "A single family home with a 3 bedroom, 1 bath along with a huge lot. New shingles, carpet, and water heater. The house is nice and clean, and move in ready.",
+    "fetched_at": "2026-09-17T16:23:36.985Z"
+   }
   },
   {
    "listing_id": "mls:MC26143205",
@@ -12679,7 +13333,26 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2924-E-South-Bear-Creek-Dr-95340/home/19679214",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "sqft",
+    "garage_sqft": 1,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "workshop",
+     "detached garage"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Set on just under an acre in Merced\u2019s sought-after Bear Creek area, 2924 E South Bear Creek offers the space and privacy of country living without giving up the convenience of being close to town. Built in 2003 and lovingly maintained by its original owner, this 3-bedroom, 2-bath home has a bright, open feel with high ceilings, generous living spaces, and a comfortable flow throughout. The pride of ownership is evident, with a home that has been exceptionally cared for over the years. Outside, a brand-new deck opens to the expansive grounds, creating the perfect setting for quiet mornings, evenings outside, or entertaining with plenty of room around you. A detached garage/shop adds valuable space for vehicles, equipment, hobbies, storage, or a dedicated workspace. Zoned A-1 General Agriculture, the nearly one-acre property offers a level of space and versatility that\u2019s becoming increasingly hard to find in Merced. All of it sits in an established rural setting just minutes from shopping, dining, Merced College, and UC Merced.",
+    "fetched_at": "2026-09-17T16:23:41.975Z"
+   }
   },
   {
    "listing_id": "mls:MC26172497",
@@ -12765,7 +13438,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2972-Tuxford-Ct-95340/home/19703141",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "field",
+    "garage_sqft": 367,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome home, Sitting on a large 10,173 sq. ft. corner lot, this charming 3-bedroom, 2-bathroom home offers 1,365 sq. ft. of comfortable living space. The versatile floor plan features a spacious eat-in kitchen and a separate family room, perfect for relaxing or entertaining. Enjoy year-round comfort with central heating and AC. Additional conveniences include a one-car garage and flexible 110V/220V indoor laundry hookups. Located within the Merced City Elementary School District, this incredible oversized lot offers endless possibilities for outdoor living. Don't miss out! Seller is offering a credit toward closing costs or rate buydown present your offer and lets negotiate terms.",
+    "fetched_at": "2026-09-17T16:23:46.981Z"
+   }
   },
   {
    "listing_id": "mls:MC26178287",
@@ -12851,7 +13540,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/2993-N-Parsons-Ave-95340/home/19702218",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "field",
+    "garage_sqft": 357,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "",
+    "fetched_at": "2026-09-17T16:23:51.980Z"
+   }
   },
   {
    "listing_id": "mls:MC26026481",
@@ -12886,7 +13591,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3-W-Belcher-Ave-95348/home/200354004",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Vacant 1.02-acre lot offering a great opportunity for future development or investment. Buyer to verify zoning, utilities, and intended use.",
+    "fetched_at": "2026-09-17T16:23:56.972Z"
+   }
   },
   {
    "listing_id": "mls:MC26202061",
@@ -12921,7 +13642,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3010-Greenwood-Ct-95340/home/19701025",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 456,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "owned",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "CREAM PUFF ALERT! This North Merced beauty truly has it all. They say a picture is worth a thousand words, and this home proves it! From the moment you enter the cul-de-sac, you\u2019ll notice the pride of ownership throughout the neighborhood. Attractive landscaping and impressive curb appeal create a wonderful first impression\u2014and it only gets better inside. Tastefully updated throughout, the home features quartz countertops, a stylish tile backsplash, stainless steel appliances, an open floor plan, and a custom pantry. Major upgrades include OWNED SOLAR, a NEW HVAC system, and additional blown-in insulation for improved comfort and energy efficiency. Beautifully maintained and thoughtfully upgraded, this is one you won\u2019t want to miss!",
+    "fetched_at": "2026-09-17T16:24:01.978Z"
+   }
   },
   {
    "listing_id": "mls:MC26138437",
@@ -13007,7 +13744,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3056-Bedford-Dr-95340/home/19701345",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 460,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Great North Merced Location! 3 bedrooms 2 bathrooms. Newly remodeled hall bathroom with vanity and tiled floor and shower over tub. Nice and open floor plan. Bright and cheery kitchen, dining room combo with slider to back patio. Vaulted ceiling in family room with a large sliding glass door to the back patio and large back yard for the kids and pets to play.",
+    "fetched_at": "2026-09-17T16:24:06.983Z"
+   }
   },
   {
    "listing_id": "mls:MC26174015",
@@ -13093,7 +13846,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3119-Dinkey-Creek-Ave-95341/home/28560868",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Last lot available in the community. Build your dream home on this exceptional 0.16-acre residential corner lot located in the growing city of Merced. This finished homesite offers approximately 6,971 square feet and is ready for your vision, with utility hookups already stubbed to the property for added convenience. Situated in an established neighborhood with beautiful newer homes, the location provides easy access to parks, schools, shopping, Campus Parkway, and Highway 99making commuting and everyday living a breeze. Whether you're a builder, investor, or future homeowner, this is a fantastic opportunity to secure a ready-to-build lot in one of Merced's expanding communities.",
+    "fetched_at": "2026-09-17T16:24:11.977Z"
+   }
   },
   {
    "listing_id": "mls:MC26189491",
@@ -13128,7 +13897,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3125-N-Parsons-Ave-95340/home/19704375",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 407,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this charming 4-bedroom, 2-bathroom home nestled in an established Merced neighborhood. Offering 1,569 square feet of thoughtfully designed living space, this property is perfect for families seeking comfort and convenience. As you step inside, you'll be greeted by a welcoming entryway that seamlessly flows into separate family and living rooms, providing ample space for relaxation and entertainment. The modern kitchen is a chef's delight, featuring sleek Corian countertops and stainless steel appliances that promise both style and functionality. The primary bedroom boasts a private master bathroom, offering a tranquil retreat at the end of the day. Set on a generous 6,699 square foot lot, the home includes a front yard that adds to its curb appeal. The backyard is perfect for outdoor gatherings, complete with a covered concrete patio and plenty of space for activities. Located near UC Merced, churches, and shopping, this home offers both a peaceful residential feel and access to essential amenities. Don't miss the chance to make this delightful home your own.",
+    "fetched_at": "2026-09-17T16:24:16.981Z"
+   }
   },
   {
    "listing_id": "mls:226076083",
@@ -13214,7 +13999,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3200-Austin-Ave-95348/home/19682187",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 440,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "A beautiful home ready to move in for its new owners! As soon as you walk in, you see an open layout from kitchen to living room. Brand new vinyl plank flooring throughout the whole house. Brand new kitchen counter tops and cabinets. Gas stove included with brand new range hood. Three great sized bedrooms and two full showers will  be perfect for your family. All bathrooms renovated beautifully with marble style panels from top to bottom. Generous sized lot with possible RV access. This home is beautifully staged and waiting to be seen in person.",
+    "fetched_at": "2026-09-17T16:24:21.972Z"
+   }
   },
   {
    "listing_id": "mls:MC26031224",
@@ -13249,7 +14050,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3216-El-Capitan-Ave-95340/home/19704773",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 504,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Looking for a 3-bed single family home in Merced under $350K? This centrally located gem near shopping, dining, and gyms offers the space and flexibility today\u2019s buyers want. With two large living areas, hardwood floors in all bedrooms, and a newly remodeled guest shower, this 1960-built home blends comfort and updates in a prime location. Set on a 7,440 sq ft lot, the home spans 1,446 sq ft of interior living space and features two spacious living rooms\u2014ideal for entertaining, multi-use setups, or added privacy. Original hardwood floors run throughout all bedrooms, adding warmth and timeless charm. A newer roof adds to the home's strong fundamentals. The primary suite includes its own bathroom for added convenience, while the hall bath features a newly updated shower for guests and daily use. The backyard offers generous outdoor space for play, gardening, or future expansion. A two-car garage provides secure parking and storage options. Whether you're investing or settling in, this property offers solid value, location, and flexibility. Located minutes from Merced College, gyms, shopping centers, and local parks. Showings available by appointment.",
+    "fetched_at": "2026-09-17T16:24:26.977Z"
+   }
   },
   {
    "listing_id": "mls:MC26159955",
@@ -13284,7 +14101,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3224-Nashville-Ct-95348/home/19682183",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "prose",
+    "garage_sqft": null,
+    "has_garage": true,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this exceptional duplex in the heart of Conestoga Park, centrally located in Merced. With a total of 5 bedrooms and 4 bathrooms, this property is ideal for investors with both units currently being leased. The spacious 2,287 sq ft layout is divided into two units, each offering privacy and comfort. The first unit features 3 bedrooms and 2 bathrooms, with mostly tile flooring and some laminate for a modern touch. The second unit has 2 bedrooms and 2 bathrooms, showcasing tile floors throughout. Both units boast open kitchens that flow into the living rooms, complete with electric ranges and dishwashers for convenience. The primary bedrooms in each unit include en-suite bathrooms, providing a private retreat. Situated on a generous 6,898 sq ft lot, the property features an easy, low-maintenance front yard. Each unit is equipped with a 2-car garage, perfect for parking or extra storage needs. Step outside to enjoy the private backyards, perfect for entertaining and relaxation. Located near parks, shopping, and dining don't miss the opportunity to own a versatile property in a prime location.",
+    "fetched_at": "2026-09-17T16:24:31.978Z"
+   }
   },
   {
    "listing_id": "mls:MC26168916",
@@ -13319,7 +14152,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/324-W-22nd-St-95340/home/200649590",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "TRIPLEX OPPORTUNITY!  Whether you're looking for an investment or offset your mortgage with rental income, this triplex offers flexibility. The downstairs unit is a generous 2 bed 2 bath home, making it an ideal owner's unit or rental. The upstairs has 2 separate studios. Live in the larger downstairs unit while renting the 2 upstairs apartments or rent all 3 to maximize cash flow. Each unit has its own dedicated parking space.",
+    "fetched_at": "2026-09-17T16:24:36.976Z"
+   }
   },
   {
    "listing_id": "mls:MC26154809",
@@ -13354,7 +14203,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3257-Juneau-Ct-95348/home/19682962",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "field",
+    "garage_sqft": 256,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this move in ready 3 bedroom, 1 bath home tucked away on a quiet neighborhood in North Merced. Step inside to discover a bright, refreshed interior featuring fresh new interior and exterior paint, new laminate flooring throughout, updated light fixtures, new ceiling fans throughout and plush new carpet in the bedrooms. The remodeled kitchen showcases new granite countertops, brand new appliances, and elegant French doors that provide easy access to the backyard. The updated bathroom features a new vanity as well. Outside, new front concrete enhances the home's curb appeal, while the attached garage provides added convenience and storage. The large backyard offers a blank canvas with endless potential to design the outdoor space. Combining modern updates with a fantastic location, this turnkey Merced home is ready for its next owner to move in and make it their own.",
+    "fetched_at": "2026-09-17T16:24:41.975Z"
+   }
   },
   {
    "listing_id": "mls:226063276",
@@ -13389,7 +14254,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/328-E-20th-St-95340/home/19688111",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "This is a charming 2 bedroom, 1 bathroom home. Great for 1st time homebuyers or investors. Huge lot with lots of possibilities.",
+    "fetched_at": "2026-09-17T16:24:46.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26194620",
@@ -13475,7 +14356,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3362-San-Jacinto-Ct-95348/home/19667903",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 420,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Opportunity awaits for buyers seeking value and upside. This property is being sold in original condition with no recent upgrades, offering a blank canvas for renovation or customization. Spacious layout with functional floor plan and solid bones. Ideal for investors, contractors, or owner-occupants looking to build equity through improvements. No HOA. Convenient location near schools, shopping, dining, and commuter access. Sale subject to lender approval.",
+    "fetched_at": "2026-09-17T16:24:51.979Z"
+   }
   },
   {
    "listing_id": "mls:MC26174310",
@@ -13510,7 +14407,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3372-Wawona-Ct-95340/home/19703460",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 460,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this beautifully remodeled 3-bedroom, 2-bath home offering 1,766 square feet of comfortable living space in desirable North Merced on a quiet cul de sac . Conveniently located near shopping, restaurants, parks, and schools, this move-in-ready home combines modern updates with everyday comfort. The spacious kitchen features new quartz countertops, all-new cabinetry, and a new electric range, making it both stylish and functional. Both bathrooms have been tastefully updated with new tile flooring. One bathroom offers a new tub/shower with elegant glass doors, while the second features a walk-in shower with a glass enclosure. Additional upgrades include: new laminate flooring throughout the main living areas, brand-new carpet in all bedrooms, fresh interior paint, new baseboards throughout. With quality upgrades from top to bottom, this home is ready for its new owners to move in and enjoy. Don't miss this wonderful opportunity to own a beautifully  updated home in one of North Merced's most convenient locations great  for investors wanting to expand portfolio or a first time home buyer.",
+    "fetched_at": "2026-09-17T16:24:56.972Z"
+   }
   },
   {
    "listing_id": "mls:MC26165548",
@@ -13596,7 +14509,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/34-Skylark-Ct-95341/home/19647366",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "field",
+    "garage_sqft": 280,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this beautifully updated 3 bedroom, 2 bath home with a potential 4th bedroom or home office, tucked away in a quiet cul-de-sac. Featuring recent modern updates throughout, this home offers a fresh and inviting feel with a functional layout perfect for everyday living. Conveniently located near local schools and just minutes from Highway 99, providing easy access for commuters. Whether you're a first-time homebuyer looking for a place to call home or an investor searching for your next opportunity, this property is a must-see.",
+    "fetched_at": "2026-09-17T16:25:01.973Z"
+   }
   },
   {
    "listing_id": "mls:MC26099037",
@@ -13631,7 +14560,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3411-Baker-Dr-95341/home/19679932",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Rare multi-family investment opportunity with seller-provided plans available to subdivide each property (Message listing agent for plans), allowing each home to be individually owned and sold \u2014 a valuable opportunity that will transfer to the new owner. Situated on just shy of 2.5 acres, this property features six separate units, each with its own address and separately metered utilities, including one 4-bedroom, 1-bath unit, three 3-bedroom, 1-bath units, one 2-bedroom, 1-bath unit, and one 1-bedroom, 1-bath unit. Offering a unique blend of immediate income and future upside, three units are currently occupied by long-term month-to-month tenants, while the remaining three vacant units provide the flexibility to renovate, reposition, or lease at current market rents. This is an opportunity that opens the door to multiple investment strategies \u2014 whether that\u2019s creating long-term rental cash flow, executing a value-add resale plan, or building out a diversified portfolio with exit flexibility already in place. Properties with this level of versatility, land size, and future potential are rarely available.",
+    "fetched_at": "2026-09-17T16:25:06.975Z"
+   }
   },
   {
    "listing_id": "mls:MC26190319",
@@ -13819,7 +14764,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3454-G-St-95340/home/19704553",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Prime development opportunity in North Merced featuring three connected parcels being sold together or individually: 20 E. Donna Dr. , 3454 N. G St. , and 21 S. Melody Ln. Combined, the properties offer approximately 28,000+ square feet of land with strong potential for residential and investment development. The parcels include multifamily zoning characteristics and may present opportunities for multi-unit housing, infill development, or future income-producing projects. The location also offers excellent visibility with potential advertising/signage exposure along G Street corridor. Buyers are encouraged to investigate development possibilities with Merced County/City planning departments. Per seller, California housing legislation including SB9 and SB1123 may provide additional density or development opportunities, including potential for small-lot or multi-unit residential projects; however, buyer to verify all zoning, land use, density, utility access, permitting, and development possibilities independently. Parcel details:?\u2022 20 E. Donna Dr. \u2013 Approx. 7,004 SF multifamily lot?\u2022 3454 N. G St. \u2013 Approx. 7,015 SF multifamily lot?\u2022 21 S. Melody Ln. \u2013 Approx. 14,019 SF lot  Excellent opportunity for builders, investors, or developers looking to capitalize on Merced\u2019s continued growth and housing demand.",
+    "fetched_at": "2026-09-17T16:25:11.984Z"
+   }
   },
   {
    "listing_id": "mls:MC26019215",
@@ -13854,7 +14815,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/350-Bermuda-St-95341/home/28953795",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "3 lots all together, go show.",
+    "fetched_at": "2026-09-17T16:25:16.982Z"
+   }
   },
   {
    "listing_id": "mls:MC26194375",
@@ -13940,7 +14917,26 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3515-E-Yosemite-Ave-95340/home/40050563",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "workshop",
+     "barn"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Great Opportunity for future growth located on the outskirts of Merced near UC Merced and right off Campus Parkway & Yosemite Ave! Total of 50 +/- acres- also included is 2831 Crown Road with +/- 44 Acres of 6th and 7th leaf nonpareil and Monterey almonds. Located in the Merced Irrigation District and part of Merced Irrigation-Urban GSA. There is (1) well that was drilled in 2018 (480' deep, water depth 104') House#1 3515 E Yosemite- +/- 1556 Sq. ft. home 3-bedroom 2 bath.  There is also a shop and hay barn near this home.  House #2- 2831 Crown Road- 3-bedroom 2 bath completely updated in 2020.  There is also a shop and a 210' domestic well (set at 10' and static water at 98') on the property. Groundwater Disclosure Sustainable Groundwater Management Act (SGMA) requires groundwater basins to be sustainable by 2040. SGMA requires a Groundwater Sustainability Plan by 2020, those plans may limit ground water pumping.  Great Opportunity for future development!",
+    "fetched_at": "2026-09-17T16:25:21.985Z"
+   }
   },
   {
    "listing_id": "mls:MC26026650",
@@ -13975,7 +14971,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/355-E-Main-St-95340/home/19687493",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "ADU"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Looking for a 2-bed home in Central Merced under $400K with bonus income potential? This updated single-family home with a permitted JADU offers flexibility, location, and value on a spacious lot near downtown. Located at 355 E Main St in Central Merced, this 2-bedroom, 1-bath main home features newer flooring, fresh interior paint, and a smart, functional layout. The real bonus: a junior ADU (1 bed, 1 bath) added about three years ago. Ideal for multi-gen living, rental income, or hosting long-term guests. The home offers 1,136 sq ft of interior space on a 9,758 sq ft lot, giving you room to grow, garden, or simply enjoy the outdoors. Off-street parking is available via a private driveway. No HOA fees. This Central Merced location is minutes from downtown amenities, restaurants, and Highway 99, making daily life and commuting simple and convenient. Whether you\u2019re a first-time buyer, investor, or need room for extended family, this property delivers versatility at an approachable price. Listed at $390,000, 355 E Main St is move-in ready and packed with value. Call or text today to schedule your showing.",
+    "fetched_at": "2026-09-17T16:25:26.975Z"
+   }
   },
   {
    "listing_id": "mls:MC26051040",
@@ -14010,7 +15024,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3552-Wathen-Ct-95348/home/19668079",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 456,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 3552 Wathen Ct in North Merced, a well located single family home offering space and flexibility in an established neighborhood near Merced College and nearby shopping. Built in 1977, this property features 1,589 square feet of interior living space with three bedrooms and two bathrooms on a 6,180 square foot lot. Inside, the layout includes two separate living rooms that create multiple options for relaxing, entertaining, or setting up a work from home area. The primary bathroom features a dual sink vanity for added convenience, while the overall floor plan provides comfortable everyday living. Additional features include an attached two car garage and a generously sized lot that allows room for outdoor enjoyment, gardening, or future possibilities. The quiet court location adds a sense of privacy while still being conveniently close to shopping, restaurants, and services in North Merced. Location is a key advantage, with Merced College just minutes away along with easy access to local retail centers and daily amenities. The home offers the balance of neighborhood living with convenient proximity to education and shopping. For buyers searching for value, location, and interior space, this 3-bed single family home in North Merced under $400K presents a practical opportunity in one of Merced\u2019s established residential areas.",
+    "fetched_at": "2026-09-17T16:25:31.973Z"
+   }
   },
   {
    "listing_id": "mls:MC26136486",
@@ -14045,7 +15075,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3553-Beals-Ave-95348/home/19668503",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 456,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this charming 3-bedroom, 2-bathroom home located in desirable North Merced! Offering a comfortable and functional floor plan, this well-maintained property is perfect for families, first-time buyers, or investors. Enjoy spacious living areas, generously sized bedrooms, and plenty of natural light throughout. Conveniently situated just minutes from Merced College (MJC), shopping centers, popular restaurants, parks, and everyday amenities. This home provides the perfect balance of comfort and convenience. Whether you're commuting, attending school, or simply enjoying all that North Merced has to offer, you'll appreciate the prime location. Don't miss this opportunity to own a wonderful home in one of Merced's most sought-after neighborhoods!",
+    "fetched_at": "2026-09-17T16:25:36.975Z"
+   }
   },
   {
    "listing_id": "mls:FR26143684",
@@ -14080,7 +15126,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3583-Sarasota-Ave-95348/home/19652932",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "sqft",
+    "garage_sqft": 475,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Don't miss this fantastic opportunity! Conveniently located near Hwy 59, within the Merced Irrigation District(NOT PG & E), close to shopping at Buena Vista strip mall, a spacious park with walking paths, and just minutes from UC Merced. This well-designed home features a large tiled entry that opens to a spacious great room, dining area, and a functional kitchen with a tiled breakfast bar, tile countertops, dishwasher, and space-saving over-the-range microwave. A sliding glass door leads to the backyard with a patio and sprinkler system in both the front and rear yards. The private primary suite is thoughtfully situated on the opposite side of the home from the secondary bedrooms, providing added privacy and comfort. Ideally located near several new residential and commercial developments, offering excellent long-term growth and appreciation potential.",
+    "fetched_at": "2026-09-17T16:25:41.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26201253",
@@ -14115,7 +15177,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/360-E-19th-St-95340/home/19688124",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 360,
+    "has_garage": true,
+    "parking": "Detached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "detached garage"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Charming 19th Street Home Near Downtown Merced! Welcome to this inviting 2-bedroom, 1-bath home conveniently located just minutes from Downtown Merced. Enjoy the neighborhood from the quaint front porch, or step inside to find wood flooring throughout and a welcoming formal dining room. The kitchen features a tile backsplash, while the indoor laundry room offers added convenience with ample cabinet storage. A detached garage provides additional parking or storage options. The spacious backyard includes alley access and offers plenty of room to enjoy or explore its potential. Possible ADU opportunitybuyer to verify with the appropriate city/county agencies. A great opportunity in a convenient central Merced location!",
+    "fetched_at": "2026-09-17T16:25:46.983Z"
+   }
   },
   {
    "listing_id": "mls:MC26179423",
@@ -14150,7 +15230,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/362-Rhianon-Dr-95341/home/28951403",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Built in 2019 and barely lived in, this beautifully maintained 3-bedroom, 2-bath home offers the feel of a newer home without the wait. Fresh new luxury vinyl plank flooring adds a clean, updated look throughout, while the thoughtfully designed floor plan provides comfortable spaces for both everyday living and entertaining.  The low-maintenance front and backyard have been upgraded with new artificial turf, creating attractive outdoor spaces that stay green year-round with minimal upkeep. The newer construction offers modern styling and conveniences, making this home truly move-in ready.  Situated in a newer Southeast Merced community, the home offers convenient access to nearby schools, shopping, and Highway 99. The Campus Parkway bypass is just minutes away, providing an easy route across town and out to UC Merced. With its barely lived-in condition, recent upgrades, and convenient location, this home is a great opportunity for buyers looking for newer construction at an attractive value.",
+    "fetched_at": "2026-09-17T16:25:51.972Z"
+   }
   },
   {
    "listing_id": "mls:226000354",
@@ -14185,7 +15281,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3622-N-State-Highway-59-95348/home/28947260",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": true,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "Approved multifamily development opportunity in the City of Merced. The property features entitled plans for 18 buildings totaling 132 apartment units, along with a dedicated communal facility. The project is designed with modern layouts, efficient floor plans, and private balconies, offering a high-quality residential experience. The site is zoned Planned Development (PD #46) with a General Plan designation of High-Medium Density, supporting strong multifamily potential. Planned amenities include a fitness center, swimming pool, and clubhouse, enhancing long-term tenant appeal. Ideally located in North Merced, with close proximity to UC Merced, major transportation corridors, dining, and retail. A rare, shovel-ready investment opportunity in a rapidly growing market with strong rental demand.",
+    "fetched_at": "2026-09-17T16:25:56.979Z"
+   }
   },
   {
    "listing_id": "mls:MC26123261",
@@ -14271,7 +15383,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/365-E-Main-St-95340/home/19687494",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 400,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "detached garage"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Charming move in ready home with all the updates! Upon arrival the curb appeal and welcoming front porch will draw you in. As you enter the great room has plenty of natural light, new LVP flooring and new fixtures. The well appointed kitchen showcases new shaker style cabinetry, quartz counters and stylish subway tile backsplash. There's 3 bedrooms 1.75 baths, new dual pane windows, roof and so much more. This home is equipped with an indoor laundry room which adds to the amenities this home has to offer. Out back you have a large yard, perfect for friends and family to gather. All of this and a detached 2 car garage. If you're looking for move in ready and updates, this is it! Make your appointment today.",
+    "fetched_at": "2026-09-17T16:26:01.980Z"
+   }
   },
   {
    "listing_id": "mls:MC26189146",
@@ -14306,7 +15436,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3675-Quail-Ave-95340/home/19679473",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "prose",
+    "garage_sqft": 440,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "shed"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this stunning North Merced home offering 3 bedrooms, 2 bathrooms, and 1,772 square feet of comfortable living space. (Possibilities: a 4th bedroom or office. ) The spacious floor plan features a living room and separate dining area with laminate flooring. The kitchen offers granite countertops, breakfast bar, bay window, and newer stainless-steel appliances, including a 5-burner gas range. The primary suite features direct backyard access, a walk-in closet, and a bathroom with dual vanities and a large shower. Both bathrooms feature granite countertops. Additional features include dual-pane windows, tile roof, ceiling fans, newer water heater, finished 2-car garage, and a spacious laundry room with ample storage. The landscaped backyard offers a patio and storage shed for outdoor enjoyment and additional storage. Conveniently located near shopping, restaurants, healthcare, Merced College, UC Merced, Lake Yosemite, and more. No Mello-Roos, CFD, or HOA. Move-in ready , and move-in ready! This North Merced home offers comfort, convenience, and functionality. Make it yours today!",
+    "fetched_at": "2026-09-17T16:26:06.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26141078",
@@ -14341,7 +15489,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/3726-Crane-Ave-95348/home/19656269",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "sqft",
+    "garage_sqft": 384,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to 3726 Crane Ave. , Merced!   This move-in ready 4-bedroom, 2-bath home is located in a desirable neighborhood and has been updated throughout with new carpet, fresh interior paint, new window blinds, and a new microwave. Conveniently located near, park, shopping, medical facilities, schools, Merced College, and UC Merced, this home offers both comfort and convenience. Don't miss your opportunity to make this beautifully refreshed home your own!",
+    "fetched_at": "2026-09-17T16:26:11.982Z"
+   }
   },
   {
    "listing_id": "mls:MC26141821",
@@ -14427,7 +15591,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/379-Edan-Ct-95341/home/19663940",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "sqft",
+    "garage_sqft": 476,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Welcome to this beautifully remodel 3-bedroom, 2-bathroom home offering 1,511 sq. ft. of comfortable living space on a spacious lot! This charming Merced property blends comfort, style, and functionality with thoughtful updates throughout, making it a wonderful opportunity for homeowners looking for a move-in-ready property.    Inside, you'll find a recently remodeled kitchen designed to provide a fresh and inviting space for cooking, entertaining, and everyday living.    The generous lot provides plenty of outdoor space to enjoy, with a covered patio and a beautifully landscaped grounds and mature palm trees adding character and curb appeal. Whether you're relaxing outdoors, entertaining guests, or enjoying time with family, the backyard offers plenty of room to make it your own.    One of the standout features of this property is the additional room located in the backyard. Complete with its own air-conditioning unit, this versatile space offers endless possibilities.       Conveniently located in Merced, this property is ready for its new owners to move in and make it their own. Don't miss the opportunity to see all that this home has to offer. Schedule your showing today and come discover the possibilities!",
+    "fetched_at": "2026-09-17T16:26:16.973Z"
+   }
   },
   {
    "listing_id": "mls:MC26184740",
@@ -14666,7 +15846,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/394-Bermuda-St-95341/home/19666930",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Attention Builders  &  Investors! Here's the opportunity you've been waiting for! This 9,000+ sq. ft. lot, located at 394 S. Bermuda St. , Merced, CA, offers outstanding potential for your next project. A 1,145 sq. ft. home previously occupied the property but was lost to a fire. Prior to the fire, the structure had been viewed by previous investors as a tear-down, with the property's primary value being in the land itself. The property formerly had a septic system, well, and electrical service, which may provide added value for future development. An added benefit is the property's dual-zoning potential (buyer to verify), offering the possibility of building two homes or exploring other development opportunities. Buyers are encouraged to contact the appropriate City and County agencies to verify zoning, permitted uses, utility availability, development potential, and current building requirements. Whether you're looking to build a custom home, develop multiple residences, or invest in land with future upside, this is an opportunity you won't want to miss!",
+    "fetched_at": "2026-09-17T16:26:21.981Z"
+   }
   },
   {
    "listing_id": "mls:MC26201117",
@@ -14854,7 +16050,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/409-W-25th-St-95340/home/19692138",
-   "details": null
+   "details": {
+    "garage_spaces": 1,
+    "garage_source": "field",
+    "garage_sqft": 324,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "?Welcome to 409 W 25th St. This 2-bedroom, 1-bathroom single-family home offers nearly 1,000 square feet of living space and is ready for someone with a vision. It presents an excellent opportunity for buyers or investors looking to put their personal touch on a home. The layout features a spacious living room, two well-sized bedrooms, and a functional kitchen, all with the potential to be transformed into a cozy and modern space. The home sits on a nice lot offering a private backyard and plenty of potential for outdoor enjoyment. Whether you're looking for a renovation project or a starter home to customize over time, this property has solid bones and is priced to reflect its current condition. With the right updates, this home could truly shine. Conveniently located in a desirable neighborhood, you'll enjoy easy access to local shopping, schools, dining and parks. Bring your creativity and take advantage of this opportunity to create your dream home!",
+    "fetched_at": "2026-09-17T16:26:26.981Z"
+   }
   },
   {
    "listing_id": "mls:226089687",
@@ -14940,7 +16152,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/4101-Adobe-Ct-95348/home/186321150",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "The Jay at Crest View offers a balanced two-story layout. The main level showcases a unified dining and great room, seamlessly blending into a contemporary kitchen featuring a walk-in pantry and central island. Also on the main level, a powder room offers convenience for guests. Upstairs, discover a spacious owner's suite featuring an en-suite bathroom with dual-sink vanity and a walk-in closet. Accompanying this are two secondary bedrooms, which share a full bathroom, and a dedicated full laundry room. This thoughtfully designed plan ensures both comfort and elegance in every corner. Home Highlights: Upgraded white cabinets Upgraded quartz countertops Chrome hardware and fixtures Hard surface flooring at main living area Blinds included Century Home Connect\u00ae smart home ecosystem Spacious owner's suite Lots of storage space East facing on a 5,779 sq. ft. lot No HOA! Tesla Power Wall Corner Lot",
+    "fetched_at": "2026-09-17T16:26:31.977Z"
+   }
   },
   {
    "listing_id": "mls:226094076",
@@ -14975,7 +16203,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/4108-Adobe-Ct-95348/home/186321177",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "The Jay at Crest View offers a balanced two-story layout. The main level showcases a unified dining and great room, seamlessly blending into a contemporary kitchen featuring a walk-in pantry and central island. Also on the main level, a powder room offers convenience for guests.         Upstairs, discover a spacious owner's suite featuring an en-suite bathroom with dual-sink vanity and a walk-in closet. Accompanying this are two secondary bedrooms, which share a full bathroom, and a dedicated full laundry room. This thoughtfully designed plan ensures both comfort and elegance in every corner.",
+    "fetched_at": "2026-09-17T16:26:36.982Z"
+   }
   },
   {
    "listing_id": "mls:MC26163326",
@@ -15163,7 +16407,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/413-El-Portal-Ct-95348/home/19667718",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 480,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "North Merced Turnkey Home! This beautifully refreshed 4-bedroom, 2-bathroom home is move-in ready and offers comfort, style, and convenience. The inviting living room includes a cozy fireplace and ceiling fan, creating the perfect space to relax or entertain. The modern kitchen features quartz countertops, a matching quartz backsplash, and a ceiling fan in the dining area. All four bedrooms are carpeted and equipped with ceiling fans for added comfort. The hallway bathroom features a shower-over-tub, while the primary suite offers a private shower stall. The attached garage includes built-in cabinets for additional storage. Outside, the large side gate provides possible RV or boat parking, offering extra flexibility for your recreational vehicles or trailers. Ideally located in North Merced, this home is just minutes from Merced College, UC Merced, Mercy Medical Center, professional offices, shopping, restaurants, parks, and schools. Don't miss this opportunity to own a beautifully updated home in a desirable locationschedule your private showing today!",
+    "fetched_at": "2026-09-17T16:26:41.974Z"
+   }
   },
   {
    "listing_id": "mls:ML82035268",
@@ -15302,7 +16562,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/4195-N-State-Highway-59-95348/home/19684726",
-   "details": null
+   "details": {
+    "garage_spaces": null,
+    "garage_source": null,
+    "garage_sqft": null,
+    "has_garage": false,
+    "parking": null,
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "workshop"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "\u2014",
+    "hoa": null,
+    "remarks": "**A rare opportunity to build your country dream on a one-of-a-kind homesite in one of Merced's established rural neighborhoods.** Once the site of a cherished family home where a pony grazed and memories were made, this approximately one-acre parcel is ready for its next chapter. Imagine designing the modern farmhouse you've always envisioned, adding a spacious shop, creating gardens, enjoying wide-open skies, or simply having room to live the way you want, all while being just minutes from downtown Merced, UC Merced, Mercy Medical Center, Highway 99, shopping, dining, and everyday conveniences. Unlike many vacant parcels, this homesite offers something that's difficult to recreate: a history of home, an established setting, and the opportunity to build without sacrificing location. Surrounded by attractive country properties, it provides the peaceful feeling of rural living with the convenience of city amenities nearby. As Merced continues to grow, buildable homesites in established country locations are becoming increasingly limited. Whether you're ready to build now or planning for the future, this property offers the chance to create something uniquely your own. Bring your vision and write the next chapter of this special property.",
+    "fetched_at": "2026-09-17T16:26:46.974Z"
+   }
   },
   {
    "listing_id": "mls:MC26123889",
@@ -15388,7 +16666,25 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/420-W-19th-St-95340/home/19690991",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "field",
+    "garage_sqft": 1,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [
+     "detached garage"
+    ],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "1",
+    "hoa": null,
+    "remarks": "Central Merced Home with Character & Commercial Potential! Featuring 2 bedrooms, 1.5 baths, and plenty of opportunity to make it your own, this home offers classic charm in a convenient Merced location. Commercially zoned, the property provides added flexibility and potential for a variety of uses, making it an appealing opportunity for both homeowners and investors. Inside, laminate flooring flows throughout the hallways, living room, bedrooms, and kitchen. The spacious living room features a fireplace, while the kitchen offers plenty of cabinet storage. The bathroom includes a tub, tiled flooring, and a window, and the inside laundry room adds everyday convenience. A sunroom provides additional flexible space with potential for personalization. Outside, enjoy a large open backyard and a front yard framed by mature palm trees, creating a distinctive setting. The detached 4-car garage with alley access offers abundant parking, storage, or workspace. Conveniently located near Downtown Merced, shopping, dining, schools, and everyday amenities, this property offers a unique combination of character, space, location, and commercial potential.",
+    "fetched_at": "2026-09-17T16:26:51.976Z"
+   }
   },
   {
    "listing_id": "mls:MC26140315",
@@ -15423,7 +16719,23 @@
     ]
    ],
    "url": "https://www.redfin.com/CA/Merced/4208-Berryesa-Ave-95348/home/19651904",
-   "details": null
+   "details": {
+    "garage_spaces": 2,
+    "garage_source": "prose",
+    "garage_sqft": 398,
+    "has_garage": true,
+    "parking": "Attached Garage",
+    "solar": "none",
+    "pool": null,
+    "outbuildings": [],
+    "adu": null,
+    "sewer": null,
+    "water": null,
+    "stories": "2",
+    "hoa": null,
+    "remarks": "Welcome to North Merced's desirable Bellevue Ranch West Village, where comfort meets effortless living. This thoughtfully crafted 3-bedroom, 2.5-bath home with a 2-car garage welcomes you with an eye-catching stone entry and a charming foyer that sets the tone for what's inside. The flowing floor plan creates an ideal space for gathering, whether you're hosting guests or enjoying a quiet evening at home. At the heart of the home, the kitchen shines with an abundance of cabinetry, an impressive center island, and ample counter space designed for everything from meal prep to casual conversations. A separate laundry room and plentiful storage make everyday living both practical and organized. The spacious primary suite offers a relaxing escape, featuring a walk-in closet, dual vanities, a private water closet, and a deep soaking tub perfect for unwinding at the end of the day. Outside, the backyard provides a welcoming setting with mature shade trees and an open patioideal for weekend barbecues, outdoor dining, or simply enjoying the fresh air. Minutes away from shopping, restaurants, hospital, prestigious UC Merced, Lake, Yosemite, Merced Junior college, the Merced mall, parks, trails and more. What are you waiting for?! Schedule your private showing today!",
+    "fetched_at": "2026-09-17T16:26:56.978Z"
+   }
   },
   {
    "listing_id": "mls:MC26158999",
