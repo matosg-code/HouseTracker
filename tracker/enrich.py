@@ -251,6 +251,15 @@ def todo(config: dict, only_defaults: bool = False) -> list[dict]:
     return items
 
 
+GOOGLE_KEY = re.compile(r"AIza[0-9A-Za-z_\-]{35}")
+
+
+def scrub(text: str) -> str:
+    """Redfin embeds its own Google Maps API key in map image URLs. Not ours,
+    not secret, but it trips GitHub's secret scanner on a public repo."""
+    return GOOGLE_KEY.sub("REDACTED", text)
+
+
 def ingest(records: list[dict]) -> tuple[int, list[str]]:
     """Write one raw file per record. Returns (saved, rejected reasons)."""
     DETAILS_DIR.mkdir(parents=True, exist_ok=True)
@@ -270,7 +279,7 @@ def ingest(records: list[dict]) -> tuple[int, list[str]]:
             "raw": body["raw"],
         }
         with open(DETAILS_DIR / f"{pid}.json", "w", encoding="utf-8") as f:
-            json.dump(record, f, ensure_ascii=False, separators=(",", ":"))
+            f.write(scrub(json.dumps(record, ensure_ascii=False, separators=(",", ":"))))
         saved += 1
     return saved, rejected
 

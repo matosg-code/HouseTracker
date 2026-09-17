@@ -89,6 +89,14 @@ def test_ingest_and_load(tmp_path, monkeypatch):
     assert parsed["mls:1"]["solar"] == "owned" and parsed["mls:1"]["garage_spaces"] == 3
 
 
+def test_ingest_scrubs_google_maps_keys(tmp_path, monkeypatch):
+    monkeypatch.setattr(enrich, "DETAILS_DIR", tmp_path)
+    key = "AIza" + "x" * 35
+    enrich.ingest([{"listing_id": "mls:9", "property_id": "999", "raw": {"propertyParcelInfo": {"payload": {"staticMapUrl": f"https://maps.google.com/x?key={key}"}}}}])
+    text = (tmp_path / "999.json").read_text(encoding="utf-8")
+    assert key not in text and "key=REDACTED" in text
+
+
 def test_todo_skips_done_and_filters_defaults(tmp_path, monkeypatch):
     monkeypatch.setattr(enrich, "DETAILS_DIR", tmp_path)
     (tmp_path / "222.json").write_text("{}")
