@@ -124,6 +124,15 @@ def test_last_cut_date():
     assert by_id(metrics.build_summary(rows_from(CSV)))["C"]["last_cut_date"] is None
 
 
+def test_details_attached_by_listing_id():
+    details = {"A": {"garage_spaces": 3, "solar": "owned", "pool": True, "outbuildings": ["workshop"], "remarks": "Nice.", "fetched_at": "2026-09-17T00:00:00+00:00"}}
+    s = metrics.build_summary(rows_from(CSV), details)
+    a = by_id(s)["A"]
+    assert a["details"]["garage_spaces"] == 3 and a["details"]["solar"] == "owned"
+    assert by_id(s)["B"]["details"] is None
+    assert s["enriched_count"] == 1
+
+
 def test_empty_input():
     summary = metrics.build_summary([])
     assert summary["listings"] == []

@@ -60,9 +60,38 @@ service-area polygons stored in `data/utility_areas.geojson` (refresh with
 District's electric boundary, where MID *can* serve; many homes there are
 still PG&E customers, and the actual provider per address is not public.
 
-Not available from any free source, and not in the dashboard: solar, garage
-count, outbuildings. They only appear in listing description text, and
-Redfin's detail pages block scripted access after a handful of requests.
+## Listing details (solar, garage, outbuildings, description)
+
+These only exist on the listing's detail page, which Redfin blocks for
+scripts. They are collected **once per listing** from a real Chrome session
+and stored raw in `data/details/<property_id>.json` (every endpoint Redfin
+returns, untouched, so new fields can be parsed later without revisiting).
+`tracker/enrich.py` parses them into garage spaces, solar (owned / leased /
+mentioned / none), pool, ADU, outbuildings (workshop, shed, barn, guest
+house, RV parking...), sewer, water and the description; `metrics.py` attaches
+that to each listing and the dashboard shows it as tags plus a fold-out
+description. Listings without a detail file show "details pending".
+
+To enrich new listings:
+
+```bash
+python -m tracker.enrich todo --set defaults   # or --set all; prints JSON list
+```
+
+Open any www.redfin.com page in Chrome, paste `tools/redfin_details.js` into
+the DevTools console, then `window.__enrichStart(<that list>)`. Poll
+`window.__enrichStatus()`; when `running` is false, click on the page and run
+`window.__enrichFlush()` to copy the batch to the clipboard, then:
+
+```bash
+python -m tracker.enrich ingest --clipboard
+python -m tracker.metrics
+```
+
+Browsers refuse to let a redfin.com page talk to localhost, which is why the
+clipboard is the hand-off. About 15 seconds per listing; batches of ~40 work.
+`python -m tracker.enrich status` shows coverage. Garage counts marked "~"
+are estimated from garage square footage when the MLS gives no count.
 
 ## Request budget
 

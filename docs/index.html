@@ -168,6 +168,13 @@
   .tag.stale { background: var(--surface-2); color: var(--ink-2); }
   .tag.gone { background: var(--surface-2); color: var(--muted); }
   .tag.power { background: transparent; border: 1px solid var(--hairline); color: var(--ink-2); font-weight: 500; cursor: help; }
+  .tag.feat { background: var(--surface-2); color: var(--ink); }
+  .tag.feat.warnish { color: var(--warn); }
+  .tag.unk { background: transparent; border: 1px dashed var(--hairline); color: var(--muted); font-weight: 500; }
+  .remarks { font-size: 12.5px; color: var(--ink-2); }
+  .remarks summary { cursor: pointer; color: var(--accent); font-weight: 500; list-style: none; }
+  .remarks summary::before { content: "▸ "; } .remarks[open] summary::before { content: "▾ "; }
+  .remarks p { margin: 6px 0 0; line-height: 1.5; }
   .tags { display: flex; gap: 5px; flex-wrap: wrap; }
 
   /* Table */
@@ -211,6 +218,10 @@
     <button type="button" class="chip" data-chip="relist" aria-pressed="false">Relisted <span class="n"></span></button>
     <button type="button" class="chip" data-chip="sfr" aria-pressed="false">Single family</button>
     <button type="button" class="chip" data-chip="pge" aria-pressed="false" title="Outside Merced Irrigation District's electric territory">PG&amp;E only <span class="n"></span></button>
+    <button type="button" class="chip" data-chip="solar" aria-pressed="false" title="Listing mentions solar">☀ Solar <span class="n"></span></button>
+    <button type="button" class="chip" data-chip="garage3" aria-pressed="false" title="3 or more garage spaces">3+ car <span class="n"></span></button>
+    <button type="button" class="chip" data-chip="outb" aria-pressed="false" title="Shop, shed, barn, guest house, ADU, RV parking">Outbuilding <span class="n"></span></button>
+    <button type="button" class="chip" data-chip="pool" aria-pressed="false">Pool <span class="n"></span></button>
     <button type="button" class="chip" data-chip="gone" aria-pressed="false">Off market <span class="n"></span></button>
     <span class="spacer"></span>
     <button type="button" class="ghost" id="more-toggle">More filters</button>
@@ -225,6 +236,7 @@
       <option value="age:asc">Newest build</option>
       <option value="age:desc">Oldest build</option>
       <option value="price_cut_total:desc">Biggest cut</option>
+      <option value="garage:desc">Biggest garage</option>
     </select>
     <div class="seg" id="view">
       <button type="button" data-view="cards" aria-pressed="true">Cards</button>
@@ -242,6 +254,8 @@
     <label>Built after <input name="minYear" type="number" min="1800" step="1" placeholder="any"></label>
     <label>Max age (yrs) <input name="maxAge" type="number" min="0" step="1" placeholder="any"></label>
     <label>Power <select name="utility"><option value="">Any</option><option value="PG&amp;E">PG&amp;E</option><option value="MID">MID territory</option></select></label>
+    <label>Min garage <input name="minGarage" type="number" min="0" step="1" placeholder="any"></label>
+    <label>Solar <select name="solar"><option value="">Any</option><option value="owned">Owned</option><option value="leased">Leased</option><option value="mentioned">Mentioned</option><option value="none">None mentioned</option></select></label>
     <label>Type <select name="type"><option value="">All</option></select></label>
     <label>Zip <select name="zip"><option value="">All</option></select></label>
     <button type="button" class="ghost" id="reset-btn" title="Back to 3 bd, 2 ba, 1,800+ sqft, single family">Reset to defaults</button>
@@ -276,6 +290,9 @@
         <th data-key="year_built" class="num">Built</th>
         <th data-key="age" class="num">Age</th>
         <th data-key="utility">Power</th>
+        <th data-key="garage" class="num">Gar</th>
+        <th data-key="solarLabel">Solar</th>
+        <th data-key="extras">Extras</th>
         <th data-key="days_on_market" class="num">DOM</th>
         <th data-key="list_date">Listed</th>
         <th data-key="property_type">Type</th>
@@ -319,10 +336,17 @@
   }
   const L = summary.listings || [];
   const latest = summary.latest_snapshot;
+  // Flatten enrichment details onto the listing for sorting and filtering.
+  for (const l of L) {
+    const d = l.details;
+    l.garage = d ? d.garage_spaces : null;
+    l.solarLabel = d ? (d.solar === "none" ? "" : d.solar) : null;
+    l.extras = d ? [...(d.outbuildings || []), ...(d.pool ? ["pool"] : []), ...(d.adu ? ["ADU"] : [])].join(", ") : null;
+  }
   const PAGE = 60;
 
   $("#meta").innerHTML = latest
-    ? `Snapshot <strong>${fmtDate(latest)}</strong> · <strong>${summary.active_count}</strong> active homes<br>${summary.snapshot_count} day${summary.snapshot_count === 1 ? "" : "s"} of history since ${fmtDate(summary.first_snapshot)} · updates daily 6am`
+    ? `Snapshot <strong>${fmtDate(latest)}</strong> · <strong>${summary.active_count}</strong> active homes · <strong>${summary.enriched_count || 0}</strong> with full details<br>${summary.snapshot_count} day${summary.snapshot_count === 1 ? "" : "s"} of history since ${fmtDate(summary.first_snapshot)} · updates daily 6am`
     : "No snapshots yet.";
 
   // Populate selects
@@ -371,6 +395,8 @@
     const minLot = Math.max(numv(f.minLot) ?? 0, mine ? MY_SEARCH.minLot : 0) || null;
     const minPrice = numv(f.minPrice), maxPrice = numv(f.maxPrice), minBeds = numv(f.minBeds), minBaths = numv(f.minBaths), minYear = numv(f.minYear), maxAge = numv(f.maxAge);
     const type = f.type.value, zip = f.zip.value, util = c.has("pge") ? "PG&E" : f.utility.value;
+    const minGarage = Math.max(numv(f.minGarage) ?? 0, c.has("garage3") ? 3 : 0) || null;
+    const solar = f.solar.value;
     return (l) =>
       (c.has("gone") ? !l.active : l.active) &&
       (!state.city || l.city === state.city) &&
@@ -388,6 +414,11 @@
       (minYear == null || (l.year_built ?? -1) >= minYear) &&
       (maxAge == null || (l.age ?? Infinity) <= maxAge) &&
       (!util || l.utility === util) &&
+      (minGarage == null || (l.garage ?? -1) >= minGarage) &&
+      (!solar || (l.details && l.details.solar === solar)) &&
+      (!c.has("solar") || (l.details && l.details.solar !== "none")) &&
+      (!c.has("outb") || (l.details && l.details.outbuildings.length > 0)) &&
+      (!c.has("pool") || (l.details && l.details.pool === true)) &&
       (!type || l.property_type === type) &&
       (!zip || l.zip === zip);
   }
@@ -517,6 +548,23 @@
     if (l.utility) t.push(`<span class="tag power" title="${l.utility === "MID" ? "Inside Merced Irrigation District's electric territory; the meter may still be PG&E" : "Outside MID territory, PG&E serves here"}">⚡ ${l.utility === "MID" ? "MID territory" : l.utility}</span>`);
     return t.length ? `<div class="tags">${t.join("")}</div>` : "";
   }
+  function detailTags(l) {
+    const d = l.details;
+    if (!d) return `<div class="tags"><span class="tag unk" title="Listing page not yet read">details pending</span></div>`;
+    const t = [];
+    if (d.garage_spaces != null) t.push(`<span class="tag feat" title="${d.garage_source === "sqft" ? `estimated from ${d.garage_sqft} sqft garage` : d.garage_source === "prose" ? "from the listing description" : "from MLS fields"}">🚗 ${d.garage_source === "sqft" ? "~" : ""}${d.garage_spaces}-car</span>`);
+    else if (d.has_garage === false) t.push(`<span class="tag unk">no garage</span>`);
+    if (d.solar !== "none") t.push(`<span class="tag feat ${d.solar === "leased" ? "warnish" : ""}">☀ solar${d.solar === "mentioned" ? "" : " " + d.solar}</span>`);
+    if (d.pool) t.push(`<span class="tag feat">pool</span>`);
+    if (d.adu) t.push(`<span class="tag feat">ADU</span>`);
+    for (const o of d.outbuildings || []) t.push(`<span class="tag feat">${esc(o)}</span>`);
+    return t.length ? `<div class="tags">${t.join("")}</div>` : `<div class="tags"><span class="tag unk">nothing extra listed</span></div>`;
+  }
+  function remarksBlock(l) {
+    const r = l.details && l.details.remarks;
+    if (!r) return "";
+    return `<details class="remarks"><summary>Description</summary><p>${esc(r)}</p></details>`;
+  }
   const built = (l) => l.year_built ? `built ${l.year_built}${l.age != null ? ` · ${l.age} yrs` : ""}` : "";
   function card(l) {
     const was = l.original_price != null && l.original_price !== l.price ? `<span class="was">${money(l.original_price)}</span>` : "";
@@ -532,6 +580,8 @@
         <span><b>${num(l.lot_sqft)}</b><small>lot</small></span>
       </div>
       ${tags(l)}
+      ${detailTags(l)}
+      ${remarksBlock(l)}
       <div class="foot"><span>Listed ${fmtDate(l.list_date)} · <b>${l.days_on_market}</b> days</span>${spark(l)}</div>
     </article>`;
   }
@@ -548,6 +598,9 @@
       <td class="num">${l.year_built ?? ""}</td>
       <td class="num">${l.age ?? ""}</td>
       <td>${l.utility ? (l.utility === "MID" ? "MID terr." : esc(l.utility)) : ""}</td>
+      <td class="num">${l.garage ?? (l.details ? "" : "?")}</td>
+      <td>${l.solarLabel ?? "?"}</td>
+      <td title="${esc(l.extras ?? "")}">${l.extras == null ? "?" : esc(l.extras)}</td>
       <td class="num">${l.days_on_market}</td>
       <td>${fmtDate(l.list_date)}</td>
       <td>${esc(l.property_type)}</td>
@@ -574,6 +627,10 @@
     set("stale", base.filter((l) => l.days_on_market >= 60).length);
     set("relist", base.filter((l) => l.relisted).length);
     set("pge", base.filter((l) => l.utility === "PG&E").length);
+    set("solar", base.filter((l) => l.details && l.details.solar !== "none").length);
+    set("garage3", base.filter((l) => (l.garage ?? 0) >= 3).length);
+    set("outb", base.filter((l) => l.details && l.details.outbuildings.length).length);
+    set("pool", base.filter((l) => l.details && l.details.pool === true).length);
     set("gone", L.filter((l) => !l.active && (!state.city || l.city === state.city)).length);
   }
 
@@ -644,10 +701,11 @@
   $$("th").forEach((th) => th.addEventListener("click", () => {
     const key = th.dataset.key;
     const [sk, sd] = state.sort.split(":");
-    state.sort = `${key}:${sk === key && sd === "desc" ? "asc" : sk === key ? "desc" : (["address", "city", "property_type", "utility", "age"].includes(key) ? "asc" : "desc")}`;
+    state.sort = `${key}:${sk === key && sd === "desc" ? "asc" : sk === key ? "desc" : (["address", "city", "property_type", "utility", "age", "solarLabel", "extras"].includes(key) ? "asc" : "desc")}`;
     render();
   }));
 
+  window.addEventListener("hashchange", () => { state.chips.clear(); readHash(); render(); });
   readHash();
   const nonDefault = [...form.elements].some((el) => el.name && el.value && String(DEFAULT_FILTERS[el.name] ?? "") !== el.value);
   if (nonDefault) form.classList.add("open");

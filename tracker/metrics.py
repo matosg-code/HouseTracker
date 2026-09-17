@@ -12,7 +12,7 @@ from collections import defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from tracker import utility
+from tracker import enrich, utility
 from tracker.collect import DEFAULT_CONFIG, load_config, read_rows
 
 log = logging.getLogger("tracker.metrics")
@@ -31,7 +31,11 @@ def to_number(value):
     return int(f) if f.is_integer() else f
 
 
-def summarize_listing(rows: list[dict], latest_snapshot: date) -> dict:
+DETAIL_FIELDS = ["garage_spaces", "garage_source", "garage_sqft", "has_garage", "parking", "solar", "pool", "outbuildings", "adu",
+                 "sewer", "water", "stories", "hoa", "remarks", "fetched_at"]
+
+
+def summarize_listing(rows: list[dict], latest_snapshot: date, details: dict | None = None) -> dict:
     rows = sorted(rows, key=lambda r: r["snapshot_date"])
     first, last = rows[0], rows[-1]
     first_seen = date.fromisoformat(first["snapshot_date"])
@@ -102,6 +106,7 @@ def summarize_listing(rows: list[dict], latest_snapshot: date) -> dict:
         "relisted": relisted,
         "price_history": price_history,
         "url": last["url"],
+        "details": {k: details.get(k) for k in DETAIL_FIELDS} if details else None,
     }
 
 
@@ -149,19 +154,21 @@ def build_history(rows: list[dict], dates: list[str], listings: list[dict]) -> l
     return history
 
 
-def build_summary(rows: list[dict]) -> dict:
+def build_summary(rows: list[dict], details: dict[str, dict] | None = None) -> dict:
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     if not rows:
         return {
             "generated_at": generated_at, "latest_snapshot": None, "first_snapshot": None,
-            "snapshot_count": 0, "listing_count": 0, "active_count": 0, "listings": [], "history": [],
+            "snapshot_count": 0, "listing_count": 0, "active_count": 0, "enriched_count": 0,
+            "listings": [], "history": [],
         }
+    details = details or {}
     dates = sorted({r["snapshot_date"] for r in rows})
     latest = date.fromisoformat(dates[-1])
     by_id: dict[str, list[dict]] = defaultdict(list)
     for r in rows:
         by_id[r["listing_id"]].append(r)
-    listings = [summarize_listing(group, latest) for group in by_id.values()]
+    listings = [summarize_listing(group, latest, details.get(lid)) for lid, group in by_id.items()]
     listings.sort(key=lambda l: (not l["active"], l["city"], l["address"]))
     return {
         "generated_at": generated_at,
@@ -170,6 +177,7 @@ def build_summary(rows: list[dict]) -> dict:
         "snapshot_count": len(dates),
         "listing_count": len(listings),
         "active_count": sum(1 for l in listings if l["active"]),
+        "enriched_count": sum(1 for l in listings if l["details"]),
         "history": build_history(rows, dates, listings),
         "listings": listings,
     }
@@ -182,13 +190,13 @@ def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
     config = load_config(Path(args.config))
-    summary = build_summary(read_rows(Path(config["data_file"])))
+    summary = build_summary(read_rows(Path(config["data_file"])), enrich.load_parsed())
     out = Path(config["summary_file"])
     out.parent.mkdir(parents=True, exist_ok=True)
     with open(out, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=1)
-    log.info("Wrote %s: %d listings (%d active) across %d snapshots",
-             out, summary["listing_count"], summary["active_count"], summary["snapshot_count"])
+    log.info("Wrote %s: %d listings (%d active, %d enriched) across %d snapshots",
+             out, summary["listing_count"], summary["active_count"], summary["enriched_count"], summary["snapshot_count"])
     return 0
 
 
