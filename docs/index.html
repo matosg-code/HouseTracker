@@ -244,7 +244,8 @@
     <label>Power <select name="utility"><option value="">Any</option><option value="PG&amp;E">PG&amp;E</option><option value="MID">MID territory</option></select></label>
     <label>Type <select name="type"><option value="">All</option></select></label>
     <label>Zip <select name="zip"><option value="">All</option></select></label>
-    <button type="button" class="ghost" id="reset">Clear all</button>
+    <button type="button" class="ghost" id="reset-btn" title="Back to 3 bd, 2 ba, 1,800+ sqft, single family">Reset to defaults</button>
+    <button type="button" class="ghost" id="clear-btn" title="No filters at all">Show everything</button>
   </form>
 
   <section class="stats" id="stats"></section>
@@ -331,11 +332,17 @@
 
   // ----- State (persisted in URL hash) -----
   const DEFAULT_CHIPS = ["sfr"];
+  const DEFAULT_FILTERS = { minBeds: 3, minBaths: 2, minSqft: 1800 };
   const state = { city: "", chips: new Set(DEFAULT_CHIPS), sort: "days_on_market:desc", view: "cards", more: {}, limit: PAGE };
   const MY_SEARCH = { minSqft: 2000, minLot: 10000 };
 
+  function applyDefaultFilters() {
+    form.reset();
+    for (const [k, v] of Object.entries(DEFAULT_FILTERS)) form.elements[k].value = v;
+  }
+
   function readHash() {
-    if (!location.hash) return;
+    if (!location.hash) { applyDefaultFilters(); return; }
     const p = new URLSearchParams(location.hash.slice(1));
     state.city = p.get("city") || "";
     state.chips = new Set((p.get("chips") || "").split(",").filter(Boolean));
@@ -349,8 +356,8 @@
     p.set("chips", [...state.chips].join(","));
     if (state.sort !== "days_on_market:desc") p.set("sort", state.sort);
     if (state.view !== "cards") p.set("view", state.view);
-    for (const el of form.elements) if (el.name && el.value) p.set(el.name, el.value);
-    history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
+    for (const el of form.elements) if (el.name) p.set(el.name, el.value);
+    history.replaceState(null, "", "#" + p);
   }
 
   function isNew(l) { return latest && daysBetween(l.first_seen, latest) < 7 && l.first_seen !== summary.first_snapshot; }
@@ -572,6 +579,9 @@
 
   function render() {
     writeHash();
+    const activeCount = [...form.elements].filter((el) => el.name && el.value).length;
+    const open = form.classList.contains("open");
+    $("#more-toggle").textContent = open ? "Hide filters" : activeCount ? `Filters · ${activeCount} on` : "More filters";
     $$("#city button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.city === state.city));
     $$(".chip").forEach((b) => b.setAttribute("aria-pressed", state.chips.has(b.dataset.chip)));
     $$("#view button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.view === state.view));
@@ -626,9 +636,10 @@
   });
   $("#view").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.view = b.dataset.view; render(); });
   $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; reset(); render(); });
-  $("#more-toggle").addEventListener("click", () => { form.classList.toggle("open"); $("#more-toggle").textContent = form.classList.contains("open") ? "Hide filters" : "More filters"; });
+  $("#more-toggle").addEventListener("click", () => { form.classList.toggle("open"); render(); });
   form.addEventListener("input", () => { reset(); render(); });
-  $("#reset").addEventListener("click", () => { form.reset(); state.chips = new Set(DEFAULT_CHIPS); state.city = ""; reset(); render(); });
+  $("#reset-btn").addEventListener("click", () => { applyDefaultFilters(); state.chips = new Set(DEFAULT_CHIPS); state.city = ""; reset(); render(); });
+  $("#clear-btn").addEventListener("click", () => { form.reset(); state.chips.clear(); state.city = ""; reset(); render(); });
   $("#show-more").addEventListener("click", () => { state.limit += PAGE; render(); });
   $$("th").forEach((th) => th.addEventListener("click", () => {
     const key = th.dataset.key;
@@ -638,7 +649,8 @@
   }));
 
   readHash();
-  if ([...form.elements].some((el) => el.name && el.value)) { form.classList.add("open"); $("#more-toggle").textContent = "Hide filters"; }
+  const nonDefault = [...form.elements].some((el) => el.name && el.value && String(DEFAULT_FILTERS[el.name] ?? "") !== el.value);
+  if (nonDefault) form.classList.add("open");
   trend("trend-active", "active", num);
   trend("trend-price", "median_price", money);
   render();
