@@ -1,17 +1,20 @@
 {
-  "source": "rentcast",
+  "source": "redfin",
   "queries": [
-    {
-      "latitude": 37.325,
-      "longitude": -120.546,
-      "radius": 8,
-      "status": "Active"
-    }
+    {"name": "Merced", "region_id": 11970, "region_type": 6},
+    {"name": "Atwater", "region_id": 844, "region_type": 6}
   ],
-  "max_pages_per_query": 2,
-  "monthly_call_budget": 45,
-  "usage_file": "data/api_usage.json",
   "cities": ["Merced", "Atwater"],
+  "monthly_call_budget": 400,
+  "usage_file": "data/api_usage.json",
   "data_file": "data/listings.csv",
-  "summary_file": "docs/data/summary.json"
+  "summary_file": "docs/data/summary.json",
+
+  "rentcast": {
+    "note": "Fallback if Redfin blocks GitHub runners. Needs RENTCAST_API_KEY and a plan on rentcast.io.",
+    "source": "rentcast",
+    "queries": [{"latitude": 37.325, "longitude": -120.546, "radius": 8, "status": "Active"}],
+    "max_pages_per_query": 2,
+    "monthly_call_budget": 45
+  }
 }

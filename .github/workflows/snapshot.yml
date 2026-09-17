@@ -5,6 +5,11 @@ on:
     # 14:00 UTC = 6am PST / 7am PDT
     - cron: "0 14 * * *"
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Replace today's rows if they already exist"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -29,7 +34,7 @@ jobs:
       - name: Collect listings
         env:
           RENTCAST_API_KEY: ${{ secrets.RENTCAST_API_KEY }}
-        run: python -m tracker.collect
+        run: python -m tracker.collect ${{ inputs.force && '--force' || '' }}
 
       - name: Rebuild dashboard data
         if: always()

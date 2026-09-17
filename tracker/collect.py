@@ -5,8 +5,8 @@ history; everything else (days on market, price cuts, relists) is derived
 from it by ``tracker.metrics``.
 
 Usage:
-    python -m tracker.collect                       # live pull via RentCast
-    python -m tracker.collect --from-file resp.json # replay a saved API response
+    python -m tracker.collect                       # live pull from the source in config.json
+    python -m tracker.collect --from-file resp.json # replay a saved response (JSON list or Redfin CSV)
     python -m tracker.collect --date 2026-09-16     # override the snapshot date
     python -m tracker.collect --force               # replace today's rows if present
 """
@@ -17,10 +17,10 @@ import csv
 import json
 import logging
 import re
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
-from tracker import rentcast
+from tracker import redfin, rentcast
 
 log = logging.getLogger("tracker.collect")
 
@@ -47,7 +47,48 @@ def _blank_if_none(value):
     return "" if value is None else value
 
 
+def _num(value):
+    if value in ("", None):
+        return ""
+    try:
+        f = float(value)
+    except (TypeError, ValueError):
+        return ""
+    return int(f) if f.is_integer() else f
+
+
+def normalize_redfin(raw: dict, snapshot_date: str) -> dict:
+    url = next((v for k, v in raw.items() if k.startswith("URL")), "") or ""
+    dom = _num(raw.get("DAYS ON MARKET"))
+    list_date = ""
+    if dom != "":
+        list_date = (date.fromisoformat(snapshot_date) - timedelta(days=int(dom))).isoformat()
+    mls = (raw.get("MLS#") or "").strip()
+    return {
+        "snapshot_date": snapshot_date,
+        "listing_id": f"mls:{mls}" if mls else url,
+        "address": raw.get("ADDRESS") or "",
+        "city": raw.get("CITY") or "",
+        "zip": raw.get("ZIP OR POSTAL CODE") or "",
+        "price": _num(raw.get("PRICE")),
+        "beds": _num(raw.get("BEDS")),
+        "baths": _num(raw.get("BATHS")),
+        "sqft": _num(raw.get("SQUARE FEET")),
+        "lot_sqft": _num(raw.get("LOT SIZE")),
+        "year_built": _num(raw.get("YEAR BUILT")),
+        "property_type": raw.get("PROPERTY TYPE") or "",
+        "status": raw.get("STATUS") or "",
+        "list_date": list_date,
+        "latitude": _num(raw.get("LATITUDE")),
+        "longitude": _num(raw.get("LONGITUDE")),
+        "url": url,
+        "source": "redfin",
+    }
+
+
 def normalize(raw: dict, snapshot_date: str, source: str = "rentcast") -> dict:
+    if source == "redfin":
+        return normalize_redfin(raw, snapshot_date)
     formatted = raw.get("formattedAddress") or raw.get("addressLine1") or ""
     street = raw.get("addressLine1") or formatted
     if raw.get("addressLine2"):
@@ -134,14 +175,21 @@ def fetch_all(config: dict, snapshot_date: str, from_file: str | None = None):
     """
     if from_file:
         with open(from_file, encoding="utf-8") as f:
-            return json.load(f), 0
+            text = f.read()
+        if from_file.lower().endswith(".csv"):
+            return redfin.parse_csv(text), 0
+        return json.loads(text), 0
 
     usage_file = Path(config.get("usage_file", "data/api_usage.json"))
     budget = config.get("monthly_call_budget", 45)
     month = snapshot_date[:7]
     usage = read_usage(usage_file)
     used = usage.get(month, 0)
-    worst_case = len(config["queries"]) * config.get("max_pages_per_query", 2)
+    if config.get("source") == "redfin":
+        per_query = 2 ** (redfin.MAX_DEPTH + 1) - 1
+    else:
+        per_query = config.get("max_pages_per_query", 2)
+    worst_case = len(config["queries"]) * per_query
     if used + worst_case > budget:
         raise BudgetExceeded(
             f"{used} of {budget} API calls already used in {month}; this run could need {worst_case}. Skipping."
@@ -157,9 +205,14 @@ def fetch_all(config: dict, snapshot_date: str, from_file: str | None = None):
 
     listings: list[dict] = []
     for query in config["queries"]:
-        page, _ = rentcast.fetch_sale_listings(
-            query, max_pages=config.get("max_pages_per_query", 2), on_request=charge
-        )
+        if config.get("source") == "redfin":
+            page = redfin.fetch_region(
+                query["region_id"], query.get("region_type", 6), on_request=charge
+            )
+        else:
+            page, _ = rentcast.fetch_sale_listings(
+                query, max_pages=config.get("max_pages_per_query", 2), on_request=charge
+            )
         listings.extend(page)
     log.info("API budget: %d of %d calls used in %s", used + calls, budget, month)
     return listings, calls
