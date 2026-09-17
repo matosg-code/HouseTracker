@@ -43,6 +43,7 @@ def test_garage_estimated_from_sqft():
 def test_garage_from_prose():
     assert parse("Spacious three-car garage and RV parking.")["garage_spaces"] == 3
     assert parse("Attached 2 car garage.")["garage_spaces"] == 2
+    assert parse("Laundry room and two-bay garage.")["garage_spaces"] == 2
     assert parse("Carport only, no garage.")["has_garage"] is False
 
 

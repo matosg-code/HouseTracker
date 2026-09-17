@@ -141,7 +141,7 @@ def parse_details(raw: dict) -> dict:
         garage_spaces = _first_int(spaces) if spaces else None
         garage_source = "field" if garage_spaces is not None else None
     if garage_spaces is None:
-        m = re.search(r"\b(\d|one|two|three|four|five|six)[- ]?car\b", low)
+        m = re.search(r"\b(\d|one|two|three|four|five|six)[- ]?(car|bay|vehicle)\b", low)
         if m:
             garage_spaces = WORD_NUM.get(m.group(1)) or int(m.group(1))
             garage_source = "prose"

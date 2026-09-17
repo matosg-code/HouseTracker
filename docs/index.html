@@ -553,7 +553,8 @@
     if (!d) return `<div class="tags"><span class="tag unk" title="Listing page not yet read">details pending</span></div>`;
     const t = [];
     if (d.garage_spaces != null) t.push(`<span class="tag feat" title="${d.garage_source === "sqft" ? `estimated from ${d.garage_sqft} sqft garage` : d.garage_source === "prose" ? "from the listing description" : "from MLS fields"}">🚗 ${d.garage_source === "sqft" ? "~" : ""}${d.garage_spaces}-car</span>`);
-    else if (d.has_garage === false) t.push(`<span class="tag unk">no garage</span>`);
+    else if (d.has_garage) t.push(`<span class="tag feat" title="Garage mentioned, no count given">🚗 garage</span>`);
+    else t.push(`<span class="tag unk">garage not listed</span>`);
     if (d.solar !== "none") t.push(`<span class="tag feat ${d.solar === "leased" ? "warnish" : ""}">☀ solar${d.solar === "mentioned" ? "" : " " + d.solar}</span>`);
     if (d.pool) t.push(`<span class="tag feat">pool</span>`);
     if (d.adu) t.push(`<span class="tag feat">ADU</span>`);
