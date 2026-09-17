@@ -53,3 +53,8 @@ jobs:
           git commit -m "data: snapshot $(date -u +%F)"
           git pull --rebase
           git push
+
+      # GitHub disables cron workflows after 60 days without human commits;
+      # this re-enables the schedule via the API so bot-only repos keep running.
+      - uses: gautamkrishnar/keepalive-workflow@v2
+        if: always()
