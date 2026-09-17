@@ -103,6 +103,21 @@ def test_history_per_snapshot():
     assert h[2]["median_ppsf"] == 196
 
 
+def test_age_and_utility(monkeypatch):
+    square = {"type": "Feature", "properties": {"Acronym": "MeID"},
+              "geometry": {"type": "Polygon", "coordinates": [[[-120.6, 37.2], [-120.4, 37.2], [-120.4, 37.4], [-120.6, 37.4], [-120.6, 37.2]]]}}
+    monkeypatch.setattr(metrics.utility, "load_areas", lambda: [square])
+    rows = rows_from("""
+2026-09-03,G,7 G St,Merced,95340,300000,3,2,1500,6000,1998,Single Family,Active,2026-09-01,37.30,-120.48,https://x/g,redfin
+2026-09-03,H,8 H St,Merced,95340,300000,3,2,1500,6000,,Single Family,Active,2026-09-01,37.30,-120.90,https://x/h,redfin
+2026-09-03,I,9 I St,Merced,95340,300000,3,2,1500,6000,2020,Single Family,Active,2026-09-01,,,https://x/i,redfin
+""")
+    s = by_id(metrics.build_summary(rows))
+    assert s["G"]["age"] == 28 and s["G"]["utility"] == "MID"
+    assert s["H"]["age"] is None and s["H"]["utility"] == "PG&E"
+    assert s["I"]["age"] == 6 and s["I"]["utility"] is None
+
+
 def test_last_cut_date():
     a = by_id(metrics.build_summary(rows_from(CSV)))["A"]
     assert a["last_cut_date"] == "2026-09-02"

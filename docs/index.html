@@ -167,6 +167,7 @@
   .tag.relist { background: var(--surface-2); color: var(--warn); }
   .tag.stale { background: var(--surface-2); color: var(--ink-2); }
   .tag.gone { background: var(--surface-2); color: var(--muted); }
+  .tag.power { background: transparent; border: 1px solid var(--hairline); color: var(--ink-2); font-weight: 500; cursor: help; }
   .tags { display: flex; gap: 5px; flex-wrap: wrap; }
 
   /* Table */
@@ -209,6 +210,7 @@
     <button type="button" class="chip" data-chip="stale" aria-pressed="false">Sitting 60+ days <span class="n"></span></button>
     <button type="button" class="chip" data-chip="relist" aria-pressed="false">Relisted <span class="n"></span></button>
     <button type="button" class="chip" data-chip="sfr" aria-pressed="false">Single family</button>
+    <button type="button" class="chip" data-chip="pge" aria-pressed="false" title="Outside Merced Irrigation District's electric territory">PG&amp;E only <span class="n"></span></button>
     <button type="button" class="chip" data-chip="gone" aria-pressed="false">Off market <span class="n"></span></button>
     <span class="spacer"></span>
     <button type="button" class="ghost" id="more-toggle">More filters</button>
@@ -220,6 +222,8 @@
       <option value="price_per_sqft:asc">$/sqft: low to high</option>
       <option value="sqft:desc">Biggest house</option>
       <option value="lot_sqft:desc">Biggest lot</option>
+      <option value="age:asc">Newest build</option>
+      <option value="age:desc">Oldest build</option>
       <option value="price_cut_total:desc">Biggest cut</option>
     </select>
     <div class="seg" id="view">
@@ -236,6 +240,8 @@
     <label>Min sqft <input name="minSqft" type="number" min="0" step="100" placeholder="any"></label>
     <label>Min lot sqft <input name="minLot" type="number" min="0" step="1000" placeholder="any"></label>
     <label>Built after <input name="minYear" type="number" min="1800" step="1" placeholder="any"></label>
+    <label>Max age (yrs) <input name="maxAge" type="number" min="0" step="1" placeholder="any"></label>
+    <label>Power <select name="utility"><option value="">Any</option><option value="PG&amp;E">PG&amp;E</option><option value="MID">MID territory</option></select></label>
     <label>Type <select name="type"><option value="">All</option></select></label>
     <label>Zip <select name="zip"><option value="">All</option></select></label>
     <button type="button" class="ghost" id="reset">Clear all</button>
@@ -267,6 +273,8 @@
         <th data-key="sqft" class="num">Sqft</th>
         <th data-key="lot_sqft" class="num">Lot</th>
         <th data-key="year_built" class="num">Built</th>
+        <th data-key="age" class="num">Age</th>
+        <th data-key="utility">Power</th>
         <th data-key="days_on_market" class="num">DOM</th>
         <th data-key="list_date">Listed</th>
         <th data-key="property_type">Type</th>
@@ -278,6 +286,7 @@
 
   <footer>
     <span>Source: Redfin listings export, one snapshot a day at 6am Pacific.</span>
+    <span>Power: territory from the CA Energy Commission map. "MID territory" means Merced Irrigation District can serve the address; the meter may still be PG&amp;E, so confirm with the seller.</span>
     <a href="../data/listings.csv" id="csv-link">Raw history (CSV)</a>
     <a href="https://github.com/matosg-code/HouseTracker">Repo</a>
   </footer>
@@ -353,8 +362,8 @@
     const mine = c.has("mine");
     const minSqft = Math.max(numv(f.minSqft) ?? 0, mine ? MY_SEARCH.minSqft : 0) || null;
     const minLot = Math.max(numv(f.minLot) ?? 0, mine ? MY_SEARCH.minLot : 0) || null;
-    const minPrice = numv(f.minPrice), maxPrice = numv(f.maxPrice), minBeds = numv(f.minBeds), minBaths = numv(f.minBaths), minYear = numv(f.minYear);
-    const type = f.type.value, zip = f.zip.value;
+    const minPrice = numv(f.minPrice), maxPrice = numv(f.maxPrice), minBeds = numv(f.minBeds), minBaths = numv(f.minBaths), minYear = numv(f.minYear), maxAge = numv(f.maxAge);
+    const type = f.type.value, zip = f.zip.value, util = c.has("pge") ? "PG&E" : f.utility.value;
     return (l) =>
       (c.has("gone") ? !l.active : l.active) &&
       (!state.city || l.city === state.city) &&
@@ -370,6 +379,8 @@
       (minBeds == null || (l.beds ?? -1) >= minBeds) &&
       (minBaths == null || (l.baths ?? -1) >= minBaths) &&
       (minYear == null || (l.year_built ?? -1) >= minYear) &&
+      (maxAge == null || (l.age ?? Infinity) <= maxAge) &&
+      (!util || l.utility === util) &&
       (!type || l.property_type === type) &&
       (!zip || l.zip === zip);
   }
@@ -496,15 +507,17 @@
     if (isNew(l)) t.push(`<span class="tag new">new</span>`);
     if (l.relisted) t.push(`<span class="tag relist">relisted</span>`);
     if (l.active && l.days_on_market >= 60) t.push(`<span class="tag stale">${l.days_on_market}d</span>`);
+    if (l.utility) t.push(`<span class="tag power" title="${l.utility === "MID" ? "Inside Merced Irrigation District's electric territory; the meter may still be PG&E" : "Outside MID territory, PG&E serves here"}">⚡ ${l.utility === "MID" ? "MID territory" : l.utility}</span>`);
     return t.length ? `<div class="tags">${t.join("")}</div>` : "";
   }
+  const built = (l) => l.year_built ? `built ${l.year_built}${l.age != null ? ` · ${l.age} yrs` : ""}` : "";
   function card(l) {
     const was = l.original_price != null && l.original_price !== l.price ? `<span class="was">${money(l.original_price)}</span>` : "";
     const ppsf = l.price_per_sqft ? `${money(l.price_per_sqft)}/sqft` : "";
     return `<article class="card ${l.active ? "" : "gone"}">
       <div class="top"><div class="price">${money(l.price)}${was}</div><div class="sub">${ppsf}</div></div>
       <a class="addr" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.address)}</a>
-      <div class="sub">${esc(l.city)} ${esc(l.zip)} · ${esc(l.property_type || "–")}${l.year_built ? ` · built ${l.year_built}` : ""}</div>
+      <div class="sub">${esc(l.city)} ${esc(l.zip)} · ${esc(l.property_type || "–")}${l.year_built ? ` · ${built(l)}` : ""}</div>
       <div class="facts">
         <span><b>${num(l.beds)}</b><small>bd</small></span>
         <span><b>${num(l.baths)}</b><small>ba</small></span>
@@ -526,6 +539,8 @@
       <td class="num">${num(l.beds)}</td><td class="num">${num(l.baths)}</td>
       <td class="num">${num(l.sqft)}</td><td class="num">${num(l.lot_sqft)}</td>
       <td class="num">${l.year_built ?? ""}</td>
+      <td class="num">${l.age ?? ""}</td>
+      <td>${l.utility ? (l.utility === "MID" ? "MID terr." : esc(l.utility)) : ""}</td>
       <td class="num">${l.days_on_market}</td>
       <td>${fmtDate(l.list_date)}</td>
       <td>${esc(l.property_type)}</td>
@@ -551,6 +566,7 @@
     set("new", base.filter(isNew).length);
     set("stale", base.filter((l) => l.days_on_market >= 60).length);
     set("relist", base.filter((l) => l.relisted).length);
+    set("pge", base.filter((l) => l.utility === "PG&E").length);
     set("gone", L.filter((l) => !l.active && (!state.city || l.city === state.city)).length);
   }
 
@@ -617,7 +633,7 @@
   $$("th").forEach((th) => th.addEventListener("click", () => {
     const key = th.dataset.key;
     const [sk, sd] = state.sort.split(":");
-    state.sort = `${key}:${sk === key && sd === "desc" ? "asc" : sk === key ? "desc" : (key === "address" || key === "city" || key === "property_type" ? "asc" : "desc")}`;
+    state.sort = `${key}:${sk === key && sd === "desc" ? "asc" : sk === key ? "desc" : (["address", "city", "property_type", "utility", "age"].includes(key) ? "asc" : "desc")}`;
     render();
   }));
 

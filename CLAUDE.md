@@ -21,6 +21,8 @@ RentCast client kept as a fallback source; it needs a key and a card on file.
 - `tracker/redfin.py` CSV export client (primary)
 - `tracker/rentcast.py` API client (fallback)
 - `tracker/collect.py` fetch, normalize, append
-- `tracker/metrics.py` derive DOM, price cuts, relists → `docs/data/summary.json`
+- `tracker/metrics.py` derive DOM, price cuts, relists, age, utility → `docs/data/summary.json`
+- `tracker/utility.py` point-in-polygon against `data/utility_areas.geojson` (MID/TID, else PG&E)
+- Redfin listing *detail* pages are bot-blocked after ~15 requests; do not scrape them.
 - `docs/index.html` dashboard (vanilla JS, reads `data/summary.json`)
 - `.github/workflows/snapshot.yml` daily cron, commits data back

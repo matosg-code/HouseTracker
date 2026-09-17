@@ -50,6 +50,20 @@ a card on file. The client is still in `tracker/rentcast.py`; to switch, copy
 the `rentcast` block in `config.json` over the top-level keys and add the
 `RENTCAST_API_KEY` repository secret.
 
+## Derived fields
+
+`tracker/metrics.py` adds per listing: days on market, price cuts and their
+dates, relist detection, $/sqft, **age** (snapshot year minus year built), and
+**utility** territory. Utility comes from the CA Energy Commission's electric
+service-area polygons stored in `data/utility_areas.geojson` (refresh with
+`python -m tracker.utility --refresh`). "MID" means inside Merced Irrigation
+District's electric boundary, where MID *can* serve; many homes there are
+still PG&E customers, and the actual provider per address is not public.
+
+Not available from any free source, and not in the dashboard: solar, garage
+count, outbuildings. They only appear in listing description text, and
+Redfin's detail pages block scripted access after a handful of requests.
+
 ## Request budget
 
 Every HTTP request is recorded in `data/api_usage.json` per calendar month and

@@ -12,6 +12,7 @@ from collections import defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+from tracker import utility
 from tracker.collect import DEFAULT_CONFIG, load_config, read_rows
 
 log = logging.getLogger("tracker.metrics")
@@ -72,6 +73,7 @@ def summarize_listing(rows: list[dict], latest_snapshot: date) -> dict:
 
     price = to_number(last["price"])
     sqft = to_number(last["sqft"])
+    year_built = to_number(last["year_built"])
     return {
         "listing_id": last["listing_id"],
         "address": last["address"],
@@ -87,7 +89,9 @@ def summarize_listing(rows: list[dict], latest_snapshot: date) -> dict:
         "baths": to_number(last["baths"]),
         "sqft": sqft,
         "lot_sqft": to_number(last["lot_sqft"]),
-        "year_built": to_number(last["year_built"]),
+        "year_built": year_built,
+        "age": latest_snapshot.year - year_built if year_built else None,
+        "utility": utility.lookup(last["latitude"], last["longitude"]),
         "property_type": last["property_type"],
         "list_date": last["list_date"] or None,
         "first_seen": first_seen.isoformat(),
