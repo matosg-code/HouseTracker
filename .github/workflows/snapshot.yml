@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: snapshot
@@ -55,6 +56,9 @@ jobs:
           git push
 
       # GitHub disables cron workflows after 60 days without human commits;
-      # this re-enables the schedule via the API so bot-only repos keep running.
-      - uses: gautamkrishnar/keepalive-workflow@v2
+      # re-enabling via the API on every run resets that clock.
+      - name: Keep schedule alive
         if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/snapshot.yml/enable"
