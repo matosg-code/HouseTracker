@@ -3,140 +3,258 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Merced Housing Tracker</title>
+<title>Merced House Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
     color-scheme: light;
-    --page: #f9f9f7;
-    --surface: #fcfcfb;
-    --ink: #0b0b0b;
-    --ink-2: #52514e;
-    --muted: #898781;
-    --hairline: #e1e0d9;
-    --border: rgba(11,11,11,0.10);
-    --accent: #2a78d6;
-    --good: #006300;
-    --critical: #d03b3b;
-    --row-hover: rgba(42,120,214,0.06);
+    --paper: #f4efe6;
+    --surface: #fbf8f2;
+    --surface-2: #efe8db;
+    --ink: #1e1a16;
+    --ink-2: #5c554b;
+    --muted: #8c8378;
+    --hairline: #e3dbcd;
+    --border: rgba(30,26,22,0.12);
+    --accent: #c2562e;
+    --accent-ink: #fff7f2;
+    --good: #2f7a3f;
+    --good-wash: rgba(47,122,63,0.10);
+    --warn: #b5651d;
+    --series: #2457a6;
+    --series-wash: rgba(36,87,166,0.12);
+    --shadow: 0 1px 2px rgba(30,26,22,0.06), 0 8px 24px -12px rgba(30,26,22,0.18);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       color-scheme: dark;
-      --page: #0d0d0d;
-      --surface: #1a1a19;
-      --ink: #ffffff;
-      --ink-2: #c3c2b7;
-      --muted: #898781;
-      --hairline: #2c2c2a;
-      --border: rgba(255,255,255,0.10);
-      --accent: #3987e5;
-      --good: #0ca30c;
-      --critical: #e66767;
-      --row-hover: rgba(57,135,229,0.12);
+      --paper: #17140f;
+      --surface: #211d17;
+      --surface-2: #2a251d;
+      --ink: #f3ede2;
+      --ink-2: #c4bbad;
+      --muted: #8c8378;
+      --hairline: #322c24;
+      --border: rgba(243,237,226,0.12);
+      --accent: #e07a4f;
+      --accent-ink: #1e1a16;
+      --good: #63b56f;
+      --good-wash: rgba(99,181,111,0.14);
+      --warn: #d8934e;
+      --series: #6f9be0;
+      --series-wash: rgba(111,155,224,0.16);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
     }
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
-    --page: #0d0d0d;
-    --surface: #1a1a19;
-    --ink: #ffffff;
-    --ink-2: #c3c2b7;
-    --muted: #898781;
-    --hairline: #2c2c2a;
-    --border: rgba(255,255,255,0.10);
-    --accent: #3987e5;
-    --good: #0ca30c;
-    --critical: #e66767;
-    --row-hover: rgba(57,135,229,0.12);
+    --paper: #17140f; --surface: #211d17; --surface-2: #2a251d; --ink: #f3ede2; --ink-2: #c4bbad;
+    --muted: #8c8378; --hairline: #322c24; --border: rgba(243,237,226,0.12); --accent: #e07a4f;
+    --accent-ink: #1e1a16; --good: #63b56f; --good-wash: rgba(99,181,111,0.14); --warn: #d8934e;
+    --series: #6f9be0; --series-wash: rgba(111,155,224,0.16);
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
   }
 
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
   body {
     margin: 0;
-    background: var(--page);
+    background: var(--paper);
+    background-image: radial-gradient(ellipse 80% 40% at 50% -10%, rgba(194,86,46,0.10), transparent 60%);
     color: var(--ink);
-    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+    font: 15px/1.5 "Public Sans", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
-  main { max-width: 1280px; margin: 0 auto; padding: 24px 16px 48px; }
-  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-bottom: 20px; }
-  h1 { font-size: 20px; font-weight: 600; margin: 0; }
-  .meta { color: var(--muted); font-size: 13px; }
+  a { color: inherit; }
+  main { max-width: 1240px; margin: 0 auto; padding: 28px 16px 64px; }
+  .serif { font-family: "Fraunces", Georgia, serif; font-variation-settings: "opsz" 144; }
 
-  .filters {
-    display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: end;
-    padding: 12px; margin-bottom: 16px;
-    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+  /* Masthead */
+  .mast { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; padding-bottom: 20px; border-bottom: 2px solid var(--ink); margin-bottom: 20px; }
+  .eyebrow { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; }
+  h1 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: clamp(34px, 5vw, 52px); line-height: 1; letter-spacing: -0.02em; margin: 6px 0 0; }
+  h1 em { font-style: italic; font-weight: 400; color: var(--accent); }
+  .mast-right { text-align: right; color: var(--ink-2); font-size: 13px; line-height: 1.5; }
+  .mast-right strong { color: var(--ink); font-weight: 600; }
+  @media (max-width: 640px) { .mast-right { text-align: left; } }
+
+  /* Controls */
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .chip, .seg button, .ghost {
+    font: inherit; font-size: 13px; font-weight: 500; color: var(--ink);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
+    padding: 7px 13px; cursor: pointer; transition: background .15s, border-color .15s, transform .1s;
+    display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
   }
-  .filters label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--ink-2); }
-  .filters input, .filters select {
-    font: inherit; color: var(--ink); background: var(--page);
-    border: 1px solid var(--hairline); border-radius: 6px; padding: 6px 8px; min-width: 110px;
-  }
-  .filters label.check { flex-direction: row; align-items: center; padding-bottom: 8px; }
-  .filters label.check input { min-width: 0; }
-  .filters button {
-    font: inherit; color: var(--ink-2); background: transparent;
-    border: 1px solid var(--hairline); border-radius: 6px; padding: 7px 12px; cursor: pointer;
+  .chip:hover, .ghost:hover { border-color: var(--ink-2); }
+  .chip:active { transform: scale(0.97); }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .chip.primary[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .chip .n { font-variant-numeric: tabular-nums; opacity: 0.7; font-size: 12px; }
+  .seg { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 2px; }
+  .seg button { border: 0; padding: 5px 12px; background: transparent; }
+  .seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+  .spacer { flex: 1; }
+  .controls select {
+    font: inherit; font-size: 13px; color: var(--ink); background: var(--surface);
+    border: 1px solid var(--border); border-radius: 999px; padding: 7px 12px;
   }
 
-  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 20px; }
-  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
-  .tile .label { font-size: 12px; color: var(--ink-2); }
-  .tile .value { font-size: 26px; font-weight: 600; line-height: 1.2; margin: 4px 0 2px; }
-  .tile .market { font-size: 12px; color: var(--muted); }
-  .tile .delta-up { color: var(--critical); }
-  .tile .delta-down { color: var(--good); }
+  .more { display: none; flex-wrap: wrap; gap: 10px 14px; align-items: end; padding: 14px; margin-bottom: 14px;
+          background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+  .more.open { display: flex; }
+  .more label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--ink-2); font-weight: 500; }
+  .more input, .more select { font: inherit; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--hairline); border-radius: 8px; padding: 7px 9px; width: 120px; }
+  .more .ghost { align-self: end; }
 
-  .table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; }
-  table { border-collapse: collapse; width: 100%; min-width: 960px; }
-  th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--hairline); white-space: nowrap; }
+  /* Stats */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin: 18px 0; }
+  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px 12px; box-shadow: var(--shadow); animation: rise .5s both; }
+  .stat:nth-child(2) { animation-delay: .05s } .stat:nth-child(3) { animation-delay: .1s } .stat:nth-child(4) { animation-delay: .15s } .stat:nth-child(5) { animation-delay: .2s }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+  .stat .label { font-size: 12px; color: var(--ink-2); font-weight: 500; }
+  .stat .value { font-family: "Fraunces", Georgia, serif; font-size: 30px; font-weight: 600; line-height: 1.15; margin-top: 2px; letter-spacing: -0.01em; }
+  .stat .vs { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .stat .vs b { font-weight: 600; }
+  .vs .up { color: var(--accent); } .vs .down { color: var(--good); }
+
+  /* Charts */
+  .charts { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 10px; margin-bottom: 22px; }
+  @media (max-width: 900px) { .charts { grid-template-columns: 1fr; } }
+  .chart { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px 10px; position: relative; min-height: 190px; }
+  .chart h3 { margin: 0 0 2px; font-size: 13px; font-weight: 600; }
+  .chart .sub { font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+  .chart svg { width: 100%; height: 130px; display: block; overflow: visible; }
+  .chart .bar { fill: var(--series); transition: opacity .15s; }
+  .chart .bar.dim { opacity: 0.35; }
+  .chart .axis { fill: var(--muted); font-size: 10px; }
+  .chart .grid { stroke: var(--hairline); stroke-width: 1; }
+  .chart .line { fill: none; stroke: var(--series); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+  .chart .area { fill: var(--series-wash); }
+  .chart .dot { fill: var(--series); stroke: var(--surface); stroke-width: 2; }
+  .chart .hit { fill: transparent; }
+  .tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--paper); font-size: 12px; padding: 5px 8px; border-radius: 6px; white-space: nowrap; transform: translate(-50%, -110%); opacity: 0; transition: opacity .1s; z-index: 2; }
+  .tip.on { opacity: 1; }
+  .chart .empty { color: var(--muted); font-size: 13px; padding: 30px 0; text-align: center; }
+
+  /* Listing header */
+  .list-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; margin: 0 0 10px; }
+  .list-head h2 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 22px; margin: 0; }
+  .list-head .count { color: var(--muted); font-size: 13px; }
+
+  /* Cards */
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px 12px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 8px; transition: transform .15s, border-color .15s; position: relative; }
+  .card:hover { transform: translateY(-2px); border-color: var(--ink-2); }
+  .card.gone { opacity: 0.6; }
+  .card .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .card .price { font-family: "Fraunces", Georgia, serif; font-size: 26px; font-weight: 600; letter-spacing: -0.01em; line-height: 1; }
+  .card .was { font-size: 12px; color: var(--muted); text-decoration: line-through; margin-left: 6px; font-family: "Public Sans", sans-serif; font-weight: 400; }
+  .card .addr { font-weight: 600; text-decoration: none; font-size: 15px; line-height: 1.3; }
+  .card .addr:hover { text-decoration: underline; }
+  .card .sub { color: var(--ink-2); font-size: 12.5px; }
+  .card .facts { display: flex; gap: 14px; font-size: 13px; color: var(--ink); flex-wrap: wrap; }
+  .card .facts span b { font-weight: 600; }
+  .card .facts span small { color: var(--muted); font-size: 11px; margin-left: 2px; }
+  .card .foot { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 8px; border-top: 1px dashed var(--hairline); font-size: 12px; color: var(--ink-2); gap: 8px; }
+  .card .spark { width: 72px; height: 22px; }
+  .card .spark path { fill: none; stroke: var(--series); stroke-width: 1.5; }
+  .tag { font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 999px; letter-spacing: 0.02em; }
+  .tag.cut { background: var(--good-wash); color: var(--good); }
+  .tag.new { background: var(--series-wash); color: var(--series); }
+  .tag.relist { background: var(--surface-2); color: var(--warn); }
+  .tag.stale { background: var(--surface-2); color: var(--ink-2); }
+  .tag.gone { background: var(--surface-2); color: var(--muted); }
+  .tags { display: flex; gap: 5px; flex-wrap: wrap; }
+
+  /* Table */
+  .table-wrap { display: none; overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+  .table-wrap.on { display: block; } .cards.off { display: none; }
+  table { border-collapse: collapse; width: 100%; min-width: 900px; font-size: 13.5px; }
+  th, td { padding: 9px 10px; text-align: left; border-bottom: 1px solid var(--hairline); white-space: nowrap; }
   th { font-size: 12px; font-weight: 600; color: var(--ink-2); cursor: pointer; user-select: none; position: sticky; top: 0; background: var(--surface); }
-  th.sorted::after { content: " " attr(data-arrow); color: var(--muted); }
+  th.sorted { color: var(--ink); } th.sorted::after { content: " " attr(data-arrow); }
   td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
-  tbody tr:hover { background: var(--row-hover); }
-  tbody tr.gone td { color: var(--muted); }
-  td a { color: var(--accent); text-decoration: none; }
-  td a:hover { text-decoration: underline; }
-  .cut { color: var(--good); }
-  .badge { font-size: 11px; padding: 1px 6px; border-radius: 10px; border: 1px solid var(--hairline); color: var(--ink-2); }
-  .empty { padding: 40px; text-align: center; color: var(--muted); }
-  .count { color: var(--muted); font-size: 13px; margin: 0 0 8px; }
+  tbody tr:hover { background: var(--surface-2); }
+  td a { text-decoration: none; font-weight: 500; } td a:hover { text-decoration: underline; }
+  td .cutv { color: var(--good); font-weight: 500; }
+
+  .nothing { padding: 48px 16px; text-align: center; color: var(--muted); background: var(--surface); border: 1px dashed var(--hairline); border-radius: 12px; }
+  .more-btn { display: block; margin: 14px auto 0; }
+  footer { margin-top: 40px; font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 18px; }
+  footer a { color: var(--ink-2); }
 </style>
 </head>
 <body>
 <main>
-  <header>
-    <h1>Merced &amp; Atwater housing tracker</h1>
-    <span class="meta" id="meta">Loading…</span>
+  <header class="mast">
+    <div>
+      <div class="eyebrow">Merced &amp; Atwater, CA · homes for sale</div>
+      <h1>House <em>ledger</em></h1>
+    </div>
+    <div class="mast-right" id="meta">Loading…</div>
   </header>
 
-  <form class="filters" id="filters" onsubmit="return false">
-    <label>City
-      <select name="city"><option value="">All</option></select>
-    </label>
-    <label>Status
-      <select name="status">
-        <option value="active">Active</option>
-        <option value="gone">Off market</option>
-        <option value="">All</option>
-      </select>
-    </label>
-    <label>Type
-      <select name="type"><option value="">All</option></select>
-    </label>
+  <div class="controls" id="chips">
+    <div class="seg" id="city">
+      <button type="button" data-city="" aria-pressed="true">All</button>
+      <button type="button" data-city="Merced" aria-pressed="false">Merced</button>
+      <button type="button" data-city="Atwater" aria-pressed="false">Atwater</button>
+    </div>
+    <button type="button" class="chip primary" data-chip="mine" aria-pressed="false" title="2,000+ sqft and a 10,000+ sqft lot">★ My search</button>
+    <button type="button" class="chip" data-chip="cuts" aria-pressed="false">Price cut <span class="n"></span></button>
+    <button type="button" class="chip" data-chip="new" aria-pressed="false">New this week <span class="n"></span></button>
+    <button type="button" class="chip" data-chip="stale" aria-pressed="false">Sitting 60+ days <span class="n"></span></button>
+    <button type="button" class="chip" data-chip="relist" aria-pressed="false">Relisted <span class="n"></span></button>
+    <button type="button" class="chip" data-chip="sfr" aria-pressed="false">Single family</button>
+    <button type="button" class="chip" data-chip="gone" aria-pressed="false">Off market <span class="n"></span></button>
+    <span class="spacer"></span>
+    <button type="button" class="ghost" id="more-toggle">More filters</button>
+    <select id="sort" aria-label="Sort">
+      <option value="days_on_market:desc">Longest on market</option>
+      <option value="days_on_market:asc">Newest</option>
+      <option value="price:asc">Price: low to high</option>
+      <option value="price:desc">Price: high to low</option>
+      <option value="price_per_sqft:asc">$/sqft: low to high</option>
+      <option value="sqft:desc">Biggest house</option>
+      <option value="lot_sqft:desc">Biggest lot</option>
+      <option value="price_cut_total:desc">Biggest cut</option>
+    </select>
+    <div class="seg" id="view">
+      <button type="button" data-view="cards" aria-pressed="true">Cards</button>
+      <button type="button" data-view="table" aria-pressed="false">Table</button>
+    </div>
+  </div>
+
+  <form class="more" id="more" onsubmit="return false">
+    <label>Min price <input name="minPrice" type="number" min="0" step="10000" placeholder="any"></label>
+    <label>Max price <input name="maxPrice" type="number" min="0" step="10000" placeholder="any"></label>
     <label>Min beds <input name="minBeds" type="number" min="0" step="1" placeholder="any"></label>
+    <label>Min baths <input name="minBaths" type="number" min="0" step="0.5" placeholder="any"></label>
     <label>Min sqft <input name="minSqft" type="number" min="0" step="100" placeholder="any"></label>
     <label>Min lot sqft <input name="minLot" type="number" min="0" step="1000" placeholder="any"></label>
-    <label>Max price <input name="maxPrice" type="number" min="0" step="10000" placeholder="any"></label>
-    <label>Min DOM <input name="minDom" type="number" min="0" step="1" placeholder="any"></label>
-    <label class="check"><input name="cutsOnly" type="checkbox"> Price cuts only</label>
-    <button type="button" id="reset">Reset</button>
+    <label>Built after <input name="minYear" type="number" min="1800" step="1" placeholder="any"></label>
+    <label>Type <select name="type"><option value="">All</option></select></label>
+    <label>Zip <select name="zip"><option value="">All</option></select></label>
+    <button type="button" class="ghost" id="reset">Clear all</button>
   </form>
 
-  <div class="tiles" id="tiles"></div>
+  <section class="stats" id="stats"></section>
 
-  <p class="count" id="count"></p>
-  <div class="table-wrap">
+  <section class="charts">
+    <div class="chart" id="hist"><h3>Where prices sit</h3><div class="sub" id="hist-sub"></div><div class="body"></div><div class="tip"></div></div>
+    <div class="chart" id="trend-active"><h3>Homes for sale</h3><div class="sub">Whole market, by day</div><div class="body"></div><div class="tip"></div></div>
+    <div class="chart" id="trend-price"><h3>Median asking price</h3><div class="sub">Whole market, by day</div><div class="body"></div><div class="tip"></div></div>
+  </section>
+
+  <div class="list-head">
+    <h2 id="list-title">Listings</h2>
+    <span class="count" id="count"></span>
+  </div>
+  <section class="cards" id="cards"></section>
+  <div class="table-wrap" id="table-wrap">
     <table id="table">
       <thead><tr>
         <th data-key="address">Address</th>
@@ -151,68 +269,109 @@
         <th data-key="year_built" class="num">Built</th>
         <th data-key="days_on_market" class="num">DOM</th>
         <th data-key="list_date">Listed</th>
-        <th data-key="active">Status</th>
+        <th data-key="property_type">Type</th>
       </tr></thead>
       <tbody></tbody>
     </table>
   </div>
+  <button type="button" class="ghost more-btn" id="show-more" hidden>Show more</button>
+
+  <footer>
+    <span>Source: Redfin listings export, one snapshot a day at 6am Pacific.</span>
+    <a href="../data/listings.csv" id="csv-link">Raw history (CSV)</a>
+    <a href="https://github.com/matosg-code/HouseTracker">Repo</a>
+  </footer>
 </main>
 
 <script>
 (async function () {
-  const $ = (sel) => document.querySelector(sel);
-  const fmtMoney = (n) => n == null ? "" : "$" + Math.round(n).toLocaleString();
-  const fmtNum = (n) => n == null ? "" : Number(n).toLocaleString();
-  const median = (arr) => {
-    const v = arr.filter((x) => x != null).sort((a, b) => a - b);
-    if (!v.length) return null;
-    const m = v.length >> 1;
-    return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2;
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+  const money = (n) => n == null ? "–" : "$" + Math.round(n).toLocaleString();
+  const moneyK = (n) => n >= 1e6 ? "$" + (n / 1e6).toFixed(2).replace(/\.?0+$/, "") + "M" : "$" + Math.round(n / 1000) + "k";
+  const num = (n) => n == null || n === "" ? "–" : Number(n).toLocaleString();
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const median = (arr) => { const v = arr.filter((x) => x != null && !Number.isNaN(x)).sort((a, b) => a - b); if (!v.length) return null; const m = v.length >> 1; return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2; };
+  const thisYear = new Date().getFullYear();
+  const fmtDate = (iso) => {
+    if (!iso) return "–";
+    const d = new Date(iso + "T00:00:00");
+    return d.toLocaleDateString(undefined, d.getFullYear() === thisYear ? { month: "short", day: "numeric" } : { month: "short", day: "numeric", year: "numeric" });
   };
+  const daysBetween = (a, b) => Math.round((new Date(b + "T00:00:00") - new Date(a + "T00:00:00")) / 864e5);
 
   let summary;
   try {
-    const resp = await fetch("data/summary.json", { cache: "no-store" });
-    summary = await resp.json();
+    summary = await (await fetch("data/summary.json", { cache: "no-store" })).json();
   } catch (e) {
-    $("#meta").textContent = "Could not load data/summary.json";
+    $("#meta").innerHTML = "Could not load <code>data/summary.json</code>.";
     return;
   }
-  const listings = summary.listings || [];
-  $("#meta").textContent = summary.latest_snapshot
-    ? `Latest snapshot ${summary.latest_snapshot} · ${summary.snapshot_count} day(s) of history since ${summary.first_snapshot}`
-    : "No snapshots yet. Run the collector to populate data/listings.csv.";
+  const L = summary.listings || [];
+  const latest = summary.latest_snapshot;
+  const PAGE = 60;
 
-  const form = $("#filters");
-  const citySel = form.elements.city;
-  [...new Set(listings.map((l) => l.city).filter(Boolean))].sort().forEach((c) => citySel.add(new Option(c, c)));
-  const typeSel = form.elements.type;
-  [...new Set(listings.map((l) => l.property_type).filter(Boolean))].sort().forEach((t) => typeSel.add(new Option(t, t)));
+  $("#meta").innerHTML = latest
+    ? `Snapshot <strong>${fmtDate(latest)}</strong> · <strong>${summary.active_count}</strong> active homes<br>${summary.snapshot_count} day${summary.snapshot_count === 1 ? "" : "s"} of history since ${fmtDate(summary.first_snapshot)} · updates daily 6am`
+    : "No snapshots yet.";
 
-  let sortKey = "days_on_market", sortDir = -1;
+  // Populate selects
+  const form = $("#more");
+  [...new Set(L.map((l) => l.property_type).filter(Boolean))].sort().forEach((t) => form.elements.type.add(new Option(t, t)));
+  [...new Set(L.map((l) => l.zip).filter(Boolean))].sort().forEach((z) => form.elements.zip.add(new Option(z, z)));
 
-  function readFilters() {
-    const f = form.elements;
-    const num = (el) => el.value === "" ? null : Number(el.value);
-    return {
-      city: f.city.value, status: f.status.value, type: f.type.value,
-      minBeds: num(f.minBeds), minSqft: num(f.minSqft), minLot: num(f.minLot),
-      maxPrice: num(f.maxPrice), minDom: num(f.minDom), cutsOnly: f.cutsOnly.checked,
-    };
+  // ----- State (persisted in URL hash) -----
+  const DEFAULT_CHIPS = ["sfr"];
+  const state = { city: "", chips: new Set(DEFAULT_CHIPS), sort: "days_on_market:desc", view: "cards", more: {}, limit: PAGE };
+  const MY_SEARCH = { minSqft: 2000, minLot: 10000 };
+
+  function readHash() {
+    if (!location.hash) return;
+    const p = new URLSearchParams(location.hash.slice(1));
+    state.city = p.get("city") || "";
+    state.chips = new Set((p.get("chips") || "").split(",").filter(Boolean));
+    state.sort = p.get("sort") || state.sort;
+    state.view = p.get("view") || "cards";
+    for (const el of form.elements) if (el.name && p.has(el.name)) el.value = p.get(el.name);
+  }
+  function writeHash() {
+    const p = new URLSearchParams();
+    if (state.city) p.set("city", state.city);
+    p.set("chips", [...state.chips].join(","));
+    if (state.sort !== "days_on_market:desc") p.set("sort", state.sort);
+    if (state.view !== "cards") p.set("view", state.view);
+    for (const el of form.elements) if (el.name && el.value) p.set(el.name, el.value);
+    history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
   }
 
-  function applyFilters(rows, f, ignoreStatus) {
-    return rows.filter((l) =>
-      (!f.city || l.city === f.city) &&
-      (ignoreStatus || !f.status || (f.status === "active" ? l.active : !l.active)) &&
-      (!f.type || l.property_type === f.type) &&
-      (f.minBeds == null || (l.beds ?? -1) >= f.minBeds) &&
-      (f.minSqft == null || (l.sqft ?? -1) >= f.minSqft) &&
-      (f.minLot == null || (l.lot_sqft ?? -1) >= f.minLot) &&
-      (f.maxPrice == null || (l.price ?? Infinity) <= f.maxPrice) &&
-      (f.minDom == null || l.days_on_market >= f.minDom) &&
-      (!f.cutsOnly || l.price_cut_count > 0)
-    );
+  function isNew(l) { return latest && daysBetween(l.first_seen, latest) < 7 && l.first_seen !== summary.first_snapshot; }
+  const numv = (el) => el.value === "" ? null : Number(el.value);
+
+  function predicate() {
+    const f = form.elements;
+    const c = state.chips;
+    const mine = c.has("mine");
+    const minSqft = Math.max(numv(f.minSqft) ?? 0, mine ? MY_SEARCH.minSqft : 0) || null;
+    const minLot = Math.max(numv(f.minLot) ?? 0, mine ? MY_SEARCH.minLot : 0) || null;
+    const minPrice = numv(f.minPrice), maxPrice = numv(f.maxPrice), minBeds = numv(f.minBeds), minBaths = numv(f.minBaths), minYear = numv(f.minYear);
+    const type = f.type.value, zip = f.zip.value;
+    return (l) =>
+      (c.has("gone") ? !l.active : l.active) &&
+      (!state.city || l.city === state.city) &&
+      (!c.has("cuts") || l.price_cut_count > 0) &&
+      (!c.has("new") || isNew(l)) &&
+      (!c.has("stale") || l.days_on_market >= 60) &&
+      (!c.has("relist") || l.relisted) &&
+      (!c.has("sfr") || /single family/i.test(l.property_type)) &&
+      (minSqft == null || (l.sqft ?? -1) >= minSqft) &&
+      (minLot == null || (l.lot_sqft ?? -1) >= minLot) &&
+      (minPrice == null || (l.price ?? -1) >= minPrice) &&
+      (maxPrice == null || (l.price ?? Infinity) <= maxPrice) &&
+      (minBeds == null || (l.beds ?? -1) >= minBeds) &&
+      (minBaths == null || (l.baths ?? -1) >= minBaths) &&
+      (minYear == null || (l.year_built ?? -1) >= minYear) &&
+      (!type || l.property_type === type) &&
+      (!zip || l.zip === zip);
   }
 
   function stats(rows) {
@@ -221,82 +380,251 @@
       price: median(rows.map((l) => l.price)),
       ppsf: median(rows.map((l) => l.price_per_sqft)),
       dom: median(rows.map((l) => l.days_on_market)),
-      cutShare: rows.length ? rows.filter((l) => l.price_cut_count > 0).length / rows.length : null,
+      cuts: rows.length ? rows.filter((l) => l.price_cut_count > 0).length / rows.length : null,
     };
   }
 
-  function tile(label, value, marketValue, fmt, higherIsWorse) {
-    let market = "";
-    if (marketValue != null && value != null && marketValue !== value) {
-      const cls = (value > marketValue) === higherIsWorse ? "delta-up" : "delta-down";
-      market = `<div class="market">market ${fmt(marketValue)} <span class="${cls}">${value > marketValue ? "▲" : "▼"}</span></div>`;
-    } else if (marketValue != null) {
-      market = `<div class="market">market ${fmt(marketValue)}</div>`;
+  function tile(label, v, m, fmt, higherIsWorse, compare) {
+    let vs = "";
+    if (compare && m != null && v != null) {
+      if (m === v) vs = `<div class="vs">same as market</div>`;
+      else {
+        const worse = (v > m) === higherIsWorse;
+        vs = `<div class="vs">market <b>${fmt(m)}</b> <span class="${worse ? "up" : "down"}">${v > m ? "▲" : "▼"}</span></div>`;
+      }
     }
-    return `<div class="tile"><div class="label">${label}</div><div class="value">${value == null ? "–" : fmt(value)}</div>${market}</div>`;
+    return `<div class="stat"><div class="label">${label}</div><div class="value">${v == null ? "–" : fmt(v)}</div>${vs}</div>`;
   }
 
-  function render() {
-    const f = readFilters();
-    const rows = applyFilters(listings, f, false);
-    const marketRows = listings.filter((l) => f.status === "active" ? l.active : f.status === "gone" ? !l.active : true);
-    const seg = stats(rows), mkt = stats(marketRows);
-    const filtered = rows.length !== marketRows.length;
-    const pct = (x) => (x * 100).toFixed(0) + "%";
-    const days = (x) => Math.round(x) + " d";
+  // ----- Charts -----
+  function tipFor(chart) {
+    const tip = $(".tip", chart);
+    return {
+      show(x, y, html) { tip.innerHTML = html; tip.style.left = x + "px"; tip.style.top = y + "px"; tip.classList.add("on"); },
+      hide() { tip.classList.remove("on"); },
+    };
+  }
 
-    $("#tiles").innerHTML = [
-      tile("Listings", seg.count, filtered ? mkt.count : null, fmtNum, false),
-      tile("Median price", seg.price, filtered ? mkt.price : null, fmtMoney, true),
-      tile("Median $/sqft", seg.ppsf, filtered ? mkt.ppsf : null, fmtMoney, true),
-      tile("Median days on market", seg.dom, filtered ? mkt.dom : null, days, true),
-      tile("With a price cut", seg.cutShare, filtered ? mkt.cutShare : null, pct, true),
-    ].join("");
+  function histogram(rows) {
+    const chart = $("#hist"), body = $(".body", chart), sub = $("#hist-sub");
+    const prices = rows.map((l) => l.price).filter((p) => p != null).sort((a, b) => a - b);
+    if (prices.length < 2) { body.innerHTML = `<div class="empty">Not enough listings to chart.</div>`; sub.textContent = ""; return; }
+    const lo = prices[Math.floor(prices.length * 0.05)], hi = prices[Math.ceil(prices.length * 0.95) - 1];
+    const span = Math.max(hi - lo, 1);
+    const raw = span / 14, mag = Math.pow(10, Math.floor(Math.log10(raw)));
+    const step = [1, 2, 2.5, 5, 10].map((m) => m * mag).find((s) => s >= raw) || mag * 10;
+    const start = Math.floor(lo / step) * step, end = Math.ceil((hi + 1) / step) * step;
+    const n = Math.round((end - start) / step);
+    const bins = Array.from({ length: n }, () => 0);
+    let below = 0, above = 0;
+    for (const p of prices) { if (p < start) below++; else if (p >= end) above++; else bins[Math.min(n - 1, Math.floor((p - start) / step))]++; }
+    const max = Math.max(...bins, 1);
+    const W = 600, H = 130, pad = { l: 4, r: 4, t: 8, b: 18 };
+    const bw = (W - pad.l - pad.r) / n, gap = 2;
+    const med = median(prices);
+    const medX = pad.l + ((med - start) / (end - start)) * (W - pad.l - pad.r);
+    let svg = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">`;
+    bins.forEach((c, i) => {
+      const h = (c / max) * (H - pad.t - pad.b);
+      const x = pad.l + i * bw + gap / 2, y = H - pad.b - h;
+      svg += `<rect class="bar" data-i="${i}" x="${x}" y="${y}" width="${Math.max(bw - gap, 1)}" height="${h}" rx="3"/>`;
+    });
+    svg += `<line x1="${medX}" x2="${medX}" y1="${pad.t - 4}" y2="${H - pad.b}" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 3"/>`;
+    const ticks = [0, Math.round(n / 2), n];
+    ticks.forEach((t) => { const x = pad.l + t * bw; svg += `<text class="axis" x="${x}" y="${H - 4}" text-anchor="${t === 0 ? "start" : t === n ? "end" : "middle"}">${moneyK(start + t * step)}</text>`; });
+    svg += `</svg>`;
+    body.innerHTML = svg;
+    sub.innerHTML = `${prices.length} listings · dashed line is the median, ${money(med)}${below || above ? ` · ${below + above} outside the range` : ""}`;
+    const tip = tipFor(chart);
+    $$(".bar", body).forEach((r) => {
+      r.addEventListener("mouseenter", (e) => {
+        const i = +r.dataset.i;
+        $$(".bar", body).forEach((b) => b.classList.toggle("dim", b !== r));
+        const rect = r.getBoundingClientRect(), crect = chart.getBoundingClientRect();
+        tip.show(rect.left + rect.width / 2 - crect.left, rect.top - crect.top, `<b>${bins[i]}</b> at ${moneyK(start + i * step)}–${moneyK(start + (i + 1) * step)}`);
+      });
+      r.addEventListener("mouseleave", () => { $$(".bar", body).forEach((b) => b.classList.remove("dim")); tip.hide(); });
+    });
+  }
 
-    rows.sort((a, b) => {
-      const av = a[sortKey], bv = b[sortKey];
+  function trend(id, key, fmt) {
+    const chart = $("#" + id), body = $(".body", chart);
+    const pts = (summary.history || []).filter((h) => h[key] != null);
+    if (pts.length === 0) { body.innerHTML = `<div class="empty">No history yet.</div>`; return; }
+    const W = 400, H = 130, pad = { l: 6, r: 6, t: 10, b: 18 };
+    const vals = pts.map((p) => p[key]);
+    let lo = Math.min(...vals), hi = Math.max(...vals);
+    if (lo === hi) { lo = lo * 0.95; hi = hi * 1.05 || 1; }
+    const x = (i) => pts.length === 1 ? W / 2 : pad.l + (i / (pts.length - 1)) * (W - pad.l - pad.r);
+    const y = (v) => pad.t + (1 - (v - lo) / (hi - lo)) * (H - pad.t - pad.b);
+    const path = pts.map((p, i) => `${i ? "L" : "M"}${x(i)},${y(p[key])}`).join(" ");
+    let svg = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">`;
+    [0.5].forEach((f) => { const gy = pad.t + f * (H - pad.t - pad.b); svg += `<line class="grid" x1="${pad.l}" x2="${W - pad.r}" y1="${gy}" y2="${gy}"/>`; });
+    if (pts.length > 1) svg += `<path class="area" d="${path} L${x(pts.length - 1)},${H - pad.b} L${x(0)},${H - pad.b} Z"/><path class="line" d="${path}"/>`;
+    pts.forEach((p, i) => { svg += `<circle class="dot" cx="${x(i)}" cy="${y(p[key])}" r="${pts.length > 20 ? 0 : 4}"/><rect class="hit" data-i="${i}" x="${x(i) - (W / pts.length) / 2}" y="0" width="${W / pts.length}" height="${H}"/>`; });
+    svg += `<text class="axis" x="${pad.l}" y="${H - 4}">${fmtDate(pts[0].date)}</text>`;
+    if (pts.length > 1) svg += `<text class="axis" x="${W - pad.r}" y="${H - 4}" text-anchor="end">${fmtDate(pts[pts.length - 1].date)}</text>`;
+    svg += `<text class="axis" x="${W - pad.r}" y="${pad.t - 2}" text-anchor="end">${fmt(pts[pts.length - 1][key])} today</text>`;
+    svg += `</svg>`;
+    body.innerHTML = svg;
+    const tip = tipFor(chart);
+    $$(".hit", body).forEach((r) => {
+      r.addEventListener("mouseenter", () => {
+        const i = +r.dataset.i, p = pts[i];
+        const crect = chart.getBoundingClientRect(), srect = $("svg", body).getBoundingClientRect();
+        const px = srect.left - crect.left + (x(i) / W) * srect.width, py = srect.top - crect.top + (y(p[key]) / H) * srect.height;
+        const extra = key === "active" ? ` · +${p.new} new, −${p.gone} gone` : "";
+        tip.show(px, py - 6, `${fmtDate(p.date)}: <b>${fmt(p[key])}</b>${extra}`);
+      });
+      r.addEventListener("mouseleave", tip.hide);
+    });
+  }
+
+  // ----- Listings -----
+  function spark(l) {
+    const h = l.price_history;
+    if (!h || h.length < 2) return "";
+    const vals = h.map((p) => p[1]);
+    const lo = Math.min(...vals), hi = Math.max(...vals) || 1;
+    const d = h.map((p, i) => `${i ? "L" : "M"}${(i / (h.length - 1)) * 70 + 1},${20 - ((p[1] - lo) / (hi - lo || 1)) * 18 + 1}`).join(" ");
+    return `<svg class="spark" viewBox="0 0 72 22" title="price history"><path d="${d}"/></svg>`;
+  }
+  function tags(l) {
+    const t = [];
+    if (!l.active) t.push(`<span class="tag gone">gone ${fmtDate(l.last_seen)}</span>`);
+    if (l.price_cut_count) t.push(`<span class="tag cut">−${moneyK(l.price_cut_total)} cut${l.price_cut_count > 1 ? ` ×${l.price_cut_count}` : ""}</span>`);
+    if (isNew(l)) t.push(`<span class="tag new">new</span>`);
+    if (l.relisted) t.push(`<span class="tag relist">relisted</span>`);
+    if (l.active && l.days_on_market >= 60) t.push(`<span class="tag stale">${l.days_on_market}d</span>`);
+    return t.length ? `<div class="tags">${t.join("")}</div>` : "";
+  }
+  function card(l) {
+    const was = l.original_price != null && l.original_price !== l.price ? `<span class="was">${money(l.original_price)}</span>` : "";
+    const ppsf = l.price_per_sqft ? `${money(l.price_per_sqft)}/sqft` : "";
+    return `<article class="card ${l.active ? "" : "gone"}">
+      <div class="top"><div class="price">${money(l.price)}${was}</div><div class="sub">${ppsf}</div></div>
+      <a class="addr" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.address)}</a>
+      <div class="sub">${esc(l.city)} ${esc(l.zip)} · ${esc(l.property_type || "–")}${l.year_built ? ` · built ${l.year_built}` : ""}</div>
+      <div class="facts">
+        <span><b>${num(l.beds)}</b><small>bd</small></span>
+        <span><b>${num(l.baths)}</b><small>ba</small></span>
+        <span><b>${num(l.sqft)}</b><small>sqft</small></span>
+        <span><b>${num(l.lot_sqft)}</b><small>lot</small></span>
+      </div>
+      ${tags(l)}
+      <div class="foot"><span>Listed ${fmtDate(l.list_date)} · <b>${l.days_on_market}</b> days</span>${spark(l)}</div>
+    </article>`;
+  }
+  function row(l) {
+    const cut = l.price_cut_total ? `<span class="cutv">−${money(l.price_cut_total)}${l.price_cut_count > 1 ? ` ×${l.price_cut_count}` : ""}</span>` : "";
+    return `<tr>
+      <td><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.address)}</a>${l.relisted ? ' <span class="tag relist">relist</span>' : ""}${isNew(l) ? ' <span class="tag new">new</span>' : ""}</td>
+      <td>${esc(l.city)}</td>
+      <td class="num" title="${l.original_price != null && l.original_price !== l.price ? "was " + money(l.original_price) : ""}">${money(l.price)}</td>
+      <td class="num">${cut}</td>
+      <td class="num">${l.price_per_sqft ? money(l.price_per_sqft) : ""}</td>
+      <td class="num">${num(l.beds)}</td><td class="num">${num(l.baths)}</td>
+      <td class="num">${num(l.sqft)}</td><td class="num">${num(l.lot_sqft)}</td>
+      <td class="num">${l.year_built ?? ""}</td>
+      <td class="num">${l.days_on_market}</td>
+      <td>${fmtDate(l.list_date)}</td>
+      <td>${esc(l.property_type)}</td>
+    </tr>`;
+  }
+
+  function sortRows(rows) {
+    const [key, dir] = state.sort.split(":");
+    const s = dir === "asc" ? 1 : -1;
+    return rows.sort((a, b) => {
+      const av = a[key], bv = b[key];
       if (av == null && bv == null) return 0;
       if (av == null) return 1;
       if (bv == null) return -1;
-      return (av < bv ? -1 : av > bv ? 1 : 0) * sortDir;
+      return (av < bv ? -1 : av > bv ? 1 : 0) * s || a.address.localeCompare(b.address);
     });
-
-    document.querySelectorAll("th").forEach((th) => {
-      th.classList.toggle("sorted", th.dataset.key === sortKey);
-      th.dataset.arrow = sortDir > 0 ? "↑" : "↓";
-    });
-
-    $("#count").textContent = `${rows.length} listing(s)`;
-    const tbody = $("#table tbody");
-    if (!rows.length) {
-      tbody.innerHTML = `<tr><td colspan="13" class="empty">Nothing matches these filters.</td></tr>`;
-      return;
-    }
-    tbody.innerHTML = rows.map((l) => `
-      <tr class="${l.active ? "" : "gone"}">
-        <td><a href="${l.url}" target="_blank" rel="noopener">${l.address}</a>${l.relisted ? ' <span class="badge">relist</span>' : ""}</td>
-        <td>${l.city}</td>
-        <td class="num" title="${l.original_price != null && l.original_price !== l.price ? "was " + fmtMoney(l.original_price) : ""}">${fmtMoney(l.price)}</td>
-        <td class="num ${l.price_cut_total ? "cut" : ""}">${l.price_cut_total ? "−" + fmtMoney(l.price_cut_total) + (l.price_cut_count > 1 ? ` ×${l.price_cut_count}` : "") : ""}</td>
-        <td class="num">${fmtMoney(l.price_per_sqft)}</td>
-        <td class="num">${fmtNum(l.beds)}</td>
-        <td class="num">${fmtNum(l.baths)}</td>
-        <td class="num">${fmtNum(l.sqft)}</td>
-        <td class="num">${fmtNum(l.lot_sqft)}</td>
-        <td class="num">${l.year_built ?? ""}</td>
-        <td class="num">${l.days_on_market}</td>
-        <td>${l.list_date ?? ""}</td>
-        <td>${l.active ? "Active" : `Gone ${l.last_seen}`}</td>
-      </tr>`).join("");
   }
 
-  form.addEventListener("input", render);
-  $("#reset").addEventListener("click", () => { form.reset(); render(); });
-  document.querySelectorAll("th").forEach((th) => th.addEventListener("click", () => {
+  function chipCounts() {
+    const base = L.filter((l) => l.active && (!state.city || l.city === state.city));
+    const set = (name, n) => { const el = $(`.chip[data-chip="${name}"] .n`); if (el) el.textContent = n; };
+    set("cuts", base.filter((l) => l.price_cut_count > 0).length);
+    set("new", base.filter(isNew).length);
+    set("stale", base.filter((l) => l.days_on_market >= 60).length);
+    set("relist", base.filter((l) => l.relisted).length);
+    set("gone", L.filter((l) => !l.active && (!state.city || l.city === state.city)).length);
+  }
+
+  function render() {
+    writeHash();
+    $$("#city button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.city === state.city));
+    $$(".chip").forEach((b) => b.setAttribute("aria-pressed", state.chips.has(b.dataset.chip)));
+    $$("#view button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.view === state.view));
+    $("#sort").value = state.sort;
+    chipCounts();
+
+    const rows = sortRows(L.filter(predicate()));
+    const market = L.filter((l) => (state.chips.has("gone") ? !l.active : l.active));
+    const seg = stats(rows), mkt = stats(market);
+    const filtered = rows.length !== market.length;
+    $("#stats").innerHTML = [
+      tile("Homes", seg.count, mkt.count, num, false, filtered),
+      tile("Median price", seg.price, mkt.price, money, true, filtered),
+      tile("Median $/sqft", seg.ppsf, mkt.ppsf, money, true, filtered),
+      tile("Median days on market", seg.dom, mkt.dom, (x) => Math.round(x) + " d", true, filtered),
+      tile("Had a price cut", seg.cuts, mkt.cuts, (x) => Math.round(x * 100) + "%", true, filtered),
+    ].join("");
+
+    histogram(rows);
+
+    const title = state.chips.has("mine") ? "My search" : state.chips.has("gone") ? "Off the market" : state.city ? `${state.city} listings` : "All listings";
+    $("#list-title").textContent = title;
+    $("#count").textContent = `${rows.length} home${rows.length === 1 ? "" : "s"}${filtered ? ` of ${market.length}` : ""}`;
+
+    const shown = rows.slice(0, state.limit);
+    const cards = $("#cards"), wrap = $("#table-wrap");
+    cards.classList.toggle("off", state.view !== "cards");
+    wrap.classList.toggle("on", state.view === "table");
+    if (!rows.length) {
+      cards.innerHTML = `<div class="nothing" style="grid-column:1/-1">Nothing matches. Loosen a filter or clear all.</div>`;
+      $("#table tbody").innerHTML = "";
+    } else if (state.view === "cards") {
+      cards.innerHTML = shown.map(card).join("");
+    } else {
+      $("#table tbody").innerHTML = shown.map(row).join("");
+    }
+    const [sk, sd] = state.sort.split(":");
+    $$("th").forEach((th) => { th.classList.toggle("sorted", th.dataset.key === sk); th.dataset.arrow = sd === "asc" ? "↑" : "↓"; });
+    const more = $("#show-more");
+    more.hidden = rows.length <= state.limit;
+    more.textContent = `Show ${Math.min(PAGE, rows.length - state.limit)} more of ${rows.length - state.limit}`;
+  }
+
+  // ----- Events -----
+  const reset = () => { state.limit = PAGE; };
+  $("#city").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.city = b.dataset.city; reset(); render(); });
+  $("#chips").addEventListener("click", (e) => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    const c = b.dataset.chip;
+    state.chips.has(c) ? state.chips.delete(c) : state.chips.add(c);
+    reset(); render();
+  });
+  $("#view").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.view = b.dataset.view; render(); });
+  $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; reset(); render(); });
+  $("#more-toggle").addEventListener("click", () => { form.classList.toggle("open"); $("#more-toggle").textContent = form.classList.contains("open") ? "Hide filters" : "More filters"; });
+  form.addEventListener("input", () => { reset(); render(); });
+  $("#reset").addEventListener("click", () => { form.reset(); state.chips = new Set(DEFAULT_CHIPS); state.city = ""; reset(); render(); });
+  $("#show-more").addEventListener("click", () => { state.limit += PAGE; render(); });
+  $$("th").forEach((th) => th.addEventListener("click", () => {
     const key = th.dataset.key;
-    if (sortKey === key) sortDir = -sortDir; else { sortKey = key; sortDir = key === "address" || key === "city" ? 1 : -1; }
+    const [sk, sd] = state.sort.split(":");
+    state.sort = `${key}:${sk === key && sd === "desc" ? "asc" : sk === key ? "desc" : (key === "address" || key === "city" || key === "property_type" ? "asc" : "desc")}`;
     render();
   }));
+
+  readHash();
+  if ([...form.elements].some((el) => el.name && el.value)) { form.classList.add("open"); $("#more-toggle").textContent = "Hide filters"; }
+  trend("trend-active", "active", num);
+  trend("trend-price", "median_price", money);
   render();
 })();
 </script>

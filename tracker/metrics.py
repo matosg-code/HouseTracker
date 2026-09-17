@@ -17,6 +17,7 @@ from tracker.collect import DEFAULT_CONFIG, load_config, read_rows
 log = logging.getLogger("tracker.metrics")
 
 RELIST_GAP_DAYS = 7
+LIST_DATE_JITTER_DAYS = 3
 
 
 def to_number(value):
@@ -38,6 +39,7 @@ def summarize_listing(rows: list[dict], latest_snapshot: date) -> dict:
     price_history: list[list] = []
     cuts = 0
     cut_total = 0
+    last_cut_date = None
     prev_price = None
     for r in rows:
         p = to_number(r["price"])
@@ -48,14 +50,20 @@ def summarize_listing(rows: list[dict], latest_snapshot: date) -> dict:
             if prev_price is not None and p < prev_price:
                 cuts += 1
                 cut_total += prev_price - p
+                last_cut_date = r["snapshot_date"]
             prev_price = p
 
-    list_dates = {r["list_date"] for r in rows if r["list_date"]}
-    gap_relist = any(
-        (date.fromisoformat(b["snapshot_date"]) - date.fromisoformat(a["snapshot_date"])).days > RELIST_GAP_DAYS
-        for a, b in zip(rows, rows[1:])
-    )
-    relisted = len(list_dates) > 1 or gap_relist
+    # Sources derive list_date from a days-on-market counter that ticks at its
+    # own hour, so consecutive snapshots can disagree by a day. Only a jump
+    # bigger than LIST_DATE_JITTER_DAYS means the listing was actually relisted.
+    relisted = False
+    for a, b in zip(rows, rows[1:]):
+        if (date.fromisoformat(b["snapshot_date"]) - date.fromisoformat(a["snapshot_date"])).days > RELIST_GAP_DAYS:
+            relisted = True
+        if a["list_date"] and b["list_date"]:
+            shift = abs((date.fromisoformat(b["list_date"]) - date.fromisoformat(a["list_date"])).days)
+            if shift > LIST_DATE_JITTER_DAYS:
+                relisted = True
 
     active = last_seen == latest_snapshot
     end = latest_snapshot if active else last_seen
@@ -73,6 +81,7 @@ def summarize_listing(rows: list[dict], latest_snapshot: date) -> dict:
         "original_price": price_history[0][1] if price_history else None,
         "price_cut_count": cuts,
         "price_cut_total": cut_total,
+        "last_cut_date": last_cut_date,
         "price_per_sqft": round(price / sqft) if price and sqft else None,
         "beds": to_number(last["beds"]),
         "baths": to_number(last["baths"]),
@@ -92,12 +101,56 @@ def summarize_listing(rows: list[dict], latest_snapshot: date) -> dict:
     }
 
 
+def median(values):
+    vals = sorted(v for v in values if v is not None)
+    if not vals:
+        return None
+    mid = len(vals) // 2
+    return vals[mid] if len(vals) % 2 else (vals[mid - 1] + vals[mid]) / 2
+
+
+def build_history(rows: list[dict], dates: list[str], listings: list[dict]) -> list[dict]:
+    """One point per snapshot date: market size, medians, and churn for that day."""
+    by_date: dict[str, list[dict]] = defaultdict(list)
+    for r in rows:
+        by_date[r["snapshot_date"]].append(r)
+    first_seen = defaultdict(int)
+    last_seen = defaultdict(int)
+    for l in listings:
+        first_seen[l["first_seen"]] += 1
+        last_seen[l["last_seen"]] += 1
+
+    history = []
+    for i, d in enumerate(dates):
+        day = by_date[d]
+        prices = [to_number(r["price"]) for r in day]
+        ppsf = []
+        dom = []
+        d_obj = date.fromisoformat(d)
+        for r in day:
+            p, s = to_number(r["price"]), to_number(r["sqft"])
+            if p and s:
+                ppsf.append(p / s)
+            if r["list_date"]:
+                dom.append((d_obj - date.fromisoformat(r["list_date"])).days)
+        history.append({
+            "date": d,
+            "active": len(day),
+            "median_price": median(prices),
+            "median_ppsf": round(median(ppsf)) if ppsf else None,
+            "median_dom": median(dom),
+            "new": first_seen[d] if i > 0 else 0,
+            "gone": last_seen[dates[i - 1]] if i > 0 else 0,
+        })
+    return history
+
+
 def build_summary(rows: list[dict]) -> dict:
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     if not rows:
         return {
             "generated_at": generated_at, "latest_snapshot": None, "first_snapshot": None,
-            "snapshot_count": 0, "listing_count": 0, "active_count": 0, "listings": [],
+            "snapshot_count": 0, "listing_count": 0, "active_count": 0, "listings": [], "history": [],
         }
     dates = sorted({r["snapshot_date"] for r in rows})
     latest = date.fromisoformat(dates[-1])
@@ -113,6 +166,7 @@ def build_summary(rows: list[dict]) -> dict:
         "snapshot_count": len(dates),
         "listing_count": len(listings),
         "active_count": sum(1 for l in listings if l["active"]),
+        "history": build_history(rows, dates, listings),
         "listings": listings,
     }
 

@@ -64,6 +64,15 @@ def test_relist_detected_from_list_date_change():
     assert c["days_on_market"] == 1
 
 
+def test_list_date_jitter_is_not_a_relist():
+    rows = rows_from("""
+2026-09-01,F,6 F St,Merced,95340,250000,2,1,900,4000,1950,Single Family,Active,2026-08-20,,,https://x/f,redfin
+2026-09-02,F,6 F St,Merced,95340,250000,2,1,900,4000,1950,Single Family,Active,2026-08-21,,,https://x/f,redfin
+2026-09-03,F,6 F St,Merced,95340,250000,2,1,900,4000,1950,Single Family,Active,2026-08-20,,,https://x/f,redfin
+""")
+    assert by_id(metrics.build_summary(rows))["F"]["relisted"] is False
+
+
 def test_relist_detected_from_snapshot_gap():
     rows = rows_from("""
 2026-08-01,E,5 E St,Merced,95340,250000,2,1,900,4000,1950,Single Family,Active,,,,https://x/e,rentcast
@@ -80,6 +89,24 @@ def test_missing_numbers_become_null():
     assert d["price_per_sqft"] is None
     assert d["list_date"] is None
     assert d["original_price"] is None
+
+
+def test_history_per_snapshot():
+    h = metrics.build_summary(rows_from(CSV))["history"]
+    assert [x["date"] for x in h] == ["2026-09-01", "2026-09-02", "2026-09-03"]
+    assert [x["active"] for x in h] == [3, 2, 3]
+    assert h[0]["median_price"] == 400000
+    assert h[0]["new"] == 0 and h[0]["gone"] == 0
+    assert h[2]["new"] == 1          # D first seen on 09-03
+    assert h[2]["gone"] == 1         # B last seen on 09-02
+    assert h[2]["median_dom"] == 10  # A:19, C:1; D has no list_date
+    assert h[2]["median_ppsf"] == 196
+
+
+def test_last_cut_date():
+    a = by_id(metrics.build_summary(rows_from(CSV)))["A"]
+    assert a["last_cut_date"] == "2026-09-02"
+    assert by_id(metrics.build_summary(rows_from(CSV)))["C"]["last_cut_date"] is None
 
 
 def test_empty_input():

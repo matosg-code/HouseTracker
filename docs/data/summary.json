@@ -1,10 +1,30 @@
 {
- "generated_at": "2026-09-17T00:57:06+00:00",
+ "generated_at": "2026-09-17T01:05:04+00:00",
  "latest_snapshot": "2026-09-17",
  "first_snapshot": "2026-09-16",
  "snapshot_count": 2,
  "listing_count": 439,
  "active_count": 439,
+ "history": [
+  {
+   "date": "2026-09-16",
+   "active": 438,
+   "median_price": 419999.0,
+   "median_ppsf": 254,
+   "median_dom": 62.5,
+   "new": 0,
+   "gone": 0
+  },
+  {
+   "date": "2026-09-17",
+   "active": 439,
+   "median_price": 419999,
+   "median_ppsf": 254,
+   "median_dom": 62,
+   "new": 1,
+   "gone": 0
+  }
+ ],
  "listings": [
   {
    "listing_id": "mls:226043198",
@@ -15,6 +35,7 @@
    "original_price": 1500000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -28,7 +49,7 @@
    "days_on_market": 161,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -46,6 +67,7 @@
    "original_price": 720000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -59,7 +81,7 @@
    "days_on_market": 1588,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -77,6 +99,7 @@
    "original_price": 425000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -90,7 +113,7 @@
    "days_on_market": 121,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -108,6 +131,7 @@
    "original_price": 290000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -121,7 +145,7 @@
    "days_on_market": 224,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -139,6 +163,7 @@
    "original_price": 1250000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 344,
    "beds": 5,
    "baths": 4.5,
@@ -152,7 +177,7 @@
    "days_on_market": 23,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -170,6 +195,7 @@
    "original_price": 813500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -183,7 +209,7 @@
    "days_on_market": 99,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -201,6 +227,7 @@
    "original_price": 1195950,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -214,7 +241,7 @@
    "days_on_market": 106,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -232,6 +259,7 @@
    "original_price": 374999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 245,
    "beds": 3,
    "baths": 2,
@@ -245,7 +273,7 @@
    "days_on_market": 22,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -263,6 +291,7 @@
    "original_price": 325000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 204,
    "beds": 4,
    "baths": 2,
@@ -276,7 +305,7 @@
    "days_on_market": 205,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -294,6 +323,7 @@
    "original_price": 370000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 250,
    "beds": 3,
    "baths": 2,
@@ -307,7 +337,7 @@
    "days_on_market": 35,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -325,6 +355,7 @@
    "original_price": 349900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 258,
    "beds": 3,
    "baths": 1,
@@ -338,7 +369,7 @@
    "days_on_market": 71,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -356,6 +387,7 @@
    "original_price": 295000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 207,
    "beds": 3,
    "baths": 2,
@@ -369,7 +401,7 @@
    "days_on_market": 6,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -387,6 +419,7 @@
    "original_price": 58000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 86,
    "beds": 2,
    "baths": 1,
@@ -400,7 +433,7 @@
    "days_on_market": 147,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -418,6 +451,7 @@
    "original_price": 265000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -431,7 +465,7 @@
    "days_on_market": 22,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -449,6 +483,7 @@
    "original_price": 325000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 234,
    "beds": 3,
    "baths": 2,
@@ -462,7 +497,7 @@
    "days_on_market": 26,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -480,6 +515,7 @@
    "original_price": 475000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 238,
    "beds": 4,
    "baths": 2,
@@ -493,7 +529,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -511,6 +547,7 @@
    "original_price": 330000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 271,
    "beds": 3,
    "baths": 1.5,
@@ -524,7 +561,7 @@
    "days_on_market": 14,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -542,6 +579,7 @@
    "original_price": 495000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 252,
    "beds": 4,
    "baths": 2,
@@ -555,7 +593,7 @@
    "days_on_market": 6,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -573,6 +611,7 @@
    "original_price": 319000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 244,
    "beds": 3,
    "baths": 1,
@@ -586,7 +625,7 @@
    "days_on_market": 5,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -604,6 +643,7 @@
    "original_price": 297699,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 393,
    "beds": 2,
    "baths": 1,
@@ -617,7 +657,7 @@
    "days_on_market": 86,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -635,6 +675,7 @@
    "original_price": 389000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 292,
    "beds": 3,
    "baths": 2,
@@ -648,7 +689,7 @@
    "days_on_market": 21,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -666,6 +707,7 @@
    "original_price": 349900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 288,
    "beds": 3,
    "baths": 1.5,
@@ -679,7 +721,7 @@
    "days_on_market": 71,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -697,6 +739,7 @@
    "original_price": 399000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 259,
    "beds": 3,
    "baths": 2,
@@ -710,7 +753,7 @@
    "days_on_market": 33,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -728,6 +771,7 @@
    "original_price": 299999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 299,
    "beds": 3,
    "baths": 2,
@@ -741,7 +785,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -759,6 +803,7 @@
    "original_price": 694999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 260,
    "beds": 4,
    "baths": 3,
@@ -772,7 +817,7 @@
    "days_on_market": 41,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -790,6 +835,7 @@
    "original_price": 392000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 291,
    "beds": 3,
    "baths": 2,
@@ -803,7 +849,7 @@
    "days_on_market": 38,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -821,6 +867,7 @@
    "original_price": 340000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 422,
    "beds": 2,
    "baths": 2,
@@ -834,7 +881,7 @@
    "days_on_market": 19,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -852,6 +899,7 @@
    "original_price": 120000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 86,
    "beds": 3,
    "baths": 2,
@@ -865,7 +913,7 @@
    "days_on_market": 87,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -883,6 +931,7 @@
    "original_price": 325000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 293,
    "beds": 3,
    "baths": 2,
@@ -896,7 +945,7 @@
    "days_on_market": 81,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -914,6 +963,7 @@
    "original_price": 549900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 305,
    "beds": 3,
    "baths": 2,
@@ -927,7 +977,7 @@
    "days_on_market": 134,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -945,6 +995,7 @@
    "original_price": 325000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 1161,
    "beds": 1,
    "baths": 1,
@@ -958,7 +1009,7 @@
    "days_on_market": 322,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -976,6 +1027,7 @@
    "original_price": 449000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 239,
    "beds": 4,
    "baths": 2,
@@ -989,7 +1041,7 @@
    "days_on_market": 15,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1007,6 +1059,7 @@
    "original_price": 995000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 214,
    "beds": 70,
    "baths": null,
@@ -1020,7 +1073,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1038,6 +1091,7 @@
    "original_price": 650000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -1051,7 +1105,7 @@
    "days_on_market": 784,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1069,6 +1123,7 @@
    "original_price": 450000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 263,
    "beds": 3,
    "baths": 2,
@@ -1082,7 +1137,7 @@
    "days_on_market": 25,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1100,6 +1155,7 @@
    "original_price": 475000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 258,
    "beds": 4,
    "baths": 2,
@@ -1113,7 +1169,7 @@
    "days_on_market": 71,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1131,6 +1187,7 @@
    "original_price": 240000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 417,
    "beds": 1,
    "baths": 1,
@@ -1144,7 +1201,7 @@
    "days_on_market": 86,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1162,6 +1219,7 @@
    "original_price": 132000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 153,
    "beds": 2,
    "baths": 2,
@@ -1175,7 +1233,7 @@
    "days_on_market": 144,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1193,6 +1251,7 @@
    "original_price": 275000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -1206,7 +1265,7 @@
    "days_on_market": 224,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1224,6 +1283,7 @@
    "original_price": 300000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 238,
    "beds": 3,
    "baths": 2,
@@ -1237,7 +1297,7 @@
    "days_on_market": 54,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1255,6 +1315,7 @@
    "original_price": 489000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 283,
    "beds": 3,
    "baths": 2,
@@ -1268,7 +1329,7 @@
    "days_on_market": 79,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1286,6 +1347,7 @@
    "original_price": 924950,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 460,
    "beds": 4,
    "baths": 2.5,
@@ -1299,7 +1361,7 @@
    "days_on_market": 55,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1317,6 +1379,7 @@
    "original_price": 449000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 227,
    "beds": 3,
    "baths": 2.5,
@@ -1330,7 +1393,7 @@
    "days_on_market": 105,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1348,6 +1411,7 @@
    "original_price": 55000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -1361,7 +1425,7 @@
    "days_on_market": 442,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1379,6 +1443,7 @@
    "original_price": 439900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 273,
    "beds": 3,
    "baths": 2,
@@ -1392,7 +1457,7 @@
    "days_on_market": 99,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1410,6 +1475,7 @@
    "original_price": 55000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 65,
    "beds": 3,
    "baths": 2,
@@ -1423,7 +1489,7 @@
    "days_on_market": 189,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1441,6 +1507,7 @@
    "original_price": 410000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 223,
    "beds": 3,
    "baths": 2,
@@ -1454,7 +1521,7 @@
    "days_on_market": 15,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1472,6 +1539,7 @@
    "original_price": 535000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 260,
    "beds": 4,
    "baths": 2,
@@ -1485,7 +1553,7 @@
    "days_on_market": 26,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1503,6 +1571,7 @@
    "original_price": 465000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 248,
    "beds": 4,
    "baths": 2,
@@ -1516,7 +1585,7 @@
    "days_on_market": 51,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1534,6 +1603,7 @@
    "original_price": 424900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 275,
    "beds": 4,
    "baths": 2,
@@ -1547,7 +1617,7 @@
    "days_on_market": 63,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1565,6 +1635,7 @@
    "original_price": 59000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 98,
    "beds": 2,
    "baths": 1,
@@ -1578,7 +1649,7 @@
    "days_on_market": 49,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1596,6 +1667,7 @@
    "original_price": 895000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 374,
    "beds": 3,
    "baths": 2,
@@ -1609,7 +1681,7 @@
    "days_on_market": 20,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1627,6 +1699,7 @@
    "original_price": 799901,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 429,
    "beds": 3,
    "baths": 2,
@@ -1640,7 +1713,7 @@
    "days_on_market": 61,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1658,6 +1731,7 @@
    "original_price": 439000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 270,
    "beds": 3,
    "baths": 2,
@@ -1671,7 +1745,7 @@
    "days_on_market": 76,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1689,6 +1763,7 @@
    "original_price": 525000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 215,
    "beds": 4,
    "baths": 3,
@@ -1702,7 +1777,7 @@
    "days_on_market": 4,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1720,6 +1795,7 @@
    "original_price": 539900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 227,
    "beds": 4,
    "baths": 2.5,
@@ -1733,7 +1809,7 @@
    "days_on_market": 20,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1751,6 +1827,7 @@
    "original_price": 249900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -1764,7 +1841,7 @@
    "days_on_market": 180,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1782,6 +1859,7 @@
    "original_price": 399000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -1795,7 +1873,7 @@
    "days_on_market": 128,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1813,6 +1891,7 @@
    "original_price": 320000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 246,
    "beds": 3,
    "baths": 1,
@@ -1826,7 +1905,7 @@
    "days_on_market": 12,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1844,6 +1923,7 @@
    "original_price": 699900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 290,
    "beds": 4,
    "baths": 3,
@@ -1857,7 +1937,7 @@
    "days_on_market": 306,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1875,6 +1955,7 @@
    "original_price": 565000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 246,
    "beds": 4,
    "baths": 2.5,
@@ -1888,7 +1969,7 @@
    "days_on_market": 72,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1906,6 +1987,7 @@
    "original_price": 1100000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -1919,7 +2001,7 @@
    "days_on_market": 356,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1937,6 +2019,7 @@
    "original_price": 109990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 122,
    "beds": 3,
    "baths": 2,
@@ -1950,7 +2033,7 @@
    "days_on_market": 20,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1968,6 +2051,7 @@
    "original_price": 72999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 88,
    "beds": 3,
    "baths": 1,
@@ -1981,7 +2065,7 @@
    "days_on_market": 63,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -1999,6 +2083,7 @@
    "original_price": 749999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 375,
    "beds": 3,
    "baths": 2,
@@ -2012,7 +2097,7 @@
    "days_on_market": 11,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2030,6 +2115,7 @@
    "original_price": 409900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 264,
    "beds": 3,
    "baths": 2,
@@ -2043,7 +2129,7 @@
    "days_on_market": 9,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2061,6 +2147,7 @@
    "original_price": 395000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 233,
    "beds": 3,
    "baths": 2,
@@ -2074,7 +2161,7 @@
    "days_on_market": 135,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2092,6 +2179,7 @@
    "original_price": 90000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 83,
    "beds": 3,
    "baths": 2,
@@ -2105,7 +2193,7 @@
    "days_on_market": 18,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2123,6 +2211,7 @@
    "original_price": 689000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 308,
    "beds": 3,
    "baths": 2.5,
@@ -2136,7 +2225,7 @@
    "days_on_market": 30,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2154,6 +2243,7 @@
    "original_price": 78000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 54,
    "beds": 4,
    "baths": 2,
@@ -2167,7 +2257,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2185,6 +2275,7 @@
    "original_price": 1250000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 658,
    "beds": 3,
    "baths": 2,
@@ -2198,7 +2289,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2216,6 +2307,7 @@
    "original_price": 505000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 219,
    "beds": 4,
    "baths": 3,
@@ -2229,7 +2321,7 @@
    "days_on_market": 16,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2247,6 +2339,7 @@
    "original_price": 2812500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2260,7 +2353,7 @@
    "days_on_market": 452,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2278,6 +2371,7 @@
    "original_price": 105000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2291,7 +2385,7 @@
    "days_on_market": 20,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2309,6 +2403,7 @@
    "original_price": 185000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2322,7 +2417,7 @@
    "days_on_market": 47,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2340,6 +2435,7 @@
    "original_price": 2280000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2353,7 +2449,7 @@
    "days_on_market": 313,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2371,6 +2467,7 @@
    "original_price": 749900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2384,7 +2481,7 @@
    "days_on_market": 21,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2402,6 +2499,7 @@
    "original_price": 1870000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2415,7 +2513,7 @@
    "days_on_market": 456,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2433,6 +2531,7 @@
    "original_price": 222000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2446,7 +2545,7 @@
    "days_on_market": 315,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2464,6 +2563,7 @@
    "original_price": 125000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2477,7 +2577,7 @@
    "days_on_market": 24,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2495,6 +2595,7 @@
    "original_price": 2812500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2508,7 +2609,7 @@
    "days_on_market": 456,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2526,6 +2627,7 @@
    "original_price": 150000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2539,7 +2641,7 @@
    "days_on_market": 28,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2557,6 +2659,7 @@
    "original_price": 2650000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2570,7 +2673,7 @@
    "days_on_market": 1701,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2588,6 +2691,7 @@
    "original_price": 920000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": 0,
    "baths": null,
@@ -2601,7 +2705,7 @@
    "days_on_market": 126,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2619,6 +2723,7 @@
    "original_price": 1488000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2632,7 +2737,7 @@
    "days_on_market": 460,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2650,6 +2755,7 @@
    "original_price": 1473000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2663,7 +2769,7 @@
    "days_on_market": 460,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2681,6 +2787,7 @@
    "original_price": 3875000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2694,7 +2801,7 @@
    "days_on_market": 307,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2712,6 +2819,7 @@
    "original_price": 250000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2725,7 +2833,7 @@
    "days_on_market": 110,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2743,6 +2851,7 @@
    "original_price": 540000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 266,
    "beds": 3,
    "baths": 2,
@@ -2756,7 +2865,7 @@
    "days_on_market": 82,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2774,6 +2883,7 @@
    "original_price": 690000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 221,
    "beds": 4,
    "baths": 3,
@@ -2787,7 +2897,7 @@
    "days_on_market": 18,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2805,6 +2915,7 @@
    "original_price": 449900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 625,
    "beds": 2,
    "baths": 1,
@@ -2818,7 +2929,7 @@
    "days_on_market": 6,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2836,6 +2947,7 @@
    "original_price": 428000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 279,
    "beds": 4,
    "baths": 2,
@@ -2849,7 +2961,7 @@
    "days_on_market": 28,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2867,6 +2979,7 @@
    "original_price": 434991,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 263,
    "beds": 3,
    "baths": 2,
@@ -2880,7 +2993,7 @@
    "days_on_market": 110,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2898,6 +3011,7 @@
    "original_price": 459999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 252,
    "beds": 3,
    "baths": 2,
@@ -2911,7 +3025,7 @@
    "days_on_market": 20,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2929,6 +3043,7 @@
    "original_price": 475000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 299,
    "beds": 3,
    "baths": 2,
@@ -2942,7 +3057,7 @@
    "days_on_market": 6,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2960,6 +3075,7 @@
    "original_price": 649000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -2973,7 +3089,7 @@
    "days_on_market": 37,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -2991,6 +3107,7 @@
    "original_price": 285000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -3004,7 +3121,7 @@
    "days_on_market": 5,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3022,6 +3139,7 @@
    "original_price": 499900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 285,
    "beds": 3,
    "baths": 2,
@@ -3035,7 +3153,7 @@
    "days_on_market": 37,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3053,6 +3171,7 @@
    "original_price": 450000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 200,
    "beds": 5,
    "baths": 3,
@@ -3066,7 +3185,7 @@
    "days_on_market": 192,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3084,6 +3203,7 @@
    "original_price": 299999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 296,
    "beds": 2,
    "baths": 1,
@@ -3097,7 +3217,7 @@
    "days_on_market": 90,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3115,6 +3235,7 @@
    "original_price": 399999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 226,
    "beds": 3,
    "baths": 2,
@@ -3128,7 +3249,7 @@
    "days_on_market": 42,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3146,6 +3267,7 @@
    "original_price": 454000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 224,
    "beds": 4,
    "baths": 2.5,
@@ -3159,7 +3281,7 @@
    "days_on_market": 98,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3177,6 +3299,7 @@
    "original_price": 459000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 129,
    "beds": 4,
    "baths": 4,
@@ -3190,7 +3313,7 @@
    "days_on_market": 43,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3208,6 +3331,7 @@
    "original_price": 295000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 277,
    "beds": 3,
    "baths": 1,
@@ -3221,7 +3345,7 @@
    "days_on_market": 93,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3239,6 +3363,7 @@
    "original_price": 365000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 278,
    "beds": 3,
    "baths": 2,
@@ -3252,7 +3377,7 @@
    "days_on_market": 56,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3270,6 +3395,7 @@
    "original_price": 125000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -3283,7 +3409,7 @@
    "days_on_market": 100,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3301,6 +3427,7 @@
    "original_price": 399000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 220,
    "beds": 3,
    "baths": 2,
@@ -3314,7 +3441,7 @@
    "days_on_market": 21,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3332,6 +3459,7 @@
    "original_price": 289000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 277,
    "beds": 3,
    "baths": 1,
@@ -3363,6 +3491,7 @@
    "original_price": 429000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 248,
    "beds": 4,
    "baths": 2,
@@ -3376,7 +3505,7 @@
    "days_on_market": 26,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3394,6 +3523,7 @@
    "original_price": 305000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 236,
    "beds": 3,
    "baths": 2.5,
@@ -3407,7 +3537,7 @@
    "days_on_market": 110,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3425,6 +3555,7 @@
    "original_price": 399999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -3438,7 +3569,7 @@
    "days_on_market": 47,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3456,6 +3587,7 @@
    "original_price": 600000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -3469,7 +3601,7 @@
    "days_on_market": 54,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3487,6 +3619,7 @@
    "original_price": 557500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 189,
    "beds": 4,
    "baths": 3,
@@ -3500,7 +3633,7 @@
    "days_on_market": 107,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3518,6 +3651,7 @@
    "original_price": 212520,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 242,
    "beds": 2,
    "baths": 1,
@@ -3531,7 +3665,7 @@
    "days_on_market": 62,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3549,6 +3683,7 @@
    "original_price": 399990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 325,
    "beds": 3,
    "baths": 2,
@@ -3562,7 +3697,7 @@
    "days_on_market": 83,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3580,6 +3715,7 @@
    "original_price": 409490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 333,
    "beds": 3,
    "baths": 2,
@@ -3593,7 +3729,7 @@
    "days_on_market": 71,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3611,6 +3747,7 @@
    "original_price": 390000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 343,
    "beds": 3,
    "baths": 2,
@@ -3624,7 +3761,7 @@
    "days_on_market": 17,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3642,6 +3779,7 @@
    "original_price": 419000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 192,
    "beds": 4,
    "baths": 2,
@@ -3655,7 +3793,7 @@
    "days_on_market": 24,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3673,6 +3811,7 @@
    "original_price": 519000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 269,
    "beds": 4,
    "baths": 3,
@@ -3686,7 +3825,7 @@
    "days_on_market": 49,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3704,6 +3843,7 @@
    "original_price": 420000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 257,
    "beds": 4,
    "baths": 2.5,
@@ -3717,7 +3857,7 @@
    "days_on_market": 53,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3735,6 +3875,7 @@
    "original_price": 320000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 254,
    "beds": 2,
    "baths": 2.5,
@@ -3748,7 +3889,7 @@
    "days_on_market": 17,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3766,6 +3907,7 @@
    "original_price": 399000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 223,
    "beds": 4,
    "baths": 2.5,
@@ -3779,7 +3921,7 @@
    "days_on_market": 37,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3797,6 +3939,7 @@
    "original_price": 339000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 254,
    "beds": 3,
    "baths": 2,
@@ -3810,7 +3953,7 @@
    "days_on_market": 286,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3828,6 +3971,7 @@
    "original_price": 389990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 317,
    "beds": 3,
    "baths": 2,
@@ -3841,7 +3985,7 @@
    "days_on_market": 104,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3859,6 +4003,7 @@
    "original_price": 402990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 328,
    "beds": 3,
    "baths": 2,
@@ -3872,7 +4017,7 @@
    "days_on_market": 71,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3890,6 +4035,7 @@
    "original_price": 450000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 220,
    "beds": 4,
    "baths": 2.5,
@@ -3903,7 +4049,7 @@
    "days_on_market": 41,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3921,6 +4067,7 @@
    "original_price": 275000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 175,
    "beds": 3,
    "baths": 2,
@@ -3934,7 +4081,7 @@
    "days_on_market": 21,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3952,6 +4099,7 @@
    "original_price": 359000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 486,
    "beds": 2,
    "baths": 1,
@@ -3965,7 +4113,7 @@
    "days_on_market": 59,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -3983,6 +4131,7 @@
    "original_price": 440000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 252,
    "beds": 4,
    "baths": 2,
@@ -3996,7 +4145,7 @@
    "days_on_market": 12,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4014,6 +4163,7 @@
    "original_price": 455000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 355,
    "beds": 3,
    "baths": 1.5,
@@ -4027,7 +4177,7 @@
    "days_on_market": 2,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4045,6 +4195,7 @@
    "original_price": 402990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 328,
    "beds": 3,
    "baths": 2,
@@ -4058,7 +4209,7 @@
    "days_on_market": 45,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4076,6 +4227,7 @@
    "original_price": 411490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 335,
    "beds": 3,
    "baths": 2,
@@ -4089,7 +4241,7 @@
    "days_on_market": 43,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4107,6 +4259,7 @@
    "original_price": 550000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 232,
    "beds": 5,
    "baths": 2.5,
@@ -4120,7 +4273,7 @@
    "days_on_market": 4,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4138,6 +4291,7 @@
    "original_price": 365000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 263,
    "beds": 3,
    "baths": 2,
@@ -4151,7 +4305,7 @@
    "days_on_market": 21,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4169,6 +4323,7 @@
    "original_price": 895500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 370,
    "beds": 6,
    "baths": 4,
@@ -4182,7 +4337,7 @@
    "days_on_market": 79,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4200,6 +4355,7 @@
    "original_price": 459000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 173,
    "beds": 4,
    "baths": 3,
@@ -4213,7 +4369,7 @@
    "days_on_market": 43,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4231,6 +4387,7 @@
    "original_price": 225000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 223,
    "beds": 2,
    "baths": 1,
@@ -4244,7 +4401,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4262,6 +4419,7 @@
    "original_price": 565000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 231,
    "beds": 5,
    "baths": 2.5,
@@ -4275,7 +4433,7 @@
    "days_on_market": 15,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4293,6 +4451,7 @@
    "original_price": 389999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 306,
    "beds": 3,
    "baths": 2,
@@ -4306,7 +4465,7 @@
    "days_on_market": 230,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4324,6 +4483,7 @@
    "original_price": 25000000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -4337,7 +4497,7 @@
    "days_on_market": 231,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4355,6 +4515,7 @@
    "original_price": 380000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 256,
    "beds": 3,
    "baths": 2,
@@ -4368,7 +4529,7 @@
    "days_on_market": 189,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4386,6 +4547,7 @@
    "original_price": 299999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 294,
    "beds": 3,
    "baths": 1,
@@ -4399,7 +4561,7 @@
    "days_on_market": 17,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4417,6 +4579,7 @@
    "original_price": 485000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 410,
    "beds": 3,
    "baths": 2,
@@ -4430,7 +4593,7 @@
    "days_on_market": 30,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4448,6 +4611,7 @@
    "original_price": 630000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 188,
    "beds": 32,
    "baths": 16,
@@ -4461,7 +4625,7 @@
    "days_on_market": 120,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4479,6 +4643,7 @@
    "original_price": 404990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 329,
    "beds": 3,
    "baths": 2,
@@ -4492,7 +4657,7 @@
    "days_on_market": 76,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4510,6 +4675,7 @@
    "original_price": 414490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 337,
    "beds": 3,
    "baths": 2,
@@ -4523,7 +4689,7 @@
    "days_on_market": 71,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4541,6 +4707,7 @@
    "original_price": 310000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 314,
    "beds": 3,
    "baths": 1.5,
@@ -4554,7 +4721,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4572,6 +4739,7 @@
    "original_price": 399000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 338,
    "beds": 3,
    "baths": 1,
@@ -4585,7 +4753,7 @@
    "days_on_market": 356,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4603,6 +4771,7 @@
    "original_price": 425000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 167,
    "beds": 4,
    "baths": 3,
@@ -4616,7 +4785,7 @@
    "days_on_market": 42,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4634,6 +4803,7 @@
    "original_price": 230000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 237,
    "beds": 2,
    "baths": 1.5,
@@ -4647,7 +4817,7 @@
    "days_on_market": 133,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4665,6 +4835,7 @@
    "original_price": 517490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 203,
    "beds": 5,
    "baths": 3.5,
@@ -4678,7 +4849,7 @@
    "days_on_market": 33,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4696,6 +4867,7 @@
    "original_price": 422990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 280,
    "beds": 4,
    "baths": 2,
@@ -4709,7 +4881,7 @@
    "days_on_market": 45,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4727,6 +4899,7 @@
    "original_price": 434490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 288,
    "beds": 4,
    "baths": 2,
@@ -4740,7 +4913,7 @@
    "days_on_market": 43,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4758,6 +4931,7 @@
    "original_price": 295000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 272,
    "beds": 2,
    "baths": 1,
@@ -4771,7 +4945,7 @@
    "days_on_market": 50,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4789,6 +4963,7 @@
    "original_price": 467490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 254,
    "beds": 4,
    "baths": 3,
@@ -4802,7 +4977,7 @@
    "days_on_market": 33,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4820,6 +4995,7 @@
    "original_price": 402990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 328,
    "beds": 3,
    "baths": 2,
@@ -4833,7 +5009,7 @@
    "days_on_market": 45,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4851,6 +5027,7 @@
    "original_price": 411490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 335,
    "beds": 3,
    "baths": 2,
@@ -4864,7 +5041,7 @@
    "days_on_market": 43,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4882,6 +5059,7 @@
    "original_price": 479000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 249,
    "beds": 4,
    "baths": 2,
@@ -4895,7 +5073,7 @@
    "days_on_market": 99,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4913,6 +5091,7 @@
    "original_price": 229900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 229,
    "beds": 2,
    "baths": 2,
@@ -4926,7 +5105,7 @@
    "days_on_market": 224,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4944,6 +5123,7 @@
    "original_price": 365000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 242,
    "beds": 4,
    "baths": 2,
@@ -4957,7 +5137,7 @@
    "days_on_market": 47,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -4975,6 +5155,7 @@
    "original_price": 415000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 378,
    "beds": 4,
    "baths": 2,
@@ -4988,7 +5169,7 @@
    "days_on_market": 30,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5006,6 +5187,7 @@
    "original_price": 395000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 227,
    "beds": 4,
    "baths": 2.5,
@@ -5019,7 +5201,7 @@
    "days_on_market": 106,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5037,6 +5219,7 @@
    "original_price": 456100,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 261,
    "beds": 4,
    "baths": 3,
@@ -5050,7 +5233,7 @@
    "days_on_market": 101,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5068,6 +5251,7 @@
    "original_price": 1850000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -5081,7 +5265,7 @@
    "days_on_market": 149,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5099,6 +5283,7 @@
    "original_price": 439999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 338,
    "beds": 3,
    "baths": 2,
@@ -5112,7 +5297,7 @@
    "days_on_market": 49,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5130,6 +5315,7 @@
    "original_price": 35000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 64,
    "beds": 1,
    "baths": 1,
@@ -5143,7 +5329,7 @@
    "days_on_market": 69,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5161,6 +5347,7 @@
    "original_price": 369000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 227,
    "beds": 3,
    "baths": 2,
@@ -5174,7 +5361,7 @@
    "days_on_market": 23,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5192,6 +5379,7 @@
    "original_price": 249900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 234,
    "beds": 2,
    "baths": 1,
@@ -5205,7 +5393,7 @@
    "days_on_market": 19,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5223,6 +5411,7 @@
    "original_price": 475000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 240,
    "beds": 4,
    "baths": 2,
@@ -5236,7 +5425,7 @@
    "days_on_market": 55,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5254,6 +5443,7 @@
    "original_price": 450000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 210,
    "beds": 4,
    "baths": 2.5,
@@ -5267,7 +5457,7 @@
    "days_on_market": 7,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5285,6 +5475,7 @@
    "original_price": 1165000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 171,
    "beds": 16,
    "baths": 4,
@@ -5298,7 +5489,7 @@
    "days_on_market": 202,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5316,6 +5507,7 @@
    "original_price": 1099000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 162,
    "beds": 16,
    "baths": 8,
@@ -5329,7 +5521,7 @@
    "days_on_market": 2,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5347,6 +5539,7 @@
    "original_price": 45000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 57,
    "beds": 2,
    "baths": 1,
@@ -5360,7 +5553,7 @@
    "days_on_market": 113,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5378,6 +5571,7 @@
    "original_price": 975000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 374,
    "beds": 2,
    "baths": 2,
@@ -5391,7 +5585,7 @@
    "days_on_market": 118,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5409,6 +5603,7 @@
    "original_price": 549000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 155,
    "beds": 3,
    "baths": 3,
@@ -5422,7 +5617,7 @@
    "days_on_market": 146,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5440,6 +5635,7 @@
    "original_price": 324900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 216,
    "beds": 3,
    "baths": 1,
@@ -5453,7 +5649,7 @@
    "days_on_market": 14,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5471,6 +5667,7 @@
    "original_price": 264900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 295,
    "beds": 2,
    "baths": 1,
@@ -5484,7 +5681,7 @@
    "days_on_market": 37,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5502,6 +5699,7 @@
    "original_price": 287750,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 320,
    "beds": 2,
    "baths": 1,
@@ -5515,7 +5713,7 @@
    "days_on_market": 84,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5533,6 +5731,7 @@
    "original_price": 1200000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -5546,7 +5745,7 @@
    "days_on_market": 314,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5564,6 +5763,7 @@
    "original_price": 425000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 242,
    "beds": 4,
    "baths": 2,
@@ -5577,7 +5777,7 @@
    "days_on_market": 398,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5595,6 +5795,7 @@
    "original_price": 335000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 308,
    "beds": 3,
    "baths": 2,
@@ -5608,7 +5809,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5626,6 +5827,7 @@
    "original_price": 400000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 263,
    "beds": 3,
    "baths": 2,
@@ -5639,7 +5841,7 @@
    "days_on_market": 20,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5657,6 +5859,7 @@
    "original_price": 300000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 316,
    "beds": 2,
    "baths": 1,
@@ -5670,7 +5873,7 @@
    "days_on_market": 14,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5688,6 +5891,7 @@
    "original_price": 418990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 300,
    "beds": 3,
    "baths": 2,
@@ -5701,7 +5905,7 @@
    "days_on_market": 48,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5719,6 +5923,7 @@
    "original_price": 399000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 261,
    "beds": 4,
    "baths": 2,
@@ -5732,7 +5937,7 @@
    "days_on_market": 479,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5750,6 +5955,7 @@
    "original_price": 340000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 246,
    "beds": 3,
    "baths": 2,
@@ -5763,7 +5969,7 @@
    "days_on_market": 48,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5781,6 +5987,7 @@
    "original_price": 359900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 300,
    "beds": 3,
    "baths": 2,
@@ -5794,7 +6001,7 @@
    "days_on_market": 15,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5812,6 +6019,7 @@
    "original_price": 179900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 161,
    "beds": 3,
    "baths": 1,
@@ -5825,7 +6033,7 @@
    "days_on_market": 219,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5843,6 +6051,7 @@
    "original_price": 279000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -5856,7 +6065,7 @@
    "days_on_market": 96,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5874,6 +6083,7 @@
    "original_price": 475000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 323,
    "beds": 8,
    "baths": 4,
@@ -5887,7 +6097,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5905,6 +6115,7 @@
    "original_price": 1484250,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -5918,7 +6129,7 @@
    "days_on_market": 460,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5936,6 +6147,7 @@
    "original_price": 750000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 239,
    "beds": 4,
    "baths": 3.5,
@@ -5949,7 +6161,7 @@
    "days_on_market": 16,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5967,6 +6179,7 @@
    "original_price": 89500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 78,
    "beds": 2,
    "baths": 2,
@@ -5980,7 +6193,7 @@
    "days_on_market": 167,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -5998,6 +6211,7 @@
    "original_price": 99900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 57,
    "beds": 2,
    "baths": 2,
@@ -6011,7 +6225,7 @@
    "days_on_market": 43,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6029,6 +6243,7 @@
    "original_price": 49999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 48,
    "beds": 2,
    "baths": 2,
@@ -6042,7 +6257,7 @@
    "days_on_market": 36,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6060,6 +6275,7 @@
    "original_price": 54900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 42,
    "beds": 2,
    "baths": 2,
@@ -6073,7 +6289,7 @@
    "days_on_market": 120,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6091,6 +6307,7 @@
    "original_price": 39000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 32,
    "beds": 2,
    "baths": 2,
@@ -6104,7 +6321,7 @@
    "days_on_market": 70,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6122,6 +6339,7 @@
    "original_price": 84500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": 2,
    "baths": 2,
@@ -6135,7 +6353,7 @@
    "days_on_market": 102,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6153,6 +6371,7 @@
    "original_price": 124900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": 3,
    "baths": 2,
@@ -6166,7 +6385,7 @@
    "days_on_market": 394,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6184,6 +6403,7 @@
    "original_price": 34900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 41,
    "beds": 2,
    "baths": 2,
@@ -6197,7 +6417,7 @@
    "days_on_market": 13,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6215,6 +6435,7 @@
    "original_price": 89900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 62,
    "beds": 2,
    "baths": 2,
@@ -6228,7 +6449,7 @@
    "days_on_market": 61,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6246,6 +6467,7 @@
    "original_price": 73000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": 2,
    "baths": 1,
@@ -6259,7 +6481,7 @@
    "days_on_market": 78,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6277,6 +6499,7 @@
    "original_price": 99999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": 2,
    "baths": 2,
@@ -6290,7 +6513,7 @@
    "days_on_market": 193,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6308,6 +6531,7 @@
    "original_price": 48000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 71,
    "beds": 1,
    "baths": 1,
@@ -6321,7 +6545,7 @@
    "days_on_market": 132,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6339,6 +6563,7 @@
    "original_price": 80000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 64,
    "beds": 2,
    "baths": 2,
@@ -6352,7 +6577,7 @@
    "days_on_market": 51,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6370,6 +6595,7 @@
    "original_price": 75000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 104,
    "beds": 2,
    "baths": 1.5,
@@ -6383,7 +6609,7 @@
    "days_on_market": 225,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6401,6 +6627,7 @@
    "original_price": 2812500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -6414,7 +6641,7 @@
    "days_on_market": 456,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6432,6 +6659,7 @@
    "original_price": 1484250,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -6445,7 +6673,7 @@
    "days_on_market": 460,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6463,6 +6691,7 @@
    "original_price": 310000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 269,
    "beds": 2,
    "baths": 1,
@@ -6476,7 +6705,7 @@
    "days_on_market": 174,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6494,6 +6723,7 @@
    "original_price": 170000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -6507,7 +6737,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6525,6 +6755,7 @@
    "original_price": 379600,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 395,
    "beds": 2,
    "baths": 2,
@@ -6538,7 +6769,7 @@
    "days_on_market": 2,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6556,6 +6787,7 @@
    "original_price": 299900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 377,
    "beds": 3,
    "baths": 1,
@@ -6569,7 +6801,7 @@
    "days_on_market": 182,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6587,6 +6819,7 @@
    "original_price": 449000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 238,
    "beds": 5,
    "baths": 4,
@@ -6600,7 +6833,7 @@
    "days_on_market": 99,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6618,6 +6851,7 @@
    "original_price": 449900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 213,
    "beds": 4,
    "baths": 3,
@@ -6631,7 +6865,7 @@
    "days_on_market": 6,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6649,6 +6883,7 @@
    "original_price": 1900000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 176,
    "beds": 34,
    "baths": 14,
@@ -6662,7 +6897,7 @@
    "days_on_market": 85,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6680,6 +6915,7 @@
    "original_price": 379000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 234,
    "beds": 4,
    "baths": 2,
@@ -6693,7 +6929,7 @@
    "days_on_market": 78,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6711,6 +6947,7 @@
    "original_price": 526900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 201,
    "beds": 6,
    "baths": 3,
@@ -6724,7 +6961,7 @@
    "days_on_market": 57,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6742,6 +6979,7 @@
    "original_price": 489000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 216,
    "beds": 4,
    "baths": 2,
@@ -6755,7 +6993,7 @@
    "days_on_market": 29,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6773,6 +7011,7 @@
    "original_price": 426990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 272,
    "beds": 3,
    "baths": 2,
@@ -6786,7 +7025,7 @@
    "days_on_market": 39,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6804,6 +7043,7 @@
    "original_price": 498000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 220,
    "beds": 4,
    "baths": 2,
@@ -6817,7 +7057,7 @@
    "days_on_market": 43,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6835,6 +7075,7 @@
    "original_price": 525888,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 201,
    "beds": 6,
    "baths": 3,
@@ -6848,7 +7089,7 @@
    "days_on_market": 57,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6866,6 +7107,7 @@
    "original_price": 489000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 214,
    "beds": 5,
    "baths": 2.5,
@@ -6879,7 +7121,7 @@
    "days_on_market": 152,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6897,6 +7139,7 @@
    "original_price": 59000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 77,
    "beds": 2,
    "baths": 1,
@@ -6910,7 +7153,7 @@
    "days_on_market": 92,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6928,6 +7171,7 @@
    "original_price": 109000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 69,
    "beds": 4,
    "baths": 2,
@@ -6941,7 +7185,7 @@
    "days_on_market": 68,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6959,6 +7203,7 @@
    "original_price": 129000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 110,
    "beds": 3,
    "baths": 2,
@@ -6972,7 +7217,7 @@
    "days_on_market": 48,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -6990,6 +7235,7 @@
    "original_price": 65000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 79,
    "beds": 2,
    "baths": 2,
@@ -7003,7 +7249,7 @@
    "days_on_market": 358,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7021,6 +7267,7 @@
    "original_price": 23000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 32,
    "beds": 2,
    "baths": 1,
@@ -7034,7 +7281,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7052,6 +7299,7 @@
    "original_price": 69000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 48,
    "beds": 3,
    "baths": 2,
@@ -7065,7 +7313,7 @@
    "days_on_market": 37,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7083,6 +7331,7 @@
    "original_price": 9945000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -7096,7 +7345,7 @@
    "days_on_market": 72,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7114,6 +7363,7 @@
    "original_price": 848000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -7127,7 +7377,7 @@
    "days_on_market": 3,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7145,6 +7395,7 @@
    "original_price": 410000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 326,
    "beds": 2,
    "baths": 1,
@@ -7158,7 +7409,7 @@
    "days_on_market": 610,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7176,6 +7427,7 @@
    "original_price": 125000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -7189,7 +7441,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7207,6 +7459,7 @@
    "original_price": 649999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 280,
    "beds": 3,
    "baths": 2.5,
@@ -7220,7 +7473,7 @@
    "days_on_market": 77,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7238,6 +7491,7 @@
    "original_price": 442990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 249,
    "beds": 3,
    "baths": 2.5,
@@ -7251,7 +7505,7 @@
    "days_on_market": 49,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7269,6 +7523,7 @@
    "original_price": 2400000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -7282,7 +7537,7 @@
    "days_on_market": 564,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7300,6 +7555,7 @@
    "original_price": 389000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 249,
    "beds": 3,
    "baths": 2,
@@ -7313,7 +7569,7 @@
    "days_on_market": 44,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7331,6 +7587,7 @@
    "original_price": 517890,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 269,
    "beds": 4,
    "baths": 2.5,
@@ -7344,7 +7601,7 @@
    "days_on_market": 85,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7362,6 +7619,7 @@
    "original_price": 150000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -7375,7 +7633,7 @@
    "days_on_market": 7,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7393,6 +7651,7 @@
    "original_price": 925000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 253,
    "beds": 5,
    "baths": 4,
@@ -7406,7 +7665,7 @@
    "days_on_market": 113,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7424,6 +7683,7 @@
    "original_price": 309900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 265,
    "beds": 3,
    "baths": 1,
@@ -7437,7 +7697,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7455,6 +7715,7 @@
    "original_price": 1200000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 517,
    "beds": 3,
    "baths": 2,
@@ -7468,7 +7729,7 @@
    "days_on_market": 288,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7486,6 +7747,7 @@
    "original_price": 359900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 220,
    "beds": 4,
    "baths": 3,
@@ -7499,7 +7761,7 @@
    "days_on_market": 8,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7517,6 +7779,7 @@
    "original_price": 1049000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 314,
    "beds": 4,
    "baths": 3.5,
@@ -7530,7 +7793,7 @@
    "days_on_market": 98,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7548,6 +7811,7 @@
    "original_price": 400990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 311,
    "beds": 3,
    "baths": 2,
@@ -7561,7 +7825,7 @@
    "days_on_market": 49,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7579,6 +7843,7 @@
    "original_price": 725000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 513,
    "beds": 3,
    "baths": 2,
@@ -7592,7 +7857,7 @@
    "days_on_market": 44,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7610,6 +7875,7 @@
    "original_price": 433890,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 336,
    "beds": 3,
    "baths": 2,
@@ -7623,7 +7889,7 @@
    "days_on_market": 85,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7641,6 +7907,7 @@
    "original_price": 365000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 258,
    "beds": 3,
    "baths": 2,
@@ -7654,7 +7921,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7672,6 +7939,7 @@
    "original_price": 425000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 239,
    "beds": 3,
    "baths": 2.5,
@@ -7685,7 +7953,7 @@
    "days_on_market": 72,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7703,6 +7971,7 @@
    "original_price": 520890,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 271,
    "beds": 4,
    "baths": 2.5,
@@ -7716,7 +7985,7 @@
    "days_on_market": 85,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7734,6 +8003,7 @@
    "original_price": 449999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 221,
    "beds": 4,
    "baths": 3,
@@ -7747,7 +8017,7 @@
    "days_on_market": 125,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7765,6 +8035,7 @@
    "original_price": 389000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 262,
    "beds": 3,
    "baths": 2,
@@ -7778,7 +8049,7 @@
    "days_on_market": 15,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7796,6 +8067,7 @@
    "original_price": 436990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 339,
    "beds": 3,
    "baths": 2,
@@ -7809,7 +8081,7 @@
    "days_on_market": 85,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7827,6 +8099,7 @@
    "original_price": 895000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 441,
    "beds": 4,
    "baths": 2,
@@ -7840,7 +8113,7 @@
    "days_on_market": 42,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7858,6 +8131,7 @@
    "original_price": 410000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 271,
    "beds": 4,
    "baths": 2,
@@ -7871,7 +8145,7 @@
    "days_on_market": 33,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7889,6 +8163,7 @@
    "original_price": 329900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 340,
    "beds": 3,
    "baths": 1,
@@ -7902,7 +8177,7 @@
    "days_on_market": 62,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7920,6 +8195,7 @@
    "original_price": 465990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 242,
    "beds": 4,
    "baths": 2.5,
@@ -7933,7 +8209,7 @@
    "days_on_market": 46,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7951,6 +8227,7 @@
    "original_price": 423990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 329,
    "beds": 3,
    "baths": 2,
@@ -7964,7 +8241,7 @@
    "days_on_market": 164,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -7982,6 +8259,7 @@
    "original_price": 320000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 241,
    "beds": 3,
    "baths": 1,
@@ -7995,7 +8273,7 @@
    "days_on_market": 62,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8013,6 +8291,7 @@
    "original_price": 425000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 272,
    "beds": 4,
    "baths": 2,
@@ -8026,7 +8305,7 @@
    "days_on_market": 35,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8044,6 +8323,7 @@
    "original_price": 559999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 231,
    "beds": 4,
    "baths": 3,
@@ -8057,7 +8337,7 @@
    "days_on_market": 41,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8075,6 +8355,7 @@
    "original_price": 365000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 267,
    "beds": 3,
    "baths": 2,
@@ -8088,7 +8369,7 @@
    "days_on_market": 75,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8106,6 +8387,7 @@
    "original_price": 494900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 207,
    "beds": 4,
    "baths": 3,
@@ -8119,7 +8401,7 @@
    "days_on_market": 29,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8137,6 +8419,7 @@
    "original_price": 253500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 251,
    "beds": 3,
    "baths": 2,
@@ -8150,7 +8433,7 @@
    "days_on_market": 19,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8168,6 +8451,7 @@
    "original_price": 275000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -8181,7 +8465,7 @@
    "days_on_market": 224,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8199,6 +8483,7 @@
    "original_price": 379000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 265,
    "beds": 3,
    "baths": 2,
@@ -8212,7 +8497,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8230,6 +8515,7 @@
    "original_price": 425000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 219,
    "beds": 4,
    "baths": 2.5,
@@ -8243,7 +8529,7 @@
    "days_on_market": 75,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8261,6 +8547,7 @@
    "original_price": 385000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 284,
    "beds": 3,
    "baths": 2,
@@ -8274,7 +8561,7 @@
    "days_on_market": 233,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8292,6 +8579,7 @@
    "original_price": 495000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 140,
    "beds": 4,
    "baths": 3.5,
@@ -8305,7 +8593,7 @@
    "days_on_market": 33,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8323,6 +8611,7 @@
    "original_price": 155000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -8336,7 +8625,7 @@
    "days_on_market": 13,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8354,6 +8643,7 @@
    "original_price": 385000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 245,
    "beds": 4,
    "baths": 2,
@@ -8367,7 +8657,7 @@
    "days_on_market": 19,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8385,6 +8675,7 @@
    "original_price": 419999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 177,
    "beds": 5,
    "baths": 2.5,
@@ -8398,7 +8689,7 @@
    "days_on_market": 74,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8416,6 +8707,7 @@
    "original_price": 250000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 227,
    "beds": 3,
    "baths": 2,
@@ -8429,7 +8721,7 @@
    "days_on_market": 14,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8447,6 +8739,7 @@
    "original_price": 345000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 239,
    "beds": 3,
    "baths": 2,
@@ -8460,7 +8753,7 @@
    "days_on_market": 170,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8478,6 +8771,7 @@
    "original_price": 485000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 212,
    "beds": 5,
    "baths": 4,
@@ -8491,7 +8785,7 @@
    "days_on_market": 55,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8509,6 +8803,7 @@
    "original_price": 475000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 257,
    "beds": 4,
    "baths": 4,
@@ -8522,7 +8817,7 @@
    "days_on_market": 44,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8540,6 +8835,7 @@
    "original_price": 389000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 346,
    "beds": 3,
    "baths": 1,
@@ -8553,7 +8849,7 @@
    "days_on_market": 63,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8571,6 +8867,7 @@
    "original_price": 285000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 356,
    "beds": 2,
    "baths": 1,
@@ -8584,7 +8881,7 @@
    "days_on_market": 73,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8602,6 +8899,7 @@
    "original_price": 465000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 242,
    "beds": 4,
    "baths": 2,
@@ -8615,7 +8913,7 @@
    "days_on_market": 12,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8633,6 +8931,7 @@
    "original_price": 350000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 214,
    "beds": 3,
    "baths": 2,
@@ -8646,7 +8945,7 @@
    "days_on_market": 30,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8664,6 +8963,7 @@
    "original_price": 405000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 229,
    "beds": 3,
    "baths": 2,
@@ -8677,7 +8977,7 @@
    "days_on_market": 29,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8695,6 +8995,7 @@
    "original_price": 829000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 336,
    "beds": 4,
    "baths": 3.5,
@@ -8708,7 +9009,7 @@
    "days_on_market": 48,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8726,6 +9027,7 @@
    "original_price": 329000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 300,
    "beds": 3,
    "baths": 2,
@@ -8739,7 +9041,7 @@
    "days_on_market": 5,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8757,6 +9059,7 @@
    "original_price": 890000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 178,
    "beds": 12,
    "baths": 6,
@@ -8770,7 +9073,7 @@
    "days_on_market": 132,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8788,6 +9091,7 @@
    "original_price": 599000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 224,
    "beds": 4,
    "baths": 2.5,
@@ -8801,7 +9105,7 @@
    "days_on_market": 16,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8819,6 +9123,7 @@
    "original_price": 550000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 251,
    "beds": 4,
    "baths": 2.5,
@@ -8832,7 +9137,7 @@
    "days_on_market": 117,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8850,6 +9155,7 @@
    "original_price": 575000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 256,
    "beds": 5,
    "baths": 3,
@@ -8863,7 +9169,7 @@
    "days_on_market": 19,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8881,6 +9187,7 @@
    "original_price": 425000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -8894,7 +9201,7 @@
    "days_on_market": 114,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8912,6 +9219,7 @@
    "original_price": 320000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -8925,7 +9233,7 @@
    "days_on_market": 215,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8943,6 +9251,7 @@
    "original_price": 550000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 267,
    "beds": 3,
    "baths": 2,
@@ -8956,7 +9265,7 @@
    "days_on_market": 7,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -8974,6 +9283,7 @@
    "original_price": 6000000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -8987,7 +9297,7 @@
    "days_on_market": 253,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9005,6 +9315,7 @@
    "original_price": 390000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 343,
    "beds": 3,
    "baths": 2,
@@ -9018,7 +9329,7 @@
    "days_on_market": 223,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9036,6 +9347,7 @@
    "original_price": 390000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 245,
    "beds": 3,
    "baths": 2,
@@ -9049,7 +9361,7 @@
    "days_on_market": 191,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9067,6 +9379,7 @@
    "original_price": 399950,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 252,
    "beds": 3,
    "baths": 2,
@@ -9080,7 +9393,7 @@
    "days_on_market": 86,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9098,6 +9411,7 @@
    "original_price": 399950,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 235,
    "beds": 3,
    "baths": 2,
@@ -9111,7 +9425,7 @@
    "days_on_market": 77,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9129,6 +9443,7 @@
    "original_price": 290000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 268,
    "beds": 2,
    "baths": 1,
@@ -9142,7 +9457,7 @@
    "days_on_market": 2,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9160,6 +9475,7 @@
    "original_price": 395000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 268,
    "beds": 3,
    "baths": 2,
@@ -9173,7 +9489,7 @@
    "days_on_market": 29,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9191,6 +9507,7 @@
    "original_price": 3490000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -9204,7 +9521,7 @@
    "days_on_market": 257,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9222,6 +9539,7 @@
    "original_price": 1100000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 410,
    "beds": 4,
    "baths": 2,
@@ -9235,7 +9553,7 @@
    "days_on_market": 103,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9253,6 +9571,7 @@
    "original_price": 359998,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 287,
    "beds": 3,
    "baths": 1.5,
@@ -9266,7 +9585,7 @@
    "days_on_market": 46,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9284,6 +9603,7 @@
    "original_price": 430000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 243,
    "beds": 3,
    "baths": 2,
@@ -9297,7 +9617,7 @@
    "days_on_market": 15,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9315,6 +9635,7 @@
    "original_price": 434900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 243,
    "beds": 4,
    "baths": 2,
@@ -9328,7 +9649,7 @@
    "days_on_market": 79,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9346,6 +9667,7 @@
    "original_price": 474900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 208,
    "beds": 4,
    "baths": 2.5,
@@ -9359,7 +9681,7 @@
    "days_on_market": 77,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9377,6 +9699,7 @@
    "original_price": 445000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 295,
    "beds": 3,
    "baths": 2,
@@ -9390,7 +9713,7 @@
    "days_on_market": 26,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9408,6 +9731,7 @@
    "original_price": 479900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 146,
    "beds": 4,
    "baths": 2.5,
@@ -9421,7 +9745,7 @@
    "days_on_market": 23,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9439,6 +9763,7 @@
    "original_price": 400000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 198,
    "beds": 5,
    "baths": 2.5,
@@ -9452,7 +9777,7 @@
    "days_on_market": 199,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9470,6 +9795,7 @@
    "original_price": 515000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 157,
    "beds": 8,
    "baths": 4,
@@ -9483,7 +9809,7 @@
    "days_on_market": 125,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9501,6 +9827,7 @@
    "original_price": 459999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 196,
    "beds": 4,
    "baths": 4,
@@ -9514,7 +9841,7 @@
    "days_on_market": 27,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9532,6 +9859,7 @@
    "original_price": 95000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -9545,7 +9873,7 @@
    "days_on_market": 33,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9563,6 +9891,7 @@
    "original_price": 585000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 307,
    "beds": 4,
    "baths": 3,
@@ -9576,7 +9905,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9594,6 +9923,7 @@
    "original_price": 589000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 179,
    "beds": 5,
    "baths": 3.5,
@@ -9607,7 +9937,7 @@
    "days_on_market": 47,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9625,6 +9955,7 @@
    "original_price": 469000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 255,
    "beds": 4,
    "baths": 3,
@@ -9638,7 +9969,7 @@
    "days_on_market": 153,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9656,6 +9987,7 @@
    "original_price": 225000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 229,
    "beds": 2,
    "baths": 1,
@@ -9669,7 +10001,7 @@
    "days_on_market": 24,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9687,6 +10019,7 @@
    "original_price": 482880,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 251,
    "beds": 4,
    "baths": 2.5,
@@ -9700,7 +10033,7 @@
    "days_on_market": 63,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9718,6 +10051,7 @@
    "original_price": 454880,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 256,
    "beds": 3,
    "baths": 2.5,
@@ -9731,7 +10065,7 @@
    "days_on_market": 85,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9749,6 +10083,7 @@
    "original_price": 449880,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 253,
    "beds": 3,
    "baths": 2.5,
@@ -9762,7 +10097,7 @@
    "days_on_market": 54,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9780,6 +10115,7 @@
    "original_price": 459880,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 239,
    "beds": 4,
    "baths": 2.5,
@@ -9793,7 +10129,7 @@
    "days_on_market": 51,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9811,6 +10147,7 @@
    "original_price": 479880,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 249,
    "beds": 4,
    "baths": 2.5,
@@ -9824,7 +10161,7 @@
    "days_on_market": 108,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9842,6 +10179,7 @@
    "original_price": 552330,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 287,
    "beds": 4,
    "baths": 2.5,
@@ -9855,7 +10193,7 @@
    "days_on_market": 42,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9873,6 +10211,7 @@
    "original_price": 405000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 281,
    "beds": 4,
    "baths": 2,
@@ -9886,7 +10225,7 @@
    "days_on_market": 82,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9904,6 +10243,7 @@
    "original_price": 440000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 236,
    "beds": 4,
    "baths": 2.5,
@@ -9917,7 +10257,7 @@
    "days_on_market": 211,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9935,6 +10275,7 @@
    "original_price": 525000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 270,
    "beds": 4,
    "baths": 2.5,
@@ -9948,7 +10289,7 @@
    "days_on_market": 7,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9966,6 +10307,7 @@
    "original_price": 285000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -9979,7 +10321,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -9997,6 +10339,7 @@
    "original_price": 463709,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 236,
    "beds": 4,
    "baths": 2,
@@ -10010,7 +10353,7 @@
    "days_on_market": 101,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10028,6 +10371,7 @@
    "original_price": 315000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 212,
    "beds": 2,
    "baths": 1.5,
@@ -10041,7 +10385,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10059,6 +10403,7 @@
    "original_price": 399000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 257,
    "beds": 3,
    "baths": 2.5,
@@ -10072,7 +10417,7 @@
    "days_on_market": 81,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10090,6 +10435,7 @@
    "original_price": 450000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 265,
    "beds": 4,
    "baths": 2,
@@ -10103,7 +10449,7 @@
    "days_on_market": 54,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10121,6 +10467,7 @@
    "original_price": 1600000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 625,
    "beds": 4,
    "baths": 2,
@@ -10134,7 +10481,7 @@
    "days_on_market": 23,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10152,6 +10499,7 @@
    "original_price": 559900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 226,
    "beds": 5,
    "baths": 3.5,
@@ -10165,7 +10513,7 @@
    "days_on_market": 27,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10183,6 +10531,7 @@
    "original_price": 389999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 271,
    "beds": 4,
    "baths": 2,
@@ -10196,7 +10545,7 @@
    "days_on_market": 23,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10214,6 +10563,7 @@
    "original_price": 419000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 259,
    "beds": 4,
    "baths": 2,
@@ -10227,7 +10577,7 @@
    "days_on_market": 38,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10245,6 +10595,7 @@
    "original_price": 450000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 258,
    "beds": 4,
    "baths": 3,
@@ -10258,7 +10609,7 @@
    "days_on_market": 11,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10276,6 +10627,7 @@
    "original_price": 449000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 278,
    "beds": 3,
    "baths": 2,
@@ -10289,7 +10641,7 @@
    "days_on_market": 70,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10307,6 +10659,7 @@
    "original_price": 299000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -10320,7 +10673,7 @@
    "days_on_market": 320,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10338,6 +10691,7 @@
    "original_price": 451179,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 279,
    "beds": 3,
    "baths": 2,
@@ -10351,7 +10705,7 @@
    "days_on_market": 102,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10369,6 +10723,7 @@
    "original_price": 456644,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 249,
    "beds": 4,
    "baths": 3,
@@ -10382,7 +10737,7 @@
    "days_on_market": 25,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10400,6 +10755,7 @@
    "original_price": 364900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 311,
    "beds": 3,
    "baths": 2,
@@ -10413,7 +10769,7 @@
    "days_on_market": 28,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10431,6 +10787,7 @@
    "original_price": 399999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 278,
    "beds": 3,
    "baths": 2,
@@ -10444,7 +10801,7 @@
    "days_on_market": 32,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10462,6 +10819,7 @@
    "original_price": 487000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 258,
    "beds": 4,
    "baths": 2,
@@ -10475,7 +10833,7 @@
    "days_on_market": 173,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10493,6 +10851,7 @@
    "original_price": 385000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 182,
    "beds": 4,
    "baths": 2.5,
@@ -10506,7 +10865,7 @@
    "days_on_market": 210,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10524,6 +10883,7 @@
    "original_price": 410000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 301,
    "beds": 3,
    "baths": 2,
@@ -10537,7 +10897,7 @@
    "days_on_market": 14,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10555,6 +10915,7 @@
    "original_price": 599900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 184,
    "beds": 5,
    "baths": 4,
@@ -10568,7 +10929,7 @@
    "days_on_market": 134,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10586,6 +10947,7 @@
    "original_price": 453212,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 280,
    "beds": 3,
    "baths": 2,
@@ -10599,7 +10961,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10617,6 +10979,7 @@
    "original_price": 481417,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 260,
    "beds": 3,
    "baths": 2,
@@ -10630,7 +10993,7 @@
    "days_on_market": 138,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10648,6 +11011,7 @@
    "original_price": 475000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 246,
    "beds": 3,
    "baths": 2,
@@ -10661,7 +11025,7 @@
    "days_on_market": 50,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10679,6 +11043,7 @@
    "original_price": 516548,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 234,
    "beds": 4,
    "baths": 3,
@@ -10692,7 +11057,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10710,6 +11075,7 @@
    "original_price": 535000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 234,
    "beds": 5,
    "baths": 2.5,
@@ -10723,7 +11089,7 @@
    "days_on_market": 27,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10741,6 +11107,7 @@
    "original_price": 485789,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 278,
    "beds": 4,
    "baths": 3,
@@ -10754,7 +11121,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10772,6 +11139,7 @@
    "original_price": 419999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 249,
    "beds": 4,
    "baths": 2.5,
@@ -10785,7 +11153,7 @@
    "days_on_market": 22,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10803,6 +11171,7 @@
    "original_price": 419999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 229,
    "beds": 4,
    "baths": 3,
@@ -10816,7 +11185,7 @@
    "days_on_market": 41,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10834,6 +11203,7 @@
    "original_price": 239000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 288,
    "beds": 2,
    "baths": 1,
@@ -10847,7 +11217,7 @@
    "days_on_market": 16,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10865,6 +11235,7 @@
    "original_price": 396000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 198,
    "beds": 4,
    "baths": 2.5,
@@ -10878,7 +11249,7 @@
    "days_on_market": 106,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10896,6 +11267,7 @@
    "original_price": 399900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 231,
    "beds": 4,
    "baths": 2,
@@ -10909,7 +11281,7 @@
    "days_on_market": 26,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10927,6 +11299,7 @@
    "original_price": 265000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -10940,7 +11313,7 @@
    "days_on_market": 1545,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10958,6 +11331,7 @@
    "original_price": 699000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -10971,7 +11345,7 @@
    "days_on_market": 53,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -10989,6 +11363,7 @@
    "original_price": 285000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -11002,7 +11377,7 @@
    "days_on_market": 154,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11020,6 +11395,7 @@
    "original_price": 300000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -11033,7 +11409,7 @@
    "days_on_market": 149,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11051,6 +11427,7 @@
    "original_price": 300000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -11064,7 +11441,7 @@
    "days_on_market": 149,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11082,6 +11459,7 @@
    "original_price": 375000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 198,
    "beds": 3,
    "baths": 2,
@@ -11095,7 +11473,7 @@
    "days_on_market": 42,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11113,6 +11491,7 @@
    "original_price": 429900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 215,
    "beds": 4,
    "baths": 3,
@@ -11126,7 +11505,7 @@
    "days_on_market": 14,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11144,6 +11523,7 @@
    "original_price": 599900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 200,
    "beds": 8,
    "baths": 4,
@@ -11157,7 +11537,7 @@
    "days_on_market": 28,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11175,6 +11555,7 @@
    "original_price": 329000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 192,
    "beds": 3,
    "baths": 2,
@@ -11188,7 +11569,7 @@
    "days_on_market": 1,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11206,6 +11587,7 @@
    "original_price": 359037,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 264,
    "beds": 3,
    "baths": 2.5,
@@ -11219,7 +11601,7 @@
    "days_on_market": 47,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11237,6 +11619,7 @@
    "original_price": 393290,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 242,
    "beds": 3,
    "baths": 2.5,
@@ -11250,7 +11633,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11268,6 +11651,7 @@
    "original_price": 359037,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 264,
    "beds": 3,
    "baths": 2.5,
@@ -11281,7 +11665,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11299,6 +11683,7 @@
    "original_price": 359037,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 264,
    "beds": 3,
    "baths": 2.5,
@@ -11312,7 +11697,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11330,6 +11715,7 @@
    "original_price": 393290,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 242,
    "beds": 3,
    "baths": 2.5,
@@ -11343,7 +11729,7 @@
    "days_on_market": 34,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11361,6 +11747,7 @@
    "original_price": 429000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 232,
    "beds": 4,
    "baths": 3,
@@ -11374,7 +11761,7 @@
    "days_on_market": 77,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11392,6 +11779,7 @@
    "original_price": 387500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 315,
    "beds": 3,
    "baths": 2,
@@ -11405,7 +11793,7 @@
    "days_on_market": 117,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11423,6 +11811,7 @@
    "original_price": 459000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 236,
    "beds": 4,
    "baths": 2.5,
@@ -11436,7 +11825,7 @@
    "days_on_market": 47,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11454,6 +11843,7 @@
    "original_price": 410000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 254,
    "beds": 3,
    "baths": 2,
@@ -11467,7 +11857,7 @@
    "days_on_market": 44,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11485,6 +11875,7 @@
    "original_price": 330000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 312,
    "beds": 2,
    "baths": 1,
@@ -11498,7 +11889,7 @@
    "days_on_market": 72,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11516,6 +11907,7 @@
    "original_price": 499000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 210,
    "beds": 4,
    "baths": 4,
@@ -11529,7 +11921,7 @@
    "days_on_market": 49,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11547,6 +11939,7 @@
    "original_price": 405000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 268,
    "beds": 4,
    "baths": 2,
@@ -11560,7 +11953,7 @@
    "days_on_market": 26,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11578,6 +11971,7 @@
    "original_price": 379900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 380,
    "beds": 3,
    "baths": 2,
@@ -11591,7 +11985,7 @@
    "days_on_market": 51,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11609,6 +12003,7 @@
    "original_price": 439990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 292,
    "beds": 4,
    "baths": 2,
@@ -11622,7 +12017,7 @@
    "days_on_market": 59,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11640,6 +12035,7 @@
    "original_price": 3599999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 571,
    "beds": 2,
    "baths": 3,
@@ -11653,7 +12049,7 @@
    "days_on_market": 853,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11671,6 +12067,7 @@
    "original_price": 450900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 207,
    "beds": 4,
    "baths": 2.5,
@@ -11684,7 +12081,7 @@
    "days_on_market": 117,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11702,6 +12099,7 @@
    "original_price": 410000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 338,
    "beds": 3,
    "baths": 2,
@@ -11715,7 +12113,7 @@
    "days_on_market": 5,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11733,6 +12131,7 @@
    "original_price": 475000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 250,
    "beds": 4,
    "baths": 2,
@@ -11746,7 +12145,7 @@
    "days_on_market": 15,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11764,6 +12163,7 @@
    "original_price": 399000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -11777,7 +12177,7 @@
    "days_on_market": 175,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11795,6 +12195,7 @@
    "original_price": 1199000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -11808,7 +12209,7 @@
    "days_on_market": 246,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11826,6 +12227,7 @@
    "original_price": 344140,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 253,
    "beds": 3,
    "baths": 2.5,
@@ -11839,7 +12241,7 @@
    "days_on_market": 19,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11857,6 +12259,7 @@
    "original_price": 399900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 329,
    "beds": 3,
    "baths": 2,
@@ -11870,7 +12273,7 @@
    "days_on_market": 189,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11888,6 +12291,7 @@
    "original_price": 440000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 307,
    "beds": 3,
    "baths": 2,
@@ -11901,7 +12305,7 @@
    "days_on_market": 48,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11919,6 +12323,7 @@
    "original_price": 650000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 217,
    "beds": 6,
    "baths": 4,
@@ -11932,7 +12337,7 @@
    "days_on_market": 119,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11950,6 +12355,7 @@
    "original_price": 579900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 287,
    "beds": 5,
    "baths": 3,
@@ -11963,7 +12369,7 @@
    "days_on_market": 217,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -11981,6 +12387,7 @@
    "original_price": 374750,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 231,
    "beds": 3,
    "baths": 2.5,
@@ -11994,7 +12401,7 @@
    "days_on_market": 28,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12012,6 +12419,7 @@
    "original_price": 439000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 306,
    "beds": 3,
    "baths": 2,
@@ -12025,7 +12433,7 @@
    "days_on_market": 50,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12043,6 +12451,7 @@
    "original_price": 328540,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 261,
    "beds": 2,
    "baths": 2.5,
@@ -12056,7 +12465,7 @@
    "days_on_market": 6,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12074,6 +12483,7 @@
    "original_price": 445000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 275,
    "beds": 3,
    "baths": 2,
@@ -12087,7 +12497,7 @@
    "days_on_market": 138,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12105,6 +12515,7 @@
    "original_price": 450000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 234,
    "beds": 5,
    "baths": 2.5,
@@ -12118,7 +12529,7 @@
    "days_on_market": 78,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12136,6 +12547,7 @@
    "original_price": 289900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 374,
    "beds": 2,
    "baths": 1,
@@ -12149,7 +12561,7 @@
    "days_on_market": 16,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12167,6 +12579,7 @@
    "original_price": 445000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 275,
    "beds": 3,
    "baths": 2,
@@ -12180,7 +12593,7 @@
    "days_on_market": 190,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12198,6 +12611,7 @@
    "original_price": 385000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 267,
    "beds": 3,
    "baths": 2,
@@ -12211,7 +12625,7 @@
    "days_on_market": 54,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12229,6 +12643,7 @@
    "original_price": 250000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 241,
    "beds": 3,
    "baths": 1,
@@ -12242,7 +12657,7 @@
    "days_on_market": 113,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12260,6 +12675,7 @@
    "original_price": 399999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 329,
    "beds": 3,
    "baths": 2,
@@ -12273,7 +12689,7 @@
    "days_on_market": 23,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12291,6 +12707,7 @@
    "original_price": 105000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -12304,7 +12721,7 @@
    "days_on_market": 254,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12322,6 +12739,7 @@
    "original_price": 340000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 340,
    "beds": 3,
    "baths": 2,
@@ -12335,7 +12753,7 @@
    "days_on_market": 183,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12353,6 +12771,7 @@
    "original_price": 299999,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 291,
    "beds": 3,
    "baths": 1,
@@ -12366,7 +12785,7 @@
    "days_on_market": 113,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12384,6 +12803,7 @@
    "original_price": 455000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 244,
    "beds": 4,
    "baths": 2,
@@ -12397,7 +12817,7 @@
    "days_on_market": 82,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12415,6 +12835,7 @@
    "original_price": 145000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -12428,7 +12849,7 @@
    "days_on_market": 315,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12446,6 +12867,7 @@
    "original_price": 379000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 195,
    "beds": 4,
    "baths": 2.5,
@@ -12459,7 +12881,7 @@
    "days_on_market": 308,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12477,6 +12899,7 @@
    "original_price": 615000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 270,
    "beds": 4,
    "baths": 3,
@@ -12490,7 +12913,7 @@
    "days_on_market": 63,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12508,6 +12931,7 @@
    "original_price": 445000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 204,
    "beds": 4,
    "baths": 2.5,
@@ -12521,7 +12945,7 @@
    "days_on_market": 89,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12539,6 +12963,7 @@
    "original_price": 2190000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -12552,7 +12977,7 @@
    "days_on_market": 68,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12570,6 +12995,7 @@
    "original_price": 299000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 242,
    "beds": 2,
    "baths": 1,
@@ -12583,7 +13009,7 @@
    "days_on_market": 133,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12601,6 +13027,7 @@
    "original_price": 345000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 250,
    "beds": 2,
    "baths": 1,
@@ -12614,7 +13041,7 @@
    "days_on_market": 334,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12632,6 +13059,7 @@
    "original_price": 325000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 264,
    "beds": 3,
    "baths": 1,
@@ -12645,7 +13073,7 @@
    "days_on_market": 318,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12663,6 +13091,7 @@
    "original_price": 625500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 272,
    "beds": 5,
    "baths": 3,
@@ -12676,7 +13105,7 @@
    "days_on_market": 72,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12694,6 +13123,7 @@
    "original_price": 625500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 272,
    "beds": 5,
    "baths": 2.75,
@@ -12707,7 +13137,7 @@
    "days_on_market": 72,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12725,6 +13155,7 @@
    "original_price": 295000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 323,
    "beds": 2,
    "baths": 1,
@@ -12738,7 +13169,7 @@
    "days_on_market": 236,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12756,6 +13187,7 @@
    "original_price": 190000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": null,
    "beds": null,
    "baths": null,
@@ -12769,7 +13201,7 @@
    "days_on_market": 287,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12787,6 +13219,7 @@
    "original_price": 455490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 302,
    "beds": 4,
    "baths": 2,
@@ -12800,7 +13233,7 @@
    "days_on_market": 413,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12818,6 +13251,7 @@
    "original_price": 461490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 251,
    "beds": 4,
    "baths": 3,
@@ -12831,7 +13265,7 @@
    "days_on_market": 160,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12849,6 +13283,7 @@
    "original_price": 482490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 262,
    "beds": 4,
    "baths": 3,
@@ -12862,7 +13297,7 @@
    "days_on_market": 413,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12880,6 +13315,7 @@
    "original_price": 424990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 329,
    "beds": 3,
    "baths": 2,
@@ -12893,7 +13329,7 @@
    "days_on_market": 397,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12911,6 +13347,7 @@
    "original_price": 498990,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 259,
    "beds": 4,
    "baths": 2.5,
@@ -12924,7 +13361,7 @@
    "days_on_market": 167,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12942,6 +13379,7 @@
    "original_price": 473490,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 314,
    "beds": 4,
    "baths": 2,
@@ -12955,7 +13393,7 @@
    "days_on_market": 475,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -12973,6 +13411,7 @@
    "original_price": 509000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 269,
    "beds": 5,
    "baths": 3,
@@ -12986,7 +13425,7 @@
    "days_on_market": 394,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13004,6 +13443,7 @@
    "original_price": 479000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 263,
    "beds": 4,
    "baths": 2.5,
@@ -13017,7 +13457,7 @@
    "days_on_market": 395,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13035,6 +13475,7 @@
    "original_price": 397838,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 284,
    "beds": 3,
    "baths": 2,
@@ -13048,7 +13489,7 @@
    "days_on_market": 325,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13066,6 +13507,7 @@
    "original_price": 465600,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 266,
    "beds": 4,
    "baths": 3,
@@ -13079,7 +13521,7 @@
    "days_on_market": 318,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13097,6 +13539,7 @@
    "original_price": 438700,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 251,
    "beds": 4,
    "baths": 3,
@@ -13110,7 +13553,7 @@
    "days_on_market": 325,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13128,6 +13571,7 @@
    "original_price": 480600,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 244,
    "beds": 4,
    "baths": 3,
@@ -13141,7 +13585,7 @@
    "days_on_market": 270,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13159,6 +13603,7 @@
    "original_price": 391874,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 261,
    "beds": 3,
    "baths": 2,
@@ -13172,7 +13617,7 @@
    "days_on_market": 412,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13190,6 +13635,7 @@
    "original_price": 436368,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 269,
    "beds": 3,
    "baths": 2,
@@ -13203,7 +13649,7 @@
    "days_on_market": 314,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13221,6 +13667,7 @@
    "original_price": 421000,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 260,
    "beds": 3,
    "baths": 2,
@@ -13234,7 +13681,7 @@
    "days_on_market": 325,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13252,6 +13699,7 @@
    "original_price": 569600,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 207,
    "beds": 5,
    "baths": 3,
@@ -13265,7 +13713,7 @@
    "days_on_market": 314,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13283,6 +13731,7 @@
    "original_price": 362250,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 223,
    "beds": 3,
    "baths": 2.5,
@@ -13296,7 +13745,7 @@
    "days_on_market": 338,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13314,6 +13763,7 @@
    "original_price": 309900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 246,
    "beds": 2,
    "baths": 2.5,
@@ -13327,7 +13777,7 @@
    "days_on_market": 338,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13345,6 +13795,7 @@
    "original_price": 489600,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 250,
    "beds": 4,
    "baths": 2,
@@ -13358,7 +13809,7 @@
    "days_on_market": 270,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13376,6 +13827,7 @@
    "original_price": 471550,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 241,
    "beds": 4,
    "baths": 2,
@@ -13389,7 +13841,7 @@
    "days_on_market": 324,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13407,6 +13859,7 @@
    "original_price": 404900,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 282,
    "beds": 3,
    "baths": 2,
@@ -13420,7 +13873,7 @@
    "days_on_market": 314,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13438,6 +13891,7 @@
    "original_price": 479600,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 265,
    "beds": 4,
    "baths": 3,
@@ -13451,7 +13905,7 @@
    "days_on_market": 270,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13469,6 +13923,7 @@
    "original_price": 465200,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 257,
    "beds": 4,
    "baths": 3,
@@ -13482,7 +13937,7 @@
    "days_on_market": 325,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13500,6 +13955,7 @@
    "original_price": 479230,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 217,
    "beds": 4,
    "baths": 3,
@@ -13513,7 +13969,7 @@
    "days_on_market": 318,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13531,6 +13987,7 @@
    "original_price": 325500,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 240,
    "beds": 3,
    "baths": 2.5,
@@ -13544,7 +14001,7 @@
    "days_on_market": 338,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13562,6 +14019,7 @@
    "original_price": 470600,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 254,
    "beds": 3,
    "baths": 2,
@@ -13575,7 +14033,7 @@
    "days_on_market": 314,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
@@ -13593,6 +14051,7 @@
    "original_price": 483361,
    "price_cut_count": 0,
    "price_cut_total": 0,
+   "last_cut_date": null,
    "price_per_sqft": 202,
    "beds": 4,
    "baths": 2,
@@ -13606,7 +14065,7 @@
    "days_on_market": 338,
    "days_tracked": 2,
    "active": true,
-   "relisted": true,
+   "relisted": false,
    "price_history": [
     [
      "2026-09-16",
