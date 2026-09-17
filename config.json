@@ -9,6 +9,8 @@
     }
   ],
   "max_pages_per_query": 2,
+  "monthly_call_budget": 45,
+  "usage_file": "data/api_usage.json",
   "cities": ["Merced", "Atwater"],
   "data_file": "data/listings.csv",
   "summary_file": "docs/data/summary.json"

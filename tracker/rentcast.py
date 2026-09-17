@@ -17,8 +17,13 @@ class RentCastError(RuntimeError):
     pass
 
 
-def fetch_sale_listings(params: dict, api_key: str | None = None, session=None, max_pages: int = 2):
-    """Return (listings, requests_made) for one query, following offset pagination."""
+def fetch_sale_listings(params: dict, api_key: str | None = None, session=None, max_pages: int = 2,
+                        on_request=None):
+    """Return (listings, requests_made) for one query, following offset pagination.
+
+    ``on_request`` is called once per HTTP request, before the response is
+    inspected, so the caller can count spend even if the request then fails.
+    """
     api_key = api_key or os.environ.get("RENTCAST_API_KEY")
     if not api_key:
         raise RentCastError("RENTCAST_API_KEY is not set")
@@ -30,6 +35,8 @@ def fetch_sale_listings(params: dict, api_key: str | None = None, session=None, 
     requests_made = 0
     for _ in range(max_pages):
         query = {**params, "limit": PAGE_SIZE, "offset": offset}
+        if on_request:
+            on_request()
         resp = session.get(f"{BASE_URL}/listings/sale", params=query, headers=headers, timeout=60)
         requests_made += 1
         if resp.status_code == 404:

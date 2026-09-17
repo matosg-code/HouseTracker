@@ -109,16 +109,59 @@ def write_rows(path: Path, rows: list[dict], append: bool) -> None:
         writer.writerows(rows)
 
 
-def fetch_all(config: dict, from_file: str | None = None):
+class BudgetExceeded(RuntimeError):
+    pass
+
+
+def read_usage(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def write_usage(path: Path, usage: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(usage, f, indent=1, sort_keys=True)
+
+
+def fetch_all(config: dict, snapshot_date: str, from_file: str | None = None):
+    """Fetch every configured query, charging each HTTP request against the monthly budget.
+
+    Usage is persisted per calendar month in ``usage_file`` and written even
+    when a request fails, so a bad key or outage still counts what it spent.
+    """
     if from_file:
         with open(from_file, encoding="utf-8") as f:
             return json.load(f), 0
-    listings: list[dict] = []
+
+    usage_file = Path(config.get("usage_file", "data/api_usage.json"))
+    budget = config.get("monthly_call_budget", 45)
+    month = snapshot_date[:7]
+    usage = read_usage(usage_file)
+    used = usage.get(month, 0)
+    worst_case = len(config["queries"]) * config.get("max_pages_per_query", 2)
+    if used + worst_case > budget:
+        raise BudgetExceeded(
+            f"{used} of {budget} API calls already used in {month}; this run could need {worst_case}. Skipping."
+        )
+
     calls = 0
+
+    def charge():
+        nonlocal calls
+        calls += 1
+        usage[month] = used + calls
+        write_usage(usage_file, usage)
+
+    listings: list[dict] = []
     for query in config["queries"]:
-        page, n = rentcast.fetch_sale_listings(query, max_pages=config.get("max_pages_per_query", 2))
+        page, _ = rentcast.fetch_sale_listings(
+            query, max_pages=config.get("max_pages_per_query", 2), on_request=charge
+        )
         listings.extend(page)
-        calls += n
+    log.info("API budget: %d of %d calls used in %s", used + calls, budget, month)
     return listings, calls
 
 
@@ -130,7 +173,7 @@ def run(config: dict, snapshot_date: str, from_file: str | None = None, force: b
         log.info("Snapshot for %s already has %d rows; use --force to replace", snapshot_date, len(already))
         return 0
 
-    raw, calls = fetch_all(config, from_file)
+    raw, calls = fetch_all(config, snapshot_date, from_file)
     rows = [normalize(r, snapshot_date, config.get("source", "rentcast")) for r in raw]
     rows = dedupe(filter_cities(rows, config.get("cities")))
     rows.sort(key=lambda r: (r["city"], r["address"]))
@@ -157,7 +200,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--force", action="store_true", help="replace rows already recorded for --date")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-    run(load_config(Path(args.config)), args.date, args.from_file, args.force)
+    try:
+        run(load_config(Path(args.config)), args.date, args.from_file, args.force)
+    except BudgetExceeded as e:
+        log.error("%s", e)
+        return 2
     return 0
 
 

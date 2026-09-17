@@ -52,9 +52,16 @@ Snapshots run at 14:00 UTC (6am PST / 7am PDT) and commit as
 `config.json` uses one radius query centred between Merced and Atwater and
 filters the response to the `cities` list. Each page of 500 results is one
 request, so a day normally costs 1 call (2 if the area has more than 500
-active listings; the workflow log prints the count). RentCast's free tier is
-50 requests/month, so if you see 2 calls/day either move to the paid entry
-tier or change the cron to every other day (`0 14 */2 * *`).
+active listings; the workflow log prints the count).
+
+Spend is capped in code. Every HTTP request is recorded in
+`data/api_usage.json` per calendar month, committed back to the repo, and the
+collector refuses to start a run that could push the month past
+`monthly_call_budget` (default 45, under RentCast's 50 free requests). Failed
+requests still count. Re-running on a day that already has rows costs
+nothing. If the cap trips, the run exits with code 2 and the workflow shows
+as failed with the reason in the log; nothing is charged. To spend more,
+raise the number in `config.json` on purpose.
 
 ## Local use
 
